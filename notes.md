@@ -1,4 +1,4 @@
-# TO-DO
+# TO-DOs:
 
 Create goals journal/ portfolio.
 
