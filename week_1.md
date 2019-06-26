@@ -1,6 +1,8 @@
+# WEEK 1 GOALS
+
 [Week 1 Outline](https://github.com/makersacademy/course/blob/master/week_outlines.md/ "WEEK 1")
 
-### Goals
+## Goals
 
 1. Test-drive a simple program using objects and methods
 
@@ -10,17 +12,17 @@
 
 4. Describe some basic OO principles like encapsulation, SRP
 
-### How did I achieve my goals?
+## How did I achieve my goals?
 
-1. Test-drive a simple program using objects and methods
+### 1. Test-drive a simple program using objects and methods
 
-2. Pair using the driver-navigator style
+### 2. Pair using the driver-navigator style
 - Effective pairing using driver-navigator style on the Week 1 [Boris Bikes exercise](https://diode.makersacademy.com/students/dearshrewdwit/projects/1418)
 
-3. Follow an effective debugging process
+### 3. Follow an effective debugging process
 - Used the following method for debugging in the [FizzBuzz debugging exercise] (https://github.com/willhowes/skills-workshops/tree/master/week-1/debugging_fizzbuzz):
   - Tighten the loop by reading the error code to find out on what line the code fails.
   - Get visibility using "p" to print to the screen variables and statements to check what the line of code is doing
   - Once the issue is discovered, amend the code so the test passes.
 
-4. Describe some basic OO principles like encapsulation, SRP
+### 4. Describe some basic OO principles like encapsulation, SRP
