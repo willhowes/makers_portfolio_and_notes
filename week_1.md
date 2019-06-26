@@ -1,4 +1,4 @@
-# WEEK 1 GOALS
+# WEEK 1 GOALS & NOTES
 
 [Week 1 Outline](https://github.com/makersacademy/course/blob/master/week_outlines.md/ "WEEK 1")
 
@@ -26,6 +26,8 @@
 ### 2. Pair using the driver-navigator style
 - Effective pairing using driver-navigator style on the Week 1 [Boris Bikes exercise](https://diode.makersacademy.com/students/dearshrewdwit/projects/1418)
 - Gave and received feedback to pair programming partners after each session.
+- Appreciated when not being communicative and/or assertive enough.
+- Learned to appreciate to follow the process of building a project step-by-step rather than jumping ahead with additional features before the main objects and their messages/methods are built.
 
 ### 3. Follow an effective debugging process
 - Used the following method for debugging in the [FizzBuzz debugging exercise] (https://github.com/willhowes/skills-workshops/tree/master/week-1/debugging_fizzbuzz):
@@ -34,3 +36,16 @@
   - Once the issue is discovered, amend the code so the test passes.
 
 ### 4. Describe some basic OO principles like encapsulation, SRP
+
+## Takeaways & Reflections
+### Wednesday
+Re Goals: 
+- The loop:  (GOALS)-(DO/PRACTICE)-(REFLECT/EVIDENCE/F'BACK)-repeat.
+S pecific
+M easurable
+A chievable
+R elevant
+T ime-bound
+
+Re TDD:
+- Feature test is a test of a program/project feature within irb or other REPL.
