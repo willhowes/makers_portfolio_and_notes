@@ -9,3 +9,4 @@ Create goals journal/ portfolio.
 - Keep track of your goals
 - Look after yourself
 - Don't stress
+- Record debugging with quicktime
