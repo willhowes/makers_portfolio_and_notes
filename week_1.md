@@ -5,6 +5,8 @@
 ## Daily Goals
 ### Wednesday
 1. Go through Boris Bikes steps again to understand some of the concepts better - 1hr
+  - Achieved by looking the extra resources. e.g. looked at youu
+ tube videos for feature test and stack trace to better understand these.
 2. Improve on debugging (slow it down, take it step  by step) - 1hr
 
 ## Goals for the Week:
