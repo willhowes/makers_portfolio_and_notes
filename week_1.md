@@ -49,3 +49,11 @@ T ime-bound
 
 Re TDD:
 - Feature test is a test of a program/project feature within irb or other REPL.
+
+Re Debugging:
+- Slow, methodical approach to each issue one at a time is best.
+
+Re: Pair programming
+- Learned about attr_reader being used for instance variables to be accessed by other classes.
+- Learned about Predicates rspec matcher tests: prefix a method with "be_" and remove the "?". 
+-- e.g.   ```expect(5).to be_instance_of Fixnum``` 
