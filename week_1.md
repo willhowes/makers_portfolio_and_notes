@@ -2,7 +2,12 @@
 
 [Week 1 Outline](https://github.com/makersacademy/course/blob/master/week_outlines.md/ "WEEK 1")
 
-## Goals
+## Daily Goals
+### Wednesday
+1. Go through Boris Bikes steps again to understand some of the concepts better - 1hr
+2. Improve on debugging (slow it down, take it step  by step) - 1hr
+
+## Goals for the Week:
 
 1. Test-drive a simple program using objects and methods
 
