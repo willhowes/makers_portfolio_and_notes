@@ -5,10 +5,9 @@
 ## Daily Goals
 ### Wednesday
 1. Go through Boris Bikes steps again to understand some of the concepts better - 1hr
-  - Achieved by looking the extra resources. e.g. looked at youu
- tube videos for feature test and stack trace to better understand these.
+  - Achieved by looking the extra resources. e.g. looked at youtube videos for feature test and stack trace to better understand these.
 2. Improve on debugging (slow it down, take it step  by step) - 1hr
-  - Achieved this by doing a [further debugging exercise] (https://github.com/makersacademy/skills-workshops/tree/master/week-1/debugging_1) and making sure I just look at one test at a time and hone in on the failing line, using "p" to look at what each component part does, trying this and repeating the loop if it doesn't work or for further failing tests.
+  - Achieved this by doing a [further debugging exercise](https://github.com/makersacademy/skills-workshops/tree/master/week-1/debugging_1) and making sure I just look at one test at a time and hone in on the failing line, using "p" to look at what each component part does, trying this and repeating the loop if it doesn't work or for further failing tests.
 
 ## Goals for the Week:
 
