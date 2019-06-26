@@ -1,10 +1,12 @@
-# TO-DOs:
+# NOTES
 
-Create goals journal/ portfolio.
+## TO-DOs:
 
-### TAKE-AWAYS
+set week on goals
 
-# WEEK ONE
+## TAKE-AWAYS
+
+### WEEK ONE
 
 - Keep track of your goals
 - Look after yourself
