@@ -18,6 +18,7 @@
 
 ### 2. Pair using the driver-navigator style
 - Effective pairing using driver-navigator style on the Week 1 [Boris Bikes exercise](https://diode.makersacademy.com/students/dearshrewdwit/projects/1418)
+- Gave and received feedback to pair programming partners after each session.
 
 ### 3. Follow an effective debugging process
 - Used the following method for debugging in the [FizzBuzz debugging exercise] (https://github.com/willhowes/skills-workshops/tree/master/week-1/debugging_fizzbuzz):
