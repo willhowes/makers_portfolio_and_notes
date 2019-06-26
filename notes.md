@@ -4,7 +4,7 @@
 
 set week on goals
 
-## TAKE-AWAYS
+## TAKE-AWAYS:
 
 ### WEEK ONE
 
