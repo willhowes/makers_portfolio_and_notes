@@ -3,6 +3,14 @@
 [Week 1 Outline](https://github.com/makersacademy/course/blob/master/week_outlines.md/ "WEEK 1")
 
 ## Daily Goals
+
+### Thurssday
+1. Make sure all concepts from previous day's pair programming fully understood, as some of steps were implemented v quickly. - 20-30 mins.
+- Achieved by...
+
+2. [Practice TDD](https://diode.makersacademy.com/students/dearshrewdwit/projects/908) so that I can work towards being able to TDD anything, have a methodical approach to solving problems and be able to model anything - 45-60mins.
+- Achieved by...
+
 ### Wednesday
 1. Go through Boris Bikes steps again to understand some of the concepts better - 1hr
   - Achieved by looking the extra resources. e.g. looked at youtube videos for feature test and stack trace to better understand these.
