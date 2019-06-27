@@ -7,7 +7,7 @@
 ### Thursday
 1. Make sure all concepts from previous day's pair programming fully understood, as some of steps were implemented v quickly. - 20-30 mins.
 * Achieved by reading through the walkthroughs. 
-  * Reinforced my understanding of one-liner rspec syntax (in particular that ```is_expected``` is the same as expect(subject)```. 
+  * Reinforced my understanding of one-liner rspec syntax (in particular that ```is_expected``` is the same as ```expect(subject)```. 
   * Remembering to do simplest thing first to pass a unit test. 
   * Recalled that we should feature test (irb) first, then create a Unit Test (in spec) before making changes to the code. 
   * Learned that when an object needs to store something and allow access to something you can use "attributes" or "instance varaibles"
