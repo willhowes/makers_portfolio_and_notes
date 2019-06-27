@@ -1,4 +1,4 @@
-# WEEK 1 GOALS & NOTES
+# Week 1 Goals and Notes
 
 [Week 1 Outline](https://github.com/makersacademy/course/blob/master/week_outlines.md/ "WEEK 1")
 
@@ -55,7 +55,7 @@
 
 ## Takeaways & Reflections from the week
 
-### Goals 
+### Regarding Setting Goals 
 - The loop:  (GOALS)-(DO/PRACTICE)-(REFLECT/EVIDENCE/F'BACK)-repeat.
 S pecific
 M easurable
