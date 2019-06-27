@@ -70,7 +70,22 @@ T ime-bound
 - Slow, methodical approach to each issue one at a time is best.
 
 ### Pair programming
-- Learned about attr_reader being used for instance variables to be accessed by other classes.
-- Learned about Predicates rspec matcher tests: prefix a method with "be_" and remove the "?". 
--- e.g.   ```expect(5).to be_instance_of Fixnum``` 
+* ```attr_reader``` can be used for instance variables to be accessed by other classes.
+* You can use Predicates rspec matcher tests: prefix a method with ```be_``` and remove the ```?```. 
+ * e.g.   ```expect(5).to be_instance_of Fixnum``` 
+* Single Responsibility Principal - i.e. that a method should do one thing only. e.g. In our Week 1 Pair Programming Project to create a replica of the Boris Bikes system, instead of having the method ```receive_bike``` check if the docking station is full and also add a Bike class to the Docking Station (i.e. it does two things), this can be split into two methods:   
+
+```  def full?
+    if @available_bikes.length >= @capacity
+      true
+    end
+  end
+
+    def receive_bike(bike)
+      if full?
+        raise "Docking Station full"
+      else
+        @available_bikes << bike
+      end
+    end```
 
