@@ -53,9 +53,9 @@
 
 ### 4. Describe some basic OO principles like encapsulation, SRP
 
-## Takeaways & Reflections
-### Wednesday
-Re Goals: 
+## Takeaways & Reflections from the week
+
+### Goals 
 - The loop:  (GOALS)-(DO/PRACTICE)-(REFLECT/EVIDENCE/F'BACK)-repeat.
 S pecific
 M easurable
@@ -63,13 +63,14 @@ A chievable
 R elevant
 T ime-bound
 
-Re TDD:
+### TDD
 - Feature test is a test of a program/project feature within irb or other REPL.
 
-Re Debugging:
+### Debugging
 - Slow, methodical approach to each issue one at a time is best.
 
-Re: Pair programming
+### Pair programming
 - Learned about attr_reader being used for instance variables to be accessed by other classes.
 - Learned about Predicates rspec matcher tests: prefix a method with "be_" and remove the "?". 
 -- e.g.   ```expect(5).to be_instance_of Fixnum``` 
+
