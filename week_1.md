@@ -13,7 +13,11 @@
 * Learned that when an object needs to store something and allow access to something you can use "attributes" or "instance varaibles"
 
 2. [Practice TDD](https://diode.makersacademy.com/students/dearshrewdwit/projects/908) so that I can work towards being able to TDD anything and have a methodical approach - 45-60mins.
-- Achieved by...
+- Achieved by creating a Roman Numerals Converter using TDD.
+* I used a methodical approach as taught by Makers Coach Sophie. i.e. :
+** Create a user story to ascertain what is required of the program
+** Write first test to fail (using rspec) - make it pass the test by adding the simplest code possible - refactor the code - repeat using further tests
+
 
 ### Wednesday
 1. Go through Boris Bikes steps again to understand some of the concepts better - 1hr
