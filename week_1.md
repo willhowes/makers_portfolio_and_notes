@@ -12,7 +12,7 @@
 * Recalled that we should feature test (irb) first, then create a Unit Test (in spec) before making changes to the code. 
 * Learned that when an object needs to store something and allow access to something you can use "attributes" or "instance varaibles"
 
-2. [Practice TDD](https://diode.makersacademy.com/students/dearshrewdwit/projects/908) so that I can work towards being able to TDD anything, have a methodical approach to solving problems and be able to model anything - 45-60mins.
+2. [Practice TDD](https://diode.makersacademy.com/students/dearshrewdwit/projects/908) so that I can work towards being able to TDD anything and have a methodical approach - 45-60mins.
 - Achieved by...
 
 ### Wednesday
