@@ -6,7 +6,7 @@
 
 ### Thursday
 1. Make sure all concepts from previous day's pair programming fully understood, as some of steps were implemented v quickly. - 20-30 mins.
-- Achieved by reading through the walkthroughs. Reinforced my understanding of one-liner rspec syntax (in particular that ```is_expected``` is the same as expect(subject)```. Remembered the importance of doing the simplest thing possible to pass a unit test. Recalled that we should feature test (irb) first, then create a Unit Test (in spec) before making changes to the code.
+- Achieved by reading through the walkthroughs. Reinforced my understanding of one-liner rspec syntax (in particular that ```is_expected``` is the same as expect(subject)```. Remembered the importance of doing the simplest thing possible to pass a unit test. Recalled that we should feature test (irb) first, then create a Unit Test (in spec) before making changes to the code. Learned that when an object needs to store something and allow access to something you can use "attributes" or "instance varaibles"
 
 2. [Practice TDD](https://diode.makersacademy.com/students/dearshrewdwit/projects/908) so that I can work towards being able to TDD anything, have a methodical approach to solving problems and be able to model anything - 45-60mins.
 - Achieved by...
