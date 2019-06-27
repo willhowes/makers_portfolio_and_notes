@@ -6,7 +6,7 @@
 
 ### Thurssday
 1. Make sure all concepts from previous day's pair programming fully understood, as some of steps were implemented v quickly. - 20-30 mins.
-- Achieved by...
+- Achieved by reading through the walkthroughs. Reinforced my understanding of one-liner rspec syntax (in particular that ```is_expected``` is the same as expect(subject)```.
 
 2. [Practice TDD](https://diode.makersacademy.com/students/dearshrewdwit/projects/908) so that I can work towards being able to TDD anything, have a methodical approach to solving problems and be able to model anything - 45-60mins.
 - Achieved by...
