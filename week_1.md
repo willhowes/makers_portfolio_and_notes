@@ -23,7 +23,7 @@
 - Learned to appreciate to follow the process of building a project step-by-step rather than jumping ahead with additional features before the main objects and their messages/methods are built.
 
 ### 3. Follow an effective debugging process
-- Used the following method for debugging in the [FizzBuzz debugging exercise] (https://github.com/willhowes/skills-workshops/tree/master/week-1/debugging_fizzbuzz):
+- Used the following method for debugging in the [FizzBuzz debugging exercise](https://github.com/willhowes/skills-workshops/tree/master/week-1/debugging_fizzbuzz):
   - Tighten the loop by reading the error code to find out on what line the code fails.
   - Get visibility using "p" to print to the screen variables and statements to check what the line of code is doing
   - Once the issue is discovered, amend the code so the test passes.
