@@ -42,6 +42,7 @@
   * That in is good practice to wrap collections (an array being a type of collection) where possible. A collection is wrapped when it has a: 
     * STATE - the array is internal to the class. It will hold things, and we can manipulate it as the program runs.
     * BEHAVIOUR - the methods that interact with the internal array.
+  * Singles Responsibility Principal. A method should do one thing only. If it does more than one, refactor using additional methods.
 
 2. Further TDD practice to reinforce following a slow a methodical process. -60mins
 
