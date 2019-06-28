@@ -29,8 +29,8 @@
   - Once the issue is discovered, amend the code so the test passes.
 
 ### 4. Describe some basic OO principles like encapsulation, SRP
-
-
+* Encapsulation
+* SRP - A method or class should do one thing only. If it does more than one, refactor using additional methods. 
 
 ## Daily Goals
 
@@ -44,7 +44,9 @@
     * BEHAVIOUR - the methods that interact with the internal array.
   * [Single Responsibility Principal](https://thoughtbot.com/blog/back-to-basics-solid). A method should do one thing only. If it does more than one, refactor using additional methods.
 
-2. ODD concepts
+2. ODD - encapsulation and SRP.
+* Acheieved by: 
+* SRP (Single Responsibility Responsibility Principal) understood during Thursday's pair programming (see above)
 
 3. Further TDD practice to reinforce following a slow a methodical process. -60mins
 
