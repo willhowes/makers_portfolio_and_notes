@@ -44,9 +44,9 @@
     * BEHAVIOUR - the methods that interact with the internal array.
   * [Single Responsibility Principal](https://thoughtbot.com/blog/back-to-basics-solid). A method should do one thing only. If it does more than one, refactor using additional methods.
 
-2. Further TDD practice to reinforce following a slow a methodical process. -60mins
+2. ODD concepts
 
-3. If more time have a look again at debugging_1. 
+3. Further TDD practice to reinforce following a slow a methodical process. -60mins
 
 4. For pair programming, try to not to feel rushed when in the driver role. 
 
