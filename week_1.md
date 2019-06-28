@@ -15,6 +15,7 @@
 ## How did I achieve my goals?
 
 ### 1. Test-drive a simple program using objects and methods
+* Test drove following the [birthday practical](https://github.com/makersacademy/birthdays)
 
 ### 2. Pair using the driver-navigator style
 - Effective pairing using driver-navigator style on the Week 1 [Boris Bikes exercise](https://diode.makersacademy.com/students/dearshrewdwit/projects/1418)
