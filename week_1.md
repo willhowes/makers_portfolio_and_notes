@@ -35,7 +35,9 @@
 ## Daily Goals
 
 ### Friday
-1. Check concepts from previous day's pair programming understood. Read the walkthroughs - 20-30mins
+1. Check concepts from previous day's pair programming understood. 20-30mins
+* Achieved by reading through the walkthroughs. In particular this reinforced:
+  * That you should commit after every RED-GREEN-REFACTOR cycle
 
 2. Further TDD practice to reinforce following a slow a methodical process. -60mins
 
