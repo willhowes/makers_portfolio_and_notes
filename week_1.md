@@ -29,7 +29,8 @@
   - Once the issue is discovered, amend the code so the test passes.
 
 ### 4. Describe some basic OO principles like encapsulation, SRP
-* Encapsulation
+* Learned about [Encapsulation & Cohesion](https://github.com/makersacademy/skills-workshops/blob/master/practicals/object_oriented_design/encapsulation.md):
+  * Each class should have one responsibility. A class has high cohesion if everything it does relates to its purpose.
 * SRP - A method or class should do one thing only. If it does more than one, refactor using additional methods. 
 
 ## Daily Goals
