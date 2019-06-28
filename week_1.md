@@ -34,6 +34,15 @@
 
 ## Daily Goals
 
+### Friday
+1. Check concepts from previous day's pair programming understood. Read the walkthroughs - 20-30mins
+
+2. Further TDD practice to reinforce following a slow a methodical process. -60mins
+
+3. If more time have a look again at debugging_1. 
+
+4. For pair programming, try to not to feel rushed when in the driver role. 
+
 ### Thursday
 1. Make sure all concepts from previous day's pair programming fully understood, as some of steps were implemented v quickly. - 20-30 mins.
 * Achieved by reading through the walkthroughs. 
