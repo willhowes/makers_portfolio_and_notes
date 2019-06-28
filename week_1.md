@@ -39,10 +39,10 @@
 * Achieved by reading through the walkthroughs. In particular this reinforced:
   * That you should commit after every RED-GREEN-REFACTOR cycle
   * That default values can be set to default values can be set to an instance variable. This is done using the following syntax the ```def initialize(capacity=20)```. This can also be used to set default values to parameters for any other method.
-  * That in is good practice to wrap collections (an array being a type of collection) where possible. A collection is wrapped when it has a: 
+  * That in is good practice to WRAP COLLECTIONS (an array being a type of collection) where possible. A collection is wrapped when it has a: 
     * STATE - the array is internal to the class. It will hold things, and we can manipulate it as the program runs.
     * BEHAVIOUR - the methods that interact with the internal array.
-  * Single Responsibility Principal. A method should do one thing only. If it does more than one, refactor using additional methods.
+  * [Single Responsibility Principal](https://thoughtbot.com/blog/back-to-basics-solid). A method should do one thing only. If it does more than one, refactor using additional methods.
 
 2. Further TDD practice to reinforce following a slow a methodical process. -60mins
 
