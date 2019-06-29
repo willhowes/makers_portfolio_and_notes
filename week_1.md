@@ -15,7 +15,8 @@
 ## How did I achieve my goals?
 
 ### 1. Test-drive a simple program using objects and methods
-* Test drove following the [birthday practical](https://github.com/makersacademy/birthdays)
+* Test drove following the [birthday practical](https://github.com/makersacademy/birthdays).
+* Also praciced a lot of TDD during pair programming sessions.
 
 ### 2. Pair using the driver-navigator style
 - Effective pairing using driver-navigator style on the Week 1 [Boris Bikes exercise](https://diode.makersacademy.com/students/dearshrewdwit/projects/1418)
@@ -48,9 +49,11 @@
 
 2. ODD - encapsulation and SRP.
 * Acheieved by: 
-* SRP (Single Responsibility Responsibility Principal) understood during Thursday's pair programming (see above)
+  * Learning about SRP (Single Responsibility Responsibility Principal) understood during Thursday's pair programming (see above)
+  * Practiced using applying SRP and encapsulation by refactoring code where a class had a method which did not relate to the main purpose of the class.  
 
 3. Further TDD practice to reinforce following a slow a methodical process. -60mins
+
 
 4. For pair programming, try to not to feel rushed when in the driver role. 
 
@@ -87,10 +90,11 @@ R elevant
 T ime-bound
 
 ### TDD
-- Feature test is a test of a program/project feature within irb or other REPL.
+* Feature test is a test of a program/project feature within irb or other REPL. Have found that, although it make take longer in the short term, doing a feature test in irb before doing a unit test in rpspec really helps to understand what we want the program to do. 
+* Important to take time to make sure the rspec syntax is correct. Regularly got thrown off in pairing when using wrong brackets, e.g. it should be ```expect{subject.method}``` not ```expect(subject.method```.
 
 ### Debugging
-- Slow, methodical approach to each issue one at a time is best.
+* Slow, methodical approach to each issue one at a time is best.
 
 ### Pair programming
 * ```attr_reader``` can be used for instance variables to be accessed by other classes.
@@ -110,5 +114,7 @@ T ime-bound
       else
         @available_bikes << bike
       end
-    end
+    end```
+
+
 
