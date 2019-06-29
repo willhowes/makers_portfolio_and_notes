@@ -15,7 +15,7 @@
 ## How did I achieve my goals?
 
 ### 1. Test-drive a simple program using objects and methods
-* Test drove following the [birthday practical](https://github.com/makersacademy/birthdays).
+* Test drove the [birthday practical](https://github.com/makersacademy/birthdays).
 * Also praciced a lot of TDD during pair programming sessions.
 
 ### 2. Pair using the driver-navigator style
@@ -53,9 +53,12 @@
   * Practiced using applying SRP and encapsulation by refactoring code where a class had a method which did not relate to the main purpose of the class.  
 
 3. Further TDD practice to reinforce following a slow a methodical process. -60mins
-
+* Achieved by: 
+  * Test driving the [birthday practical](https://github.com/makersacademy/birthdays).
 
 4. For pair programming, try to not to feel rushed when in the driver role. 
+* Achieved by:
+  * Initially still felt a bit rushed trying to sort out a new git respository. After this, I was better at taking my time and following the process.
 
 ### Thursday
 1. Make sure all concepts from previous day's pair programming fully understood, as some of steps were implemented v quickly. - 20-30 mins.
