@@ -37,6 +37,20 @@
 
 ## Daily Goals
 
+### Saturday
+1. Reinforce what I have learned in week 1 through the [Airport Challenge](https://diode.makersacademy.com/students/neoeno/projects/33).
+
+* Evidence Plan
+  * Go through the review rubric in docs/
+  * Ask these questions of your code — the answers should all be yes:
+  * Do the tests pass?
+  * Does rubocop pass?
+  * If you break the code, do the tests fail?
+  * Is the code straightforward and easy to read? Does someone who isn't me think so?
+  * Is the code well designed? (e.g. broken into multiple objects, each with a single responsibility)
+  * Did you test drive the whole thing?
+  * What does a coach think of it?
+
 ### Friday
 1. Check concepts from previous day's pair programming understood. 20-30mins
 * Achieved by reading through the walkthroughs. In particular this reinforced:
