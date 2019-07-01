@@ -48,8 +48,8 @@ Achieved by:
 * Forwarding - my understanding is that, having split classes up so using SRP, forwarding is where by messages are forwarded from the new class to the old class. For example, where you have password checker and you take this out of a profile class then the new password_checker class will need to forward to the profile class a message to confirm if password_checker returns true. 
  * Private
  
- * OO Design patterns
-  * Polymorphism - (poly=many, morph=forms). This is where a class takes many forms. This is also linked to duck-typing.
+ * OO Design patterns 
+  * Polymorphism - (poly = many, morph = forms). This is where a class takes many forms. This is also linked to duck-typing (i.e.  if it behaves like a duck then you can rely on it being a duck)
   * Delagation/Fowarding
   * Dependancy inje
 
