@@ -58,6 +58,12 @@ Achieved by:
 
 
 ## Takeaways & Reflections from the week
+
+### Ruby
 * Re MOCKS and DOUBLES - I THINK that you make a mock for the class that you are currently test and you create a double for a class outside of the one you are testing.
+* Pry is a useful tool. Can run features like in irb when you run rspec. 
+
+### README
+* Should explain my process better for code reviewers. e.g Airport Challenge did not explain WHY I tought I should have methods on the Plane class.  
 
 
