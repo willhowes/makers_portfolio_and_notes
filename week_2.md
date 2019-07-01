@@ -66,10 +66,17 @@ Achieved by:
 ### Monday
 
 1. Try in pair programming to actually use proper driver-navigator process. Previously, this has been a bit ad hoc. 
+* Achieved by:
+ * Before pairing I had a chat with my pair partner about the the driver-navigator roles. We agrees that it was fine for both driver and navigator to be thinking about what tests and code to test but that navigator should take precedence and lead the way somewhat. This worked well during our pairing session. I occassionally forgot that the navigator should take precedence but on the whole the navigator fairly naturally led the way.
 
 2. Ask for feedback on my pair programming. Is there anything I can do better?
+* Achieved by:
+ * My pair partner and I had a chat after the session to discuss how we thought it went. We both agreed that it went well but that sometimes we did jump ahead with making more complicated tests rather than basic/simple tests first. 
 
 3. Learn about code reviewing.
+* Achieved by:
+ * Attended the workshop about code reviews at the start of the day (see takeaways below). 
+ * Reviewed [Ritchie's Aiport Challenge](https://github.com/makersacademy/airport_challenge/pull/1465). 
 
 
 ## Takeaways & Reflections from the week
@@ -92,12 +99,13 @@ Achieved by:
 * Should explain my process better for code reviewers. e.g Airport Challenge did not explain WHY I tought I should have methods on the Plane class.  
 
 ### Feedback/Code Reviews
-* It is valuable for a number of reasons...
+* It is valuable for a number of reasons:
   * uncover common gaps
   * evidence of learning
   * helps to improve
   * find out things you don't already know.
-* When reviewing, if you are not sure whether you are right, ask a question. 
+* When reviewing, if you are not sure whether you are right when making a suggestion, just ask a question about the code. 
 * There are many solutions to the same problem. There is no best solution.
 
-
+### TDD
+* Need to be careful that when coding solo or in pairs, even when good test-first practice is be followed on the whole, not to ahead, skipping steps.
