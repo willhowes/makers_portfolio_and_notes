@@ -3,6 +3,7 @@
 [Week 2 Outline](https://github.com/makersacademy/course/blob/master/week_outlines.md/#week-2)
 
 ## Goals for the Week:
+GIVEN BY MAKERS:
 1. Use all of week 1's skills (don't underestimate the importance of this)
 
 2. Break one class into two classes that work together, while maintaining test coverage
@@ -13,6 +14,8 @@
 
 5. Review another person's code and give them meaningful feedback
 
+PERSONAL
+6. Write a blog.
 
 ## How did I achieve my goals?
 
