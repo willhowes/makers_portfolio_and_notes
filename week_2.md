@@ -67,6 +67,11 @@ Achieved by:
 ```weather = double :fake_weather```
 ```allow(weather).to receive(:stormy?).and return(false)```
    
+   the first line above effectively creates a blank class and then creates a new instance of it, i.e. 
+```class weather```
+```end```
+```weather.new```
+
 * Pry is a useful tool. Can run features like in irb when you run rspec. 
 
 ### READMEs
