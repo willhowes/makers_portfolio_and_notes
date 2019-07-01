@@ -33,6 +33,7 @@ Achieved by:
 
 ### 5. Review another person's code and give them meaningful feedback
 Achieved by:
+* Reviewed [Ritchie's Aiport Challenge](https://github.com/makersacademy/airport_challenge/pull/1465) 
 
 
 ## Daily Goals
