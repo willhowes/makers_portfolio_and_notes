@@ -46,7 +46,11 @@ Achieved by:
 
 ### Monday
 
-1. Ask for feedback on my pair programming. Is there anything I can do better?
+1. Try in pair programming to actually use proper driver-navigator process. Previously, this has been a bit ad hoc. 
+
+2. Ask for feedback on my pair programming. Is there anything I can do better?
+
+3. Learn about code reviewing.
 
 
 ## Takeaways & Reflections from the week
