@@ -14,9 +14,10 @@ GIVEN BY MAKERS:
 4. Explain some basic OO principles and tie them to high level concerns (e.g. ease of change). i.e. explain why you would use these basic OO principals.
  e.g.s of basic principals:
   * SRP
-  * Forwarding ([examples](https://github.com/makersacademy/skills-workshops/blob/master/practicals/object_oriented_design/oo_relationships.md#forwarding)
+  * Forwarding ([examples](https://github.com/makersacademy/skills-workshops/blob/master/practicals/object_oriented_design/oo_relationships.md#forwarding))
   * Encapsulation
   * Private
+  
   
   * OO Design patterns
    * Polymorphism
