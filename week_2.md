@@ -20,7 +20,7 @@ GIVEN BY MAKERS:
   
   
   * OO Design patterns
-   * Polymorphism
+   * Polymorphism ([examples](https://github.com/makersacademy/skills-workshops/blob/master/practicals/object_oriented_design/oo_relationships.md#polymorphism)
    * Delagation/Fowarding
    * Dependancy injection
    * inheritance
@@ -49,7 +49,7 @@ Achieved by:
  * Private
  
  * OO Design patterns
-  * Polymorphism
+  * Polymorphism - (poly=many, morph=forms). This is where a class takes many forms.
   * Delagation/Fowarding
   * Dependancy inje
 
