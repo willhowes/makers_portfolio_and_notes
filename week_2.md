@@ -62,6 +62,11 @@ Achieved by:
 ### Ruby
 * Re MOCKS and DOUBLES - I THINK that you make a mock for the class that you are currently test and you create a double for a class outside of the one you are testing.
  * Use for unit tests only as they isolate testing the class. When mocking is used you will need separate feature tests as unit tests using mocks, etc will not check the program features actually work (as classes might not be interating correctly).
+  * Not good practice to use allow(subject)
+  Example of doubling and stubbing for a class:
+```weather = double :fake_weather```
+```allow(weather).to receive(:stormy?).and return(false)```
+   
 * Pry is a useful tool. Can run features like in irb when you run rspec. 
 
 ### READMEs
