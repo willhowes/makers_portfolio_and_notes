@@ -11,6 +11,7 @@ GIVEN BY MAKERS:
 3. Unit test classes in isolation using mocking
 
 4. Explain some basic OO principles and tie them to high level concerns (e.g. ease of change)
+ - i.e. explain why you would use these basic OO principals.
 
 5. Review another person's code and give them meaningful feedback
 
@@ -68,8 +69,7 @@ Achieved by:
 ```allow(weather).to receive(:stormy?).and return(false)```
    
    the first line above effectively creates a blank class and then creates a new instance of it, i.e. 
-```class weather```
-```end```
+```class weather end```
 ```weather.new```
 
 * Pry is a useful tool. Can run features like in irb when you run rspec. 
