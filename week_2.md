@@ -15,7 +15,11 @@ GIVEN BY MAKERS:
  - i.e. explain why you would use these basic OO principals.
  e.g.s of basic principals:
  * SRP
+ * Forwarding
+  * Examples [here](https://github.com/makersacademy/skills-workshops/blob/master/practicals/object_oriented_design/oo_relationships.md#forwarding)
+  * My understanding is that, having split classes up so using SRP, forwarding is where by messages are forwarded from the new class to the old class. For example, where you have password checker and you take this out of a profile class then the new password_checker class will need to forward to the profile class a message to confirm if the password checker returns true. 
  * Encapsulation
+  * Breaking up the codes objects and methods into classes
  * Private
  * OO Design patterns
   * Polymorphism
