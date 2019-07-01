@@ -95,6 +95,16 @@
 
 ## Takeaways & Reflections from the week
 
+### Emotional Itelligence, Wellbeing, etc
+* 'I feel the way I feel and that is OK'
+* Acknowledging when you are stressed or anxious
+* Appreciating that many other people are experiencing the same struggles
+* DO NOT compare yourself to others
+* It is OK if the program does not work. This is not meant to be easy. 
+* If you get stuck on a particular problem time-box it - 20-30mins. 
+* Learn to walkaway and take breaks, particularly when stuck. 
+* It is expected that we will feel uncomfortable during the course. This is when you are learing. On if your feel overwhelmed then should reach out to a coach. 
+
 ### Regarding Setting Goals 
 - The loop:  (GOALS)-(DO/PRACTICE)-(REFLECT/EVIDENCE/F'BACK)-repeat.
 S pecific
