@@ -1,10 +1,11 @@
 # Week 2 Goals and Notes
 
 [Week 2 Outline](https://github.com/makersacademy/course/blob/master/week_outlines.md/#week-2)
+N.B. This week is a continuation of Week 1. So fine to go back and go over things again.
 
 ## Goals for the Week:
 GIVEN BY MAKERS:
-1. Use all of week 1's skills (don't underestimate the importance of this)
+1. Use all of week 1's skills (don't underestimate the importance of this). Just check that using these in this week's exercises...
 
 2. Break one class into two classes that work together, while maintaining test coverage
 
@@ -12,6 +13,15 @@ GIVEN BY MAKERS:
 
 4. Explain some basic OO principles and tie them to high level concerns (e.g. ease of change)
  - i.e. explain why you would use these basic OO principals.
+ e.g.s of basic principals:
+ * SRP
+ * Encapsulation
+ * Private
+ * OO Design patterns
+  * Polymorphism
+  * Delagation/Fowarding
+  * Dependancy injection
+  * inheritance
 
 5. Review another person's code and give them meaningful feedback
 
