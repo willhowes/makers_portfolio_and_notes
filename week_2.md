@@ -54,6 +54,6 @@ Achieved by:
 
 
 ## Takeaways & Reflections from the week
-
+* Re MOCKS and DOUBLES - I THINK that you make a mock for the class that you are currently test and you create a double for a class outside of the one you are testing.
 
 
