@@ -67,6 +67,11 @@ Achieved by:
 * Should explain my process better for code reviewers. e.g Airport Challenge did not explain WHY I tought I should have methods on the Plane class.  
 
 ### Feedback/Code Reviews
+* It is valuable for a number of reasons...
+  * uncover common gaps
+  * evidence of learning
+  * helps to improve
+  * find out things you don't already know.
 * When reviewing, if you are not sure whether you are right, ask a question. 
 * There are many solutions to the same problem. There is no best solution.
 
