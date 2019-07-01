@@ -16,7 +16,8 @@
 
 ### 1. Test-drive a simple program using objects and methods
 * Test drove the [birthday practical](https://github.com/makersacademy/birthdays).
-* Also praciced a lot of TDD during pair programming sessions.
+* Praciced a lot of TDD during pair programming sessions.
+* Used TDD for the [Weekend Challenge](https://github.com/makersacademy/airport_challenge). At times, when solving more difficult/complex logical problems I forgot to test before coding, but on the whole I followed the procedure of RED-GREEN-REFACTOR.
 
 ### 2. Pair using the driver-navigator style
 - Effective pairing using driver-navigator style on the Week 1 [Boris Bikes exercise](https://diode.makersacademy.com/students/dearshrewdwit/projects/1418)
@@ -37,19 +38,15 @@
 
 ## Daily Goals
 
-### Saturday
+### Weekend
 1. Reinforce what I have learned in week 1 through the [Airport Challenge](https://diode.makersacademy.com/students/neoeno/projects/33).
-
-* Evidence Plan
-  * Go through the review rubric in docs/
-  * Ask these questions of your code — the answers should all be yes:
-  * Do the tests pass?
-  * Does rubocop pass?
-  * If you break the code, do the tests fail?
-  * Is the code straightforward and easy to read? Does someone who isn't me think so?
-  * Is the code well designed? (e.g. broken into multiple objects, each with a single responsibility)
-  * Did you test drive the whole thing?
-  * What does a coach think of it?
+* Achieved by:
+  * Continuing to practice TDD on the weekend challenge.
+  
+2. Try to understand Mocks and Stubs
+* Acheived by:
+  * Reading going through the [reference material](https://relishapp.com/rspec/rspec-mocks/docs) and watching some youtube videos also. 
+  * Initially I could not get the stubs to work on my program but after further reading and watching youtube videos I realise that a mock needed to be created first. Once a mock was created for the Airport class the stubs also worked. 
 
 ### Friday
 1. Check concepts from previous day's pair programming understood. 20-30mins
