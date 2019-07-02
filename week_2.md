@@ -76,7 +76,7 @@ Achieved by:
 
 2. Learn more about Domain Modelling
 * Achieved by:
- * Attending and learning at the skills workshop and putting this into practice on these praticals:
+ * Attending and learning at the skills workshop and putting this into practice on these praticals: https://github.com/makersacademy/skills-workshops/blob/master/week-2/domain_model_diagramming/README.md
 
 BONUS: Gave and received feedback on pairing session in the afternoon. 
 
