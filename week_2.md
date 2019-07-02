@@ -73,17 +73,21 @@ Achieved by:
 
 2. Learn more about Domain Modelling
 
-BONUS: Gave and received feedback on pairing session in the afternoon. My feedback on my pairing partner:
+BONUS: Gave and received feedback on pairing session in the afternoon. 
+
+* My feedback on my pairing partner:
 
 > Great pair programming earlier. I thought it went well.
-
 > I think we went at a good pace but didn't skim over things. Swapping roughly every hour seemed like the right amount of time.
-
 > You were great at stopping me in my tracks when I went off on a bit tangent. I think that's really important to stop getting stuck in a rut.
-
 > You were also great at coming up with workable solutions v quickly and explained them well to me.  Something I need to get better at I think. I've never been great at explaining myself!
-
 > Hope that's enough for feedback but let me know if you've got a questions.
+
+* My pair's feedback on me
+
+> I personally thought that this was the most efficient pairing session I have had on this course so far. You were really good at implementing the driver, navigator roles as intended. Really good at being open to solutions and listening to my opinions as well.
+> I felt that the approaches you were taking to solving the problems showed that you had a good grasp of the OOP principles and TDD methods we have been given so far on the course as well.
+
 
 ### Monday
 
