@@ -14,21 +14,20 @@ GIVEN BY MAKERS:
 4. Explain some basic OO principles and tie them to high level concerns (e.g. ease of change). i.e. explain why you would use these basic OO principals.
  e.g.s of basic principals:
   * SRP
-  * Forwarding ([examples](https://github.com/makersacademy/skills-workshops/blob/master/practicals/object_oriented_design/oo_relationships.md#forwarding))
   * Encapsulation
   * Private
   
   
   * OO Design patterns
    * Polymorphism ([examples](https://github.com/makersacademy/skills-workshops/blob/master/practicals/object_oriented_design/oo_relationships.md#polymorphism))
-   * Delagation/Fowarding
+   * Delegation/Forwarding - ([examples](https://github.com/makersacademy/skills-workshops/blob/master/practicals/object_oriented_design/oo_relationships.md#forwarding))
    * Dependancy injection
    * inheritance
 
 5. Review another person's code and give them meaningful feedback
 
 PERSONAL
-6. Write a blog.
+1. Write a blog.
 
 ## How did I achieve my goals?
 
@@ -69,6 +68,9 @@ Achieved by:
 ### Wednesday
 
 ### Tuesday
+1. Learn about Polymorphism. Attempt the skills workshop
+
+2. Learn more about Domain Modelling
 
 ### Monday
 
