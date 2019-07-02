@@ -125,3 +125,6 @@ Achieved by:
 * Should be readable by someone who doesn't read code. 
 * User is external to the program, so do not include it in your nouns (i.e. class). Only needed when you have user accounts.
 * When you use a sequence diagram where the message arrow ends is usually the class where the method will be.
+
+## OO Principals
+1. 
