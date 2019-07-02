@@ -123,3 +123,4 @@ Achieved by:
 ### Domain Modelling
 * There are many ways to do this, in fact a Domain Model can be in any form so long as it correctly represents the program we want to build.
 * Should be readable by someone who doesn't read code. 
+* User is external to the program, so do not include it in your nouns. Only needed when you have user accounts.
