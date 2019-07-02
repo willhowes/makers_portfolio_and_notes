@@ -75,15 +75,15 @@ Achieved by:
 
 BONUS: Gave and received feedback on pairing session in the afternoon. My feedback on my pairing partner:
 
-  Great pair programming earlier. I thought it went well.
+> Great pair programming earlier. I thought it went well.
 
-  I think we went at a good pace but didn't skim over things. Swapping roughly every hour seemed like the right amount of time.
+> I think we went at a good pace but didn't skim over things. Swapping roughly every hour seemed like the right amount of time.
 
-  You were great at stopping me in my tracks when I went off on a bit tangent. I think that's really important to stop getting stuck in a rut.
+> You were great at stopping me in my tracks when I went off on a bit tangent. I think that's really important to stop getting stuck in a rut.
 
-  You were also great at coming up with workable solutions v quickly and explained them well to me.  Something I need to get better at I think. I've never been great at explaining myself!
+> You were also great at coming up with workable solutions v quickly and explained them well to me.  Something I need to get better at I think. I've never been great at explaining myself!
 
-  Hope that's enough for feedback but let me know if you've got a questions.
+> Hope that's enough for feedback but let me know if you've got a questions.
 
 ### Monday
 
