@@ -69,9 +69,14 @@ Achieved by:
 ### Wednesday
 
 ### Tuesday
-1. Learn about Polymorphism. Attempt the skills workshop
+1. Learn about Polymorphism. Attempt the skills workshop.
+* Achieved by:
+ * Read up about the subject and having it explained by a coach and discussing with peers. An excellent example provided by a peer https://github.com/willhowes/animal_polymorphism
+
 
 2. Learn more about Domain Modelling
+* Achieved by:
+ * Attending and learning at the skills workshop and putting this into practice on these praticals:
 
 BONUS: Gave and received feedback on pairing session in the afternoon. 
 
