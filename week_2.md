@@ -124,3 +124,4 @@ Achieved by:
 * There are many ways to do this, in fact a Domain Model can be in any form so long as it correctly represents the program we want to build.
 * Should be readable by someone who doesn't read code. 
 * User is external to the program, so do not include it in your nouns (i.e. class). Only needed when you have user accounts.
+* When you do a sequence diagram where the message arrow ends is usually the class where the method will be.
