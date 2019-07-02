@@ -43,13 +43,12 @@ Achieved by:
 ### 4. Explain some basic OO principles and tie them to high level concerns (e.g. ease of change)
 Achieved by:
 * SRP (Single Responsibility Principal) - I understand that a class or method should only do one thing. 
-* Encapsulation - I can explain that this is the breaking up the codes's objects and methods into classes
-* Forwarding - my understanding is that, having split classes up so using SRP, forwarding is where by messages are forwarded from the new class to the old class. For example, where you have password checker and you take this out of a profile class then the new password_checker class will need to forward to the profile class a message to confirm if password_checker returns true. 
- * Private
+* Encapsulation - I can explain that this is the breaking up the codes's objects and methods into classes 
+* Private
  
  * OO Design patterns 
-  * Polymorphism - (poly = many, morph = forms). This is where a class takes many forms. This is also linked to duck-typing (i.e.  if it behaves like a duck then you can rely on it being a duck)
-  * Delagation/Fowarding
+  * Polymorphism - (poly = many, morph = forms). This is where a class takes many forms. This is also linked to duck-typing (i.e.  if it behaves like a duck then you can rely on it being a duck). For example if the object given as an argument to a method or class has the method we are expecting then you can rely on that object being the object we want. Working example: duck and fake_duck will be treated as the same providing they both have the .quack method. 
+  * Delagation/Fowarding - my understanding is that, having split classes up so using SRP, forwarding is where by messages are forwarded from the new class to the old class. For example, where you have password checker and you take this out of a profile class then the new password_checker class will need to forward to the profile class a message to confirm if password_checker returns true.
   * Dependancy inje
 
 ### 5. Review another person's code and give them meaningful feedback
