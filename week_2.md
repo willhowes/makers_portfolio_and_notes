@@ -119,3 +119,6 @@ Achieved by:
 
 ### TDD
 * Need to be careful that when coding solo or in pairs, even when good test-first practice is be followed on the whole, not to ahead, skipping steps.
+
+### Domain Modelling
+* There are many ways to do this, in fact a Domain Model can be in any form so long as it correctly represents the program we want to build.
