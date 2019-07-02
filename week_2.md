@@ -20,9 +20,10 @@ GIVEN BY MAKERS:
   
   * OO Design patterns
    * Polymorphism ([examples](https://github.com/makersacademy/skills-workshops/blob/master/practicals/object_oriented_design/oo_relationships.md#polymorphism))
+   * Inheritance
    * Delegation/Forwarding - ([examples](https://github.com/makersacademy/skills-workshops/blob/master/practicals/object_oriented_design/oo_relationships.md#forwarding))
    * Dependancy injection
-   * inheritance
+ 
 
 5. Review another person's code and give them meaningful feedback
 
@@ -48,8 +49,9 @@ Achieved by:
  
  * OO Design patterns 
   * Polymorphism - (poly = many, morph = forms). This is where a class takes many forms. This is also linked to duck-typing (i.e.  if it behaves like a duck then you can rely on it being a duck). For example if the object given as an argument to a method or class has the method we are expecting then you can rely on that object being the object we want. Working example: duck and fake_duck will be treated as the same providing they both have the .quack method. 
+  * Inheritance
   * Delagation/Fowarding - my understanding is that, having split classes up so using SRP, forwarding is where by messages are forwarded from the new class to the old class. For example, where you have password checker and you take this out of a profile class then the new password_checker class will need to forward to the profile class a message to confirm if password_checker returns true.
-  * Dependancy inje
+  * Dependancy injection
 
 ### 5. Review another person's code and give them meaningful feedback
 Achieved by:
