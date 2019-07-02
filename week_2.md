@@ -50,7 +50,7 @@ Achieved by:
  * OO Design patterns 
   * Polymorphism - (poly = many, morph = forms). This is where a class takes many forms. This is also linked to duck-typing (i.e.  if it behaves like a duck then you can rely on it being a duck). For example if the object given as an argument to a method or class has the method we are expecting then you can rely on that object being the object we want. Working example: duck and fake_duck will be treated as the same providing they both have the .quack method. 
   * Inheritance
-  * Delagation/Fowarding - my understanding is that, having split classes up so using SRP, forwarding is where by messages are forwarded from the new class to the old class. For example, where you have password checker and you take this out of a profile class then the new password_checker class will need to forward to the profile class a message to confirm if password_checker returns true.
+  * Delegation/Fowarding - my understanding is that, having split classes up so using SRP, forwarding is where by messages are forwarded from the new class to the old class. For example, where you have password checker and you take this out of a profile class then the new password_checker class will need to forward to the profile class a message to confirm if password_checker returns true.
   * Dependancy injection
 
 ### 5. Review another person's code and give them meaningful feedback
@@ -124,4 +124,4 @@ Achieved by:
 * There are many ways to do this, in fact a Domain Model can be in any form so long as it correctly represents the program we want to build.
 * Should be readable by someone who doesn't read code. 
 * User is external to the program, so do not include it in your nouns (i.e. class). Only needed when you have user accounts.
-* When you do a sequence diagram where the message arrow ends is usually the class where the method will be.
+* When you use a sequence diagram where the message arrow ends is usually the class where the method will be.
