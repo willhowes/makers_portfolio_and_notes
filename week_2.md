@@ -73,6 +73,18 @@ Achieved by:
 
 2. Learn more about Domain Modelling
 
+BONUS: Gave and received feedback on pairing session in the afternoon. My feedback on my pairing partner:
+
+  Great pair programming earlier. I thought it went well.
+
+  I think we went at a good pace but didn't skim over things. Swapping roughly every hour seemed like the right amount of time.
+
+  You were great at stopping me in my tracks when I went off on a bit tangent. I think that's really important to stop getting stuck in a rut.
+
+  You were also great at coming up with workable solutions v quickly and explained them well to me.  Something I need to get better at I think. I've never been great at explaining myself!
+
+  Hope that's enough for feedback but let me know if you've got a questions.
+
 ### Monday
 
 1. Try in pair programming to actually use proper driver-navigator process. Previously, this has been a bit ad hoc. 
