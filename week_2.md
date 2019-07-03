@@ -168,6 +168,56 @@ BONUS: Gave and received feedback on pairing session in the afternoon.
 * Need to be careful that when coding solo or in pairs, even when good test-first practice is be followed on the whole, not to ahead, skipping steps.
 * To use the coverage gem: https://docs.google.com/document/d/1iXK7X9_jSphkHUWerEhipTgduB4rlSa7qOZCCEu8kJ4/edit
 
+### Mocking
+* This is where we create mocks of classes or other objects (e.g. an instance variable) so that when we do unit tests they are not dependant on other classes or other features of the program. Here is an example from the week 1 Boris Bikes challenge. We create doubles of a working_bike, a broken_bike and an instance of the DockingStation class. We also later create a mock bikes array containing the bike doubles:
+
+```
+describe DockingStation do
+  let(:working_bike)        { double('working bike', working?: true) }
+  let(:broken_bike)         { double('broken bike', working?: false) }
+
+  subject(:docking_station) { described_class.new(bikes) }
+
+  describe '#working_bike_count' do
+    context '1 working bike' do
+      let(:bikes) { [working_bike] }
+
+      it "returns 1" do
+        expect(docking_station.working_bike_count).to eq(1)
+      end
+    end
+
+    context '1 working bike, 1 broken bike' do
+      let(:bikes) { [working_bike, broken_bike] }
+
+      it "returns 1" do
+        expect(docking_station.working_bike_count).to eq(1)
+      end
+    end
+  end
+
+  describe '#random_bike_working?' do
+    let(:bikes) { [working_bike, broken_bike] }
+
+    context 'random bike is working' do
+      it 'returns true' do
+        srand(1) # this argument may need to change
+
+        expect(docking_station.random_bike_working?).to eq(true)
+      end
+    end
+
+    context 'random bike is broken' do
+      it 'returns false' do
+        srand(2) # this argument may need to change
+
+        expect(docking_station.random_bike_working?).to eq(false)
+      end
+    end
+  end
+end
+```
+
 ### Domain Modelling
 * There are many ways to do this, in fact a Domain Model can be in any form so long as it correctly represents the program we want to build.
 * Should be readable by someone who doesn't read code. 
