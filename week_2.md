@@ -71,7 +71,7 @@ Achieved by:
 
 1. Complete and understand the Inheritance skills workshop
 
-2. 
+2. Complete and understand the mocking workshop
 
 ### Tuesday
 1. Learn about Polymorphism. Attempt the skills workshop.
