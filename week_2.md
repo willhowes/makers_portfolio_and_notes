@@ -57,6 +57,7 @@ Achieved by:
 Achieved by:
 * Reviewed [Ritchie's Aiport Challenge](https://github.com/makersacademy/airport_challenge/pull/1465) 
 
+### 6. Write a blog
 
 ## Daily Goals
 
