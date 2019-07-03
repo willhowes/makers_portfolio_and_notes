@@ -48,9 +48,9 @@ Achieved by:
 * Private
  
  * OO Design patterns 
-  * Polymorphism - (poly = many, morph = forms). This is where a class takes many forms. This is also linked to duck-typing (i.e.  if it behaves like a duck then you can rely on it being a duck). For example if the object given as an argument to a method or class has the method we are expecting then you can rely on that object being the object we want. Working example: duck and fake_duck will be treated as the same providing they both have the .quack method. 
-  * Inheritance
-  * Delegation/Fowarding - my understanding is that, having split classes up so using SRP, forwarding is where by messages are forwarded from the new class to the old class. For example, where you have password checker and you take this out of a profile class then the new password_checker class will need to forward to the profile class a message to confirm if password_checker returns true.
+  * Polymorphism - understood the basics of this concept. See take-aways and notes below. 
+  * Inheritance - ditto
+  * Delegation/Fowarding - ditto
   * Dependancy injection
 
 ### 5. Review another person's code and give them meaningful feedback
@@ -162,4 +162,29 @@ BONUS: Gave and received feedback on pairing session in the afternoon.
 * When you use a sequence diagram where the message arrow ends is usually the class where the method will be.
 
 ## OO Principals
-1. 
+* Polymorphism - (poly = many, morph = forms). This is where a class takes many forms. This is also linked to duck-typing (i.e.  if it behaves like a duck then you can rely on it being a duck). For example if the object given as an argument to a method or class has the method we are expecting then you can rely on that object being the object we want. Working example: duck and fake_duck will be treated as the same providing they both have the .quack method. 
+
+* Delegation/Fowarding - my understanding is that, having split classes up so using SRP, forwarding is where by messages are forwarded from the new class to the old class. For example, where you have password checker and you take this out of a profile class then the new password_checker class will need to forward to the profile class a message to confirm if password_checker returns true.
+
+* Inheritance - where by one class inherits all the features of a parent. Warning - it will copy over all the parent's classes methods, even if you don't want them allow. Therefore, if you want a feature that will only apply to some of the child classes, then you will need to create another class and use compostion, for example:
+
+```ruby
+class Engine
+  def start
+    "vroooom!"
+  end
+end
+
+class Car < Vehicle
+  attr_reader :engine
+
+  def initialize(top_speed, engine = Engine.new)
+    super(top_speed)
+    @engine = engine
+  end
+
+  def start_engine
+    engine.start
+  end
+end
+```
