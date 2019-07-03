@@ -9,7 +9,7 @@ GIVEN BY MAKERS:
 
 2. Break one class into two classes that work together, while maintaining test coverage
 * Achieved by:
- * During pair programming on Tuesday working on [Oystercard challenge](https://github.com/makersacademy/course/tree/master/oystercard), [step 13](https://github.com/makersacademy/course/blob/master/oystercard/13_create_station_class.md), we extracted all elements of the ```Oystercard``` class that related just to the journey and put these into a ```Journey``` class. This can be seen in my [github repository](https://github.com/willhowes/oystercard). 
+ * During pair programming working on [the Oystercard challenge](https://github.com/makersacademy/course/tree/master/oystercard), [step 13](https://github.com/makersacademy/course/blob/master/oystercard/13_create_station_class.md), we extracted all elements of the ```Oystercard``` class that related just to the journey (so that the ```Oystercard``` class conforms to SRP) and put these into a ```Journey``` class and putting the unit tests for anything relating to the journey into a new ```journey_spec``` file so that test coverage was maintained. 
 
 3. Unit test classes in isolation using mocking
 
