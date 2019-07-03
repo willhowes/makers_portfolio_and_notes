@@ -152,6 +152,7 @@ BONUS: Gave and received feedback on pairing session in the afternoon.
 
 ### TDD
 * Need to be careful that when coding solo or in pairs, even when good test-first practice is be followed on the whole, not to ahead, skipping steps.
+* To use the coverage gem: https://docs.google.com/document/d/1iXK7X9_jSphkHUWerEhipTgduB4rlSa7qOZCCEu8kJ4/edit
 
 ### Domain Modelling
 * There are many ways to do this, in fact a Domain Model can be in any form so long as it correctly represents the program we want to build.
