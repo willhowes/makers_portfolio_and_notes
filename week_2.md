@@ -8,8 +8,6 @@ GIVEN BY MAKERS:
 1. Use all of week 1's skills (don't underestimate the importance of this). Just check that using these in this week's exercises...
 
 2. Break one class into two classes that work together, while maintaining test coverage
-* Achieved by:
- * During pair programming working on [the Oystercard challenge](https://github.com/makersacademy/course/tree/master/oystercard), [step 13](https://github.com/makersacademy/course/blob/master/oystercard/13_create_station_class.md), we extracted all elements of the ```Oystercard``` class that related just to the journey (so that the ```Oystercard``` class conforms to SRP) and put these into a ```Journey``` class and putting the unit tests for anything relating to the journey into a new ```journey_spec``` file so that test coverage was maintained. 
 
 3. Unit test classes in isolation using mocking
 
@@ -39,7 +37,7 @@ Achieved by:
 
 ### 2. Break one class into two classes that work together, while maintaining test coverage
 Achieved by:
-
+ * During pair programming working on [the Oystercard challenge](https://github.com/makersacademy/course/tree/master/oystercard), [step 13](https://github.com/makersacademy/course/blob/master/oystercard/13_create_station_class.md), we extracted all elements of the ```Oystercard``` class that related just to the journey (so that the ```Oystercard``` class conforms to SRP) and put these into a ```Journey``` class and putting the unit tests for anything relating to the journey into a new ```journey_spec``` file so that test coverage was maintained. 
 ### 3. Unit test classes in isolation using mocking
 Achieved by:
 
@@ -79,6 +77,8 @@ Achieved by:
 2. Learn more about Domain Modelling
 * Achieved by:
  * Attending and learning at the skills workshop and putting this into practice on these praticals: https://github.com/makersacademy/skills-workshops/blob/master/week-2/domain_model_diagramming/README.md
+
+ * See below for my takeaways from the skills workshop
 
 BONUS: Gave and received feedback on pairing session in the afternoon. 
 
@@ -120,8 +120,8 @@ BONUS: Gave and received feedback on pairing session in the afternoon.
 ## Takeaways & Reflections from the week
 
 ### Ruby
-* Re MOCKS and DOUBLES - I THINK that you make a mock for the class that you are currently test and you create a double for a class outside of the one you are testing.
- * Use for unit tests only as they isolate testing the class. When mocking is used you will need separate feature tests as unit tests using mocks, etc will not check the program features actually work (as classes might not be interating correctly).
+* Re MOCKS and DOUBLES - I THINK that you make a mock for the class that you are currently testing and you create a double for a class outside of the one you are testing.
+ * Use for unit tests only as they isolate testing the class. When mocking is used you will need separate feature tests because the unit tests using mocks, etc will not check the program features actually work (as classes might not be interating correctly).
   * Not good practice to use allow(subject)
   Example of doubling and stubbing for a class:
 ```weather = double :fake_weather```
