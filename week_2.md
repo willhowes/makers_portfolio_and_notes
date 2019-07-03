@@ -35,8 +35,23 @@ Achieved by:
 Achieved by:
  * During pair programming working on [the Oystercard challenge](https://github.com/makersacademy/course/tree/master/oystercard), [step 13](https://github.com/makersacademy/course/blob/master/oystercard/13_create_station_class.md), we extracted all elements of the ```Oystercard``` class that related just to the journey (so that the ```Oystercard``` class conforms to SRP) and put these into a ```Journey``` class and putting the unit tests for anything relating to the journey into a new ```journey_spec``` file so that test coverage was maintained. 
 ### 3. Unit test classes in isolation using mocking
-Achieved by:
+* Achieved by:
+ * Used this technique in the oystercard challenge. When testing the ```Station``` class we create a mock station with arbitrary name of a station and zone number which we can test against in the unit tests. This means that when we run the unit tests they will be affected by any issues with other classes and methods. Example:
+``` 
+ require 'station'                                           
+describe Station do
 
+  subject {described_class.new(name: "Old Street", zone: 1)}
+
+  it 'knows its name' do                      
+    expect(subject.name).to eq("Old Street")              
+  end                                                   
+
+  it 'knows its zone' do                                                     
+    expect(subject.zone).to eq(1)                                 
+  end
+end
+```
 ### 4. Explain some basic OO principles and tie them to high level concerns (e.g. ease of change)
 Achieved by:
 * SRP (Single Responsibility Principal) - I understand that a class or method should only do one thing. 
