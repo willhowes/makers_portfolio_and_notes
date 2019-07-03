@@ -8,6 +8,8 @@ GIVEN BY MAKERS:
 1. Use all of week 1's skills (don't underestimate the importance of this). Just check that using these in this week's exercises...
 
 2. Break one class into two classes that work together, while maintaining test coverage
+* Achieved by:
+ * During pair programming on Tuesday working on [Oystercard challenge](https://github.com/makersacademy/course/tree/master/oystercard), [step 13](https://github.com/makersacademy/course/blob/master/oystercard/13_create_station_class.md), we extracted all elements of the ```Oystercard``` class that related just to the journey and put these into a ```Journey``` class. This can be seen in my [github repository](https://github.com/willhowes/oystercard). 
 
 3. Unit test classes in isolation using mocking
 
