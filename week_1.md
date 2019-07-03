@@ -105,6 +105,31 @@
 * Learn to walkaway and take breaks, particularly when stuck. 
 * It is expected that we will feel uncomfortable during the course. This is when you are learing. On if your feel overwhelmed then should reach out to a coach. 
 
+* Notes from meditation session:
+
+> Emotional Intelligence 
+> 1. Self awareness
+> 2. Empathy
+> 3. Motivation 
+> 4. Self regulation 
+> 5. Social skills
+>
+> 3 competencies of Self Awareness 
+> 1. Emotional awareness 
+> 2. Accurate self assessment 
+> 3. Confidence
+>
+> Affect labelling
+> Stop and take a moment to reflect on your body. Label the sensations in your body.
+>
+> We Handle emotions in 4 ways
+> 1. Suppression (consciously)
+> 2. Repression (unconsciously)
+> 3. Expression (body language, venting, demonstrating) 
+> 4. Escape
+>
+> Mantra - I feel the way I feel and that's okay.
+
 ### Regarding Setting Goals 
 - The loop:  (GOALS)-(DO/PRACTICE)-(REFLECT/EVIDENCE/F'BACK)-repeat.
 S pecific
