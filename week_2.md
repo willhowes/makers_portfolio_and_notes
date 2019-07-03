@@ -81,9 +81,11 @@ Achieved by:
 ### Wednesday
 1. Complete and understand the Inheritance skills workshop
 * Achieved by:
- * Completed the [inheritance skills workshop](https://github.com/makersacademy/skills-workshops/tree/master/week-2/inheritance)
+ * Completed the [inheritance skills workshop](https://github.com/makersacademy/skills-workshops/tree/master/week-2/inheritance). See below in takeaways for understanding of inheritance.
 
 2. Start mocking workshop and enhance understand of this feature in rspec.
+* Achieved by:
+ * Starting the [mocking workshop](https://github.com/makersacademy/skills-workshops/tree/master/week-2/mocking_2).
 
 ### Tuesday
 1. Learn about Polymorphism. Attempt the skills workshop.
