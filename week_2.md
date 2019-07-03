@@ -16,15 +16,11 @@ GIVEN BY MAKERS:
   * SRP
   * Encapsulation
   * Private
-  
-  
-  * OO Design patterns
-   * Polymorphism ([examples](https://github.com/makersacademy/skills-workshops/blob/master/practicals/object_oriented_design/oo_relationships.md#polymorphism))
-   * Inheritance
-   * Delegation/Forwarding - ([examples](https://github.com/makersacademy/skills-workshops/blob/master/practicals/object_oriented_design/oo_relationships.md#forwarding))
-   * Dependancy injection
+  * Polymorphism ([examples](https://github.com/makersacademy/skills-workshops/blob/master/practicals/object_oriented_design/oo_relationships.md#polymorphism))
+  * Inheritance
+  * Delegation/Forwarding - ([examples](https://github.com/makersacademy/skills-workshops/blob/master/practicals/object_oriented_design/oo_relationships.md#forwarding))
+  * Dependancy injection
  
-
 5. Review another person's code and give them meaningful feedback
 
 PERSONAL
