@@ -86,6 +86,7 @@ Achieved by:
 2. Start mocking workshop and enhance understand of this feature in rspec.
 * Achieved by:
  * Starting the [mocking workshop](https://github.com/makersacademy/skills-workshops/tree/master/week-2/mocking_2).
+ * Understanding the reasons we use mocking (see takeaways below).
 
 ### Tuesday
 1. Learn about Polymorphism. Attempt the skills workshop.
