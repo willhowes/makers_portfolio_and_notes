@@ -166,7 +166,7 @@ BONUS: Gave and received feedback on pairing session in the afternoon.
 * There are many solutions to the same problem. There is no best solution.
 
 ### TDD
-* Need to be careful that when coding solo or in pairs, even when good test-first practice is be followed on the whole, not to ahead, skipping steps.
+* Need to be careful that when coding solo or in pairs, even when good test-first practice is be followed on the whole, not to ahead, skipping steps. Still quite often when trying to make a test pass, one would not try to make the test pass in the simplest way possible, but rush ahead and try to make the code do what we want it to.
 * To use the coverage gem: https://docs.google.com/document/d/1iXK7X9_jSphkHUWerEhipTgduB4rlSa7qOZCCEu8kJ4/edit
 
 ### Mocking
