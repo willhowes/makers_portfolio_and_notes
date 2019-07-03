@@ -68,6 +68,10 @@ Achieved by:
 
 ### Wednesday
 
+1. Complete and understand the Inheritance skills workshop
+
+2. 
+
 ### Tuesday
 1. Learn about Polymorphism. Attempt the skills workshop.
 * Achieved by:
