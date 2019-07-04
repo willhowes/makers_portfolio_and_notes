@@ -77,6 +77,7 @@ Achieved by:
 ### Friday
 
 ### Thursday
+1. Understand Class Extraction pattern. [Read this article](https://ieftimov.com/post/tdd-extract-class/). Attempt [this exercise](https://github.com/makersacademy/skills-workshops/tree/master/week-2/oop_3).
 
 ### Wednesday
 1. Complete and understand the Inheritance skills workshop
