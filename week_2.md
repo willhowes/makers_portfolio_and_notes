@@ -78,6 +78,8 @@ Achieved by:
 
 ### Thursday
 1. Learn and understand about delegation
+* Achieved by:
+ * Attended the workshop. Notes [here](https://github.com/willhowes/makers_portfolio_and_notes/blob/master/delegation_workshop_notes).
 
 2. Understand basics of dependancy injenction.
 * Achieved by:
@@ -98,10 +100,7 @@ class Hello
     "Hello"
   end
 end
-```
-
-3. If more time: Understand Class Extraction pattern. 
-# Achieved by: [Read this article](https://ieftimov.com/post/tdd-extract-class/). Attempt [this exercise](https://github.com/makersacademy/skills-workshops/tree/master/week-2/oop_3).
+``
 
 ### Wednesday
 1. Complete and understand the Inheritance skills workshop
