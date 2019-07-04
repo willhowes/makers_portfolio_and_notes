@@ -81,7 +81,7 @@ Achieved by:
 
 2. Understand basics of dependancy injenction.
 * Achieved by:
- * Can explain that dependancy injection is whereby a class depends on the behaviour of another class For example:
+ * Can explain that dependancy injection is whereby, for example, class_one depends on the behaviour of class_two, we can inject class_two on the initialization of class_one. For example:
  ```
 class Greeter
   def initialize(hello = Hello.new)
