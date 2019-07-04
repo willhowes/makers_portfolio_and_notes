@@ -150,8 +150,8 @@ T ime-bound
 * You can use Predicates rspec matcher tests: prefix a method with ```be_``` and remove the ```?```. 
  * e.g.   ```expect(5).to be_instance_of Fixnum``` 
 * Single Responsibility Principal - i.e. that a method should do one thing only. e.g. In our Week 1 Pair Programming Project to create a replica of the Boris Bikes system, instead of having the method ```receive_bike``` check if the docking station is full and also add a Bike class to the Docking Station (i.e. it does two things), this can be split into two methods:   
-
-```  def full?
+```
+  def full?
     if @available_bikes.length >= @capacity
       true
     end
@@ -163,7 +163,16 @@ T ime-bound
       else
         @available_bikes << bike
       end
-    end```
+    end
+```
 
 
+### Weekend Challenges
+- Tip from Chris: if you don't finish the pair programming project, go through the walk-throughs on whatever you haven't done.
+
+### To bare in mind
+- Keep track of your goals
+- Look after yourself
+- Don't stress
+- Record debugging with quicktime
 
