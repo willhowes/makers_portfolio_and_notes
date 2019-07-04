@@ -100,7 +100,7 @@ class Hello
     "Hello"
   end
 end
-``
+```
 
 ### Wednesday
 1. Complete and understand the Inheritance skills workshop
