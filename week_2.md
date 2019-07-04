@@ -77,7 +77,12 @@ Achieved by:
 ### Friday
 
 ### Thursday
-1. Understand Class Extraction pattern. [Read this article](https://ieftimov.com/post/tdd-extract-class/). Attempt [this exercise](https://github.com/makersacademy/skills-workshops/tree/master/week-2/oop_3).
+1. Learn and understand about delegation
+
+2. Understand basics of dependancy injenction.
+
+2. If more time: Understand Class Extraction pattern. 
+# Achieved by: [Read this article](https://ieftimov.com/post/tdd-extract-class/). Attempt [this exercise](https://github.com/makersacademy/skills-workshops/tree/master/week-2/oop_3).
 
 ### Wednesday
 1. Complete and understand the Inheritance skills workshop
