@@ -80,8 +80,27 @@ Achieved by:
 1. Learn and understand about delegation
 
 2. Understand basics of dependancy injenction.
+* Achieved by:
+ * Can explain that dependancy injection is whereby a class depends on the behaviour of another class For example:
+ ```
+class Greeter
+  def initialize(hello = Hello.new)
+    @hello = hello
+  end
 
-2. If more time: Understand Class Extraction pattern. 
+  def greet
+    "#{@hello.get} there!"
+  end
+end
+
+class Hello
+  def get
+    "Hello"
+  end
+end
+```
+
+3. If more time: Understand Class Extraction pattern. 
 # Achieved by: [Read this article](https://ieftimov.com/post/tdd-extract-class/). Attempt [this exercise](https://github.com/makersacademy/skills-workshops/tree/master/week-2/oop_3).
 
 ### Wednesday
