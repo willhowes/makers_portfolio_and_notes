@@ -56,13 +56,12 @@ end
 Achieved by:
 * SRP (Single Responsibility Principal) - I understand that a class or method should only do one thing. 
 * Encapsulation - I can explain that this is the breaking up the codes's objects and methods into classes 
-* Private
- 
+* Private -understood the basics of this concept. See take-aways and notes below.
  * OO Design patterns 
-  * Polymorphism - understood the basics of this concept. See take-aways and notes below. 
+  * Polymorphism - ditto
   * Inheritance - ditto
   * Delegation/Fowarding - ditto
-  * Dependancy injection
+  * Dependancy injection - ditto
 
 ### 5. Review another person's code and give them meaningful feedback
 Achieved by:
@@ -75,6 +74,10 @@ Achieved by:
 ### Weekend
 
 ### Friday
+1. Learn about how best to approach giving feedback. 
+* Achieved by:
+
+2. Review week 1's skills to check I still understand these and am able to put them into practice. 
 
 ### Thursday
 1. Learn and understand about delegation
@@ -83,25 +86,8 @@ Achieved by:
 
 2. Understand basics of dependancy injenction.
 * Achieved by:
- * Can explain that dependancy injection is whereby, for example, class_one depends on the behaviour of class_two, we can inject class_two on the initialization of class_one. For example:
- ```
-class Greeter
-  def initialize(hello = Hello.new)
-    @hello = hello
-  end
-
-  def greet
-    "#{@hello.get} there!"
-  end
-end
-
-class Hello
-  def get
-    "Hello"
-  end
-end
-```
-
+ * See takeaways below 
+ 
 ### Wednesday
 1. Complete and understand the Inheritance skills workshop
 * Achieved by:
@@ -252,7 +238,7 @@ end
 ## OO Principals
 * Polymorphism - (poly = many, morph = forms). This is where a class takes many forms. This is also linked to duck-typing (i.e.  if it behaves like a duck then you can rely on it being a duck). For example if the object given as an argument to a method or class has the method we are expecting then you can rely on that object being the object we want. Working example: duck and fake_duck will be treated as the same providing they both have the .quack method. 
 
-* Delegation/Fowarding - my understanding is that, having split classes up so using SRP, forwarding is where by messages are forwarded from the new class to the old class. For example, where you have password checker and you take this out of a profile class then the new password_checker class will need to forward to the profile class a message to confirm if password_checker returns true.
+* Delegation/Fowarding - my understanding is that, having split classes up so using SRP, forwarding is where by messages are forwarded from the new class to the old class. For example, where you have password checker and you take this out of a profile class then the new password_checker class will need to forward to the profile class a message to confirm if password_checker returns true. Remember that when delegating the functions of one class into a new class, when communicating between the two, you do not want one class to change the 'state' (i.e. a variable) of a class, you only want to ask it something (e.g. in the oystercard challenge, and instance of the ```Oystercard``` class will ask an instance of the ```Journey``` class whether the journey is ```complete?```, it should not tell the instance of the ```Journey``` class to change its ```@complete``` instance variable to true, as this would make the ```Journey``` vulnerable to changes from outside the class.  
 
 * Inheritance - where by one class inherits all the features of a parent. Warning - it will copy over all the parent's classes methods, even if you don't want them allow. Therefore, if you want a feature that will only apply to some of the child classes, then you will need to create another class and use compostion, for example:
 
@@ -276,3 +262,23 @@ class Car < Vehicle
   end
 end
 ```
+* Dependency Injection - this is where, for example, class_one depends on the behaviour of class_two, we can inject class_two on the initialization of class_one. For example:
+ ```
+class Greeter
+  def initialize(hello = Hello.new)
+    @hello = hello
+  end
+
+  def greet
+    "#{@hello.get} there!"
+  end
+end
+
+class Hello
+  def get
+    "Hello"
+  end
+end
+```
+* Private methods - The first thing to understand is that each class has state (variables) and methods (behaviour). A class's state (variables) should ideally only be changed from with the class. Otherwise, this functionality will vulnerable to users or other classes. Therefore, we should (as much as possible) put methods which change a class's state under private which means they can only be called within the class itself (i.e. by other methods inside that class).
+ 
