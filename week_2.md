@@ -285,5 +285,28 @@ end
 ```
 * Private methods - The first thing to understand is that each class has state (variables) and methods (behaviour). A class's state (variables) should ideally only be changed from with the class. Otherwise, this functionality will vulnerable to users or other classes. Therefore, we should (as much as possible) put methods which change a class's state under private which means they can only be called within the class itself (i.e. by other methods inside that class). In this way, private methods are like internal helper methods. However, you can access a private method from outside of the class if you use a public method to access the private method. For example:
 
+```
+class Person
+  def speak
+    puts "Hey, Tj!"
+  end
+  
+  def whisper_louder
+    whisper
+  end 
+  
+private 
+  def whisper
+    puts "His name's not really 'Tj'." 
+  end 
+end
 
+you = Person.new 
+you.speak # "Hey, Tj!"
+a_hater = Person.new
+a_hater.speak # "Hey, Tj!"
+a_hater.whisper # NoMethodError
+a_hater.whisper_louder # "His name's not really 'Tj'."
+```
  
+Here we access the ```whisper``` method by calling the ```whisper_louder`` method from outside the class
