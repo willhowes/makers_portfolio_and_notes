@@ -317,4 +317,6 @@ a_hater.whisper # NoMethodError
 a_hater.whisper_louder # "His name's not really 'Tj'."
 ```
  
-Here we access the ```whisper``` method by calling the ```whisper_louder`` method from outside the class
+Here we access the ```whisper``` method by calling the ```whisper_louder``` method from outside the class.
+
+
