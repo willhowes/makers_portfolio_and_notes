@@ -29,7 +29,9 @@ PERSONAL
 ## How did I achieve my goals?
 
 ### 1. Use all of week 1's skills (don't underestimate the importance of this)
-Achieved by:
+* Achieved by:
+ * Going back over week 1's goals and my takeaways from the week, it was clear that I have continued to use this skills this week. For example, on a number of challenges this week I have need to use the debugging technique of reading the error message, tightening the loop (using p), making and adjustment and then repeating this process if a further error is raised.  
+
 
 ### 2. Break one class into two classes that work together, while maintaining test coverage
 Achieved by:
@@ -76,8 +78,11 @@ Achieved by:
 ### Friday
 1. Learn about how best to approach giving feedback. 
 * Achieved by:
+ * Attending the workshop...
+
 
 2. Review week 1's skills to check I still understand these and am able to put them into practice. 
+* Achieved by: Going over week 1's goals/skills again. I have been using all these this week.
 
 ### Thursday
 1. Learn and understand about delegation
@@ -181,6 +186,7 @@ weather.new
 ### TDD
 * Need to be careful that when coding solo or in pairs, even when good test-first practice is be followed on the whole, not to ahead, skipping steps. Still quite often when trying to make a test pass, one would not try to make the test pass in the simplest way possible, but rush ahead and try to make the code do what we want it to.
 * To use the coverage gem: https://docs.google.com/document/d/1iXK7X9_jSphkHUWerEhipTgduB4rlSa7qOZCCEu8kJ4/edit
+* Worth creating a "features" folder under rspec for only feature tests. To make things clearer, you can copy and paste the user story in to the feature test so you can double check against this to make sure you are fufilling the client's requirements. 
 
 ### Mocking
 * This is where we create mocks of classes or other objects (e.g. an instance variable) so that when we do unit tests they are not dependant on other classes or other features of the program. Here is an example from the week 1 Boris Bikes challenge. We create doubles of a working_bike, a broken_bike and an instance of the DockingStation class. We also later create a mock bikes array containing the bike doubles:
