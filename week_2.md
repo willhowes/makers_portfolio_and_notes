@@ -188,6 +188,7 @@ weather.new
 * To use the coverage gem: https://docs.google.com/document/d/1iXK7X9_jSphkHUWerEhipTgduB4rlSa7qOZCCEu8kJ4/edit
 * Really helpful [Airport challenge walkthrough on youtube](https://www.youtube.com/watch?v=Vg0cFVLH_EM&t=167s). 
  * It is worth creating a "features" folder under rspec for only feature tests. To make things clearer, you can copy and paste the user story into the feature test so you can double check against this to make sure you are fufilling the client's requirements. You can make a feature test that simply doesn't raise an error, e.g. ```expect{ airport.land(plane).not_to raise_error```; then when you get the error message after running it, use the error to make a unit test that will fail in the same we. 
+ * Best practice in rspec is to use ```subject { described_class.new``` at the top under ```describe``` when testing ```subject```
 
 ### Mocking
 * This is where we create mocks of classes or other objects (e.g. an instance variable) so that when we do unit tests they are not dependant on other classes or other features of the program. Here is an example from the week 1 Boris Bikes challenge. We create doubles of a working_bike, a broken_bike and an instance of the DockingStation class. We also later create a mock bikes array containing the bike doubles:
