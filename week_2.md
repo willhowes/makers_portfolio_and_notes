@@ -154,12 +154,15 @@ BONUS: Gave and received feedback on pairing session in the afternoon.
  * Use for unit tests only as they isolate testing the class. When mocking is used you will need separate feature tests because the unit tests using mocks, etc will not check the program features actually work (as classes might not be interating correctly).
   * Not good practice to use allow(subject)
   Example of doubling and stubbing for a class:
-```weather = double :fake_weather```
-```allow(weather).to receive(:stormy?).and return(false)```
+```
+weather = double :fake_weather
+allow(weather).to receive(:stormy?).and return(false)
+```
    
    the first line above effectively creates a blank class and then creates a new instance of it, i.e. 
-```class weather end```
-```weather.new```
+```class weather end
+weather.new
+```
 
 * Pry is a useful tool. Can run features like in irb when you run rspec. 
 
@@ -280,5 +283,7 @@ class Hello
   end
 end
 ```
-* Private methods - The first thing to understand is that each class has state (variables) and methods (behaviour). A class's state (variables) should ideally only be changed from with the class. Otherwise, this functionality will vulnerable to users or other classes. Therefore, we should (as much as possible) put methods which change a class's state under private which means they can only be called within the class itself (i.e. by other methods inside that class).
+* Private methods - The first thing to understand is that each class has state (variables) and methods (behaviour). A class's state (variables) should ideally only be changed from with the class. Otherwise, this functionality will vulnerable to users or other classes. Therefore, we should (as much as possible) put methods which change a class's state under private which means they can only be called within the class itself (i.e. by other methods inside that class). In this way, private methods are like internal helper methods. However, you can access a private method from outside of the class if you use a public method to access the private method. For example:
+
+
  
