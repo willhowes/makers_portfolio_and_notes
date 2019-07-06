@@ -189,7 +189,18 @@ weather.new
 * Really helpful [Airport challenge walkthrough on youtube](https://www.youtube.com/watch?v=Vg0cFVLH_EM&t=167s). Takeaways from this:
  * It is worth creating a "features" folder under rspec for only feature tests, i.e. ```spec/features/user_stories_spec```. To make things clearer, you can copy and paste the user story into the feature test so you can double check against this to make sure you are fufilling the client's requirements. You can make a feature test that simply doesn't raise an error, e.g. ```expect{ airport.land(plane).not_to raise_error```; then when you get the error message after running it, use the error to make a unit test that will fail in the same we. 
  * Best practice in rspec is to use, e.g. ```subject(:airport) { described_class.new``` at the top under ```describe``` when testing, so then you can test using ```airport``` rather than ```subject```.
- * When using feature tests in rspec, don't use doubles. You want to check all the classes and methods work together. 
+ * When using feature tests in rspec, don't use doubles for the classes. You want to check all the classes and methods work together. 
+ * Process should be:
+  1. RED
+   a. Make Feature Test based on user story, read error message
+   b. Make Unit Test to fail with the same error message
+   
+ 2. GREEN 
+  a. Get the Unit Test to pass
+  b. Get the Feature Test to pass too
+ 
+ 3. REFACTOR
+ 
  * You do not need to test anything that is not accessable from outside the class (i.e. instance variables, private methods).
  * If you have an ```it``` that says ```'when...``` then this is a good example of when you should use a ```context``` block. Example from the Airport challenge:
 ```
