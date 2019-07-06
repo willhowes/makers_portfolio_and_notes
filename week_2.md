@@ -78,7 +78,7 @@ Achieved by:
 ### Friday
 1. Learn about how best to approach giving feedback. 
 * Achieved by:
- * Attending the workshop...
+ * Attending the workshop...[INSERT NOTES BELOW]
 
 
 2. Review week 1's skills to check I still understand these and am able to put them into practice. 
@@ -195,6 +195,9 @@ weather.new
 ```
 describe '#land' do
  context 'when full' do
+  before do
+   allow(airport).to receive(:full).and_return(true)
+  end
   it 'raises an error' do
    capacity.times....
    #etc...
