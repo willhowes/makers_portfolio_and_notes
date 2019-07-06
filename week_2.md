@@ -218,6 +218,7 @@ end
 ```
  * If during TDD you are introducing a method which you are stubbing and is not being used by the public interface then this is a clue that this method should be a private method. 
  * If you want to write a test so you don't forget it but don't want it to run initially use ```xit```
+ * if you get an error message like ```#<double :plane> received unexpected message :land``` then you need to allow the double to receive the message (i.e. the method), e.g. ```let(:plane) {double: :plane, land: nil}```
 
 ### Mocking
 * This is where we create mocks of classes or other objects (e.g. an instance variable) so that when we do unit tests they are not dependant on other classes or other features of the program. Here is an example from the week 1 Boris Bikes challenge. We create doubles of a working_bike, a broken_bike and an instance of the DockingStation class. We also later create a mock bikes array containing the bike doubles:
