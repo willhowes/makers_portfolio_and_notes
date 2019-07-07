@@ -1,13 +1,11 @@
-What are objects?
-
-They have responsibility
-They have behaviour
+###What are objects?
+* They have responsibility
+* They have behaviour
 
 Delegation and dependancy injection go hand in hand.
 
-Does not matter what the name of the method is. So you can have same named in two different classes. The computer will not get confirmed. 
-
-eg.
+It does not matter what the name of the method is. So you can have same named in two different classes. 
+The computer will not get confused. e.g:
 ```
 class Airport
   def land(plane)
@@ -24,25 +22,25 @@ end
 
 The above works fine.
 
-You should always ask the other option to do something. i.e tell it to run its on methods.
+You should always ASK the other object to do something. i.e tell it to run one its methods.
 
-Don’t set change the state of an other object.  
+Don’t change the STATE of an other object. e.g. you should not change one of its instance variables.  
 
-Hide readers (getters) and setters (writers) in private as much as possible. 
+Hide readers (getters) and writer (setters) in private as much as possible. 
 
-The public part of a class should be thoroughly tested, private less so. 
+The public part of a class should be thoroughly tested, the private part less so. 
 
 You can only access a private method from within the class. But you can use a public method to access the private method.
 
-When you set up a method to tell another class to do something, good idea to do a receive unit test to check that  the second class can receive that method call instruction.
+When you set up a method to tell another class to do something, good idea to do a receive unit test to check that the second class can receive that method call instruction.
 
-Good test for something like .complete? Is change {subject.complete} from(false).to(true).
+Good test for something like ```.complete?``` wouls be ```expect{...}.to change{subject.complete} from(false).to(true).
 
-Instead of an attr_reader, do a ? Method. e.g
+Instead of an attr_reader, you can use a ? Method. e.g
 
 Instead of attr_reader :complete …
 ```
 def  complete?
-	@complete
+  @complete
 end
 ```
