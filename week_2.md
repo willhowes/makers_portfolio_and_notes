@@ -189,11 +189,11 @@ BONUS: Gave and received feedback on pairing session in the afternoon.
 
 
 ### TDD
-* Need to be careful that when coding solo or in pairs, even when good test-first practice is be followed on the whole, not to ahead, skipping steps. Still quite often when trying to make a test pass, one would not try to make the test pass in the simplest way possible, but rush ahead and try to make the code do what we want it to.
-* To use the coverage gem: https://docs.google.com/document/d/1iXK7X9_jSphkHUWerEhipTgduB4rlSa7qOZCCEu8kJ4/edit
+* Need to be careful that when coding solo or in pairs, even when good test-first practice is being followed on the whole, not skip steps. Still quite often when trying to make a test pass, one would not try to make the test pass in the simplest way possible, but rush ahead and try to make the code do what we want it to.
+* Use the coverage gem: https://docs.google.com/document/d/1iXK7X9_jSphkHUWerEhipTgduB4rlSa7qOZCCEu8kJ4/edit
 * Really helpful [Airport challenge walkthrough on youtube](https://www.youtube.com/watch?v=Vg0cFVLH_EM&t=167s). Takeaways from this:
- * It is worth creating a "features" folder under rspec for only feature tests, i.e. ```spec/features/user_stories_spec```. To make things clearer, you can copy and paste the user story into the feature test so you can double check against this to make sure you are fufilling the client's requirements. You can make a feature test that simply doesn't raise an error, e.g. ```expect{ airport.land(plane).not_to raise_error```; then when you get the error message after running it, use the error to make a unit test that will fail in the same we. 
- * Best practice in rspec is to use, e.g. ```subject(:airport) { described_class.new``` at the top under ```describe``` when testing, so then you can test using ```airport``` rather than ```subject```.
+ * It is worth creating a "features" folder under rspec for only feature tests, i.e. ```spec/features/user_stories_spec```. To make things clearer, you can copy and paste the user story into the feature test so you can double check against this to make sure you are fufilling the client's requirements. You can make a feature test that simply doesn't raise an error, e.g. ```expect { airport.land(plane).not_to raise_error```; then when you get the error message after running it, use the error to make a unit test that will fail in the same we. 
+ * Best practice in rspec is to use, e.g. ```subject(:airport) { described_class.new }``` at the top under ```describe``` when testing, so then you can test using ```airport``` rather than ```subject```.
  * When using feature tests in rspec, don't use doubles for the classes. You want to check all the classes and methods work together. 
  * Process should be:
   1. RED
@@ -206,8 +206,10 @@ BONUS: Gave and received feedback on pairing session in the afternoon.
  
  3. REFACTOR
  
+ 4. Repeat with more unit tests if needed, or move onto the next feature test.
+ 
  * You do not need to test anything that is not accessable from outside the class (i.e. instance variables, private methods).
- * If you have an ```it``` that says ```'when...``` then this is a good example of when you should use a ```context``` block. Example from the Airport challenge:
+ * If you have an ```it``` that says ```'when...``` then this is an indication that you should be using a ```context``` block. Example from the Airport challenge:
 ```
 describe '#land' do
  context 'when full' do
