@@ -181,7 +181,7 @@ BONUS: Gave and received feedback on pairing session in the afternoon.
 >Actionable 
 >Specific
 >Kind
->
+
 > NVC
 > Non-Violent Communication
 >
