@@ -12,14 +12,6 @@ GIVEN BY MAKERS:
 3. Unit test classes in isolation using mocking
 
 4. Explain some basic OO principles and tie them to high level concerns (e.g. ease of change). i.e. explain why you would use these basic OO principals.
- e.g.s of basic principals:
-  * SRP
-  * Encapsulation
-  * Private
-  * Polymorphism ([examples](https://github.com/makersacademy/skills-workshops/blob/master/practicals/object_oriented_design/oo_relationships.md#polymorphism))
-  * Inheritance
-  * Delegation/Forwarding - ([examples](https://github.com/makersacademy/skills-workshops/blob/master/practicals/object_oriented_design/oo_relationships.md#forwarding))
-  * Dependancy injection
  
 5. Review another person's code and give them meaningful feedback
 
@@ -30,17 +22,18 @@ PERSONAL
 
 ### 1. Use all of week 1's skills (don't underestimate the importance of this)
 * Achieved by:
- * Going back over week 1's goals and my takeaways from the week, it was clear that I have continued to use this skills this week. For example, on a number of challenges this week I have need to use the debugging technique of reading the error message, tightening the loop (using p), making and adjustment and then repeating this process if a further error is raised.  
+ * Going back over week 1's goals and my takeaways from the week, it was clear that I have continued to use this skills this week. For example, on a number of challenges this week I have need to use the debugging technique of reading the error message, tightening the loop (using p), making an adjustment and then repeating this process if a further error is raised.  
 
 
 ### 2. Break one class into two classes that work together, while maintaining test coverage
 Achieved by:
  * During pair programming working on [the Oystercard challenge](https://github.com/makersacademy/course/tree/master/oystercard), [step 13](https://github.com/makersacademy/course/blob/master/oystercard/13_create_station_class.md), we extracted all elements of the ```Oystercard``` class that related just to the journey (so that the ```Oystercard``` class conforms to SRP) and put these into a ```Journey``` class and putting the unit tests for anything relating to the journey into a new ```journey_spec``` file so that test coverage was maintained. 
+ 
 ### 3. Unit test classes in isolation using mocking
 * Achieved by:
- * Used this technique in the oystercard challenge. When testing the ```Station``` class we create a mock station with arbitrary name of a station and zone number which we can test against in the unit tests. This means that when we run the unit tests they will be affected by any issues with other classes and methods. Example:
+ * Used this technique in the oystercard challenge. When testing the ```Station``` class we created a mock station with arbitrary name of a station and zone number which we can test against in the unit tests. This means that when we run the unit tests they will not be affected by any issues with other classes and methods. Example:
 ``` 
- require 'station'                                           
+require 'station'                                           
 describe Station do
 
   subject {described_class.new(name: "Old Street", zone: 1)}
@@ -78,8 +71,7 @@ Achieved by:
 ### Friday
 1. Learn about how best to approach giving feedback. 
 * Achieved by:
- * Attending the workshop...[INSERT NOTES BELOW]
-
+ * Attending the workshop. See notes in Takeaways below.
 
 2. Review week 1's skills to check I still understand these and am able to put them into practice. 
 * Achieved by: Going over week 1's goals/skills again. I have been using all these this week.
@@ -98,7 +90,7 @@ Achieved by:
 * Achieved by:
  * Completed the [inheritance skills workshop](https://github.com/makersacademy/skills-workshops/tree/master/week-2/inheritance). See below in takeaways for understanding of inheritance.
 
-2. Start mocking workshop and enhance understand of this feature in rspec.
+2. Start mocking workshop and enhance understanding of this feature in rspec.
 * Achieved by:
  * Starting the [mocking workshop](https://github.com/makersacademy/skills-workshops/tree/master/week-2/mocking_2).
  * Understanding the reasons we use mocking (see takeaways below).
@@ -111,8 +103,7 @@ Achieved by:
 
 2. Learn more about Domain Modelling
 * Achieved by:
- * Attending and learning at the skills workshop and putting this into practice on these praticals: https://github.com/makersacademy/skills-workshops/blob/master/week-2/domain_model_diagramming/README.md
-
+ * Attending the skills workshop and putting this into practice on these praticals: https://github.com/makersacademy/skills-workshops/blob/master/week-2/domain_model_diagramming/README.md
  * See below for my takeaways from the skills workshop
 
 BONUS: Gave and received feedback on pairing session in the afternoon. 
@@ -140,7 +131,7 @@ BONUS: Gave and received feedback on pairing session in the afternoon.
 
 1. Try in pair programming to actually use proper driver-navigator process. Previously, this has been a bit ad hoc. 
 * Achieved by:
- * Before pairing I had a chat with my pair partner about the the driver-navigator roles. We agrees that it was fine for both driver and navigator to be thinking about what tests and code to test but that navigator should take precedence and lead the way somewhat. This worked well during our pairing session. I occassionally forgot that the navigator should take precedence but on the whole the navigator fairly naturally led the way.
+ * Before pairing I had a chat with my pair partner about the the driver-navigator roles. We agreed that it was fine for both driver and navigator to be thinking about what tests and code to write but that the navigator should take precedence and lead the way somewhat. This worked well during our pairing session. I occassionally forgot that the navigator should take precedence but on the whole the navigator fairly naturally led the way.
 
 2. Ask for feedback on my pair programming. Is there anything I can do better?
 * Achieved by:
@@ -154,25 +145,11 @@ BONUS: Gave and received feedback on pairing session in the afternoon.
 
 ## Takeaways & Reflections from the week
 
-### Ruby
-* Re MOCKS and DOUBLES - I THINK that you make a mock for the class that you are currently testing and you create a double for a class outside of the one you are testing.
- * Use for unit tests only as they isolate testing the class. When mocking is used you will need separate feature tests because the unit tests using mocks, etc will not check the program features actually work (as classes might not be interating correctly).
-  * Not good practice to use allow(subject)
-  Example of doubling and stubbing for a class:
-```
-weather = double :fake_weather
-allow(weather).to receive(:stormy?).and return(false)
-```
-   
-   the first line above effectively creates a blank class and then creates a new instance of it, i.e. 
-```class weather end
-weather.new
-```
-
+### Ruby/General
 * Pry is a useful tool. Can run features like in irb when you run rspec. 
 
 ### READMEs
-* Should explain my process better for code reviewers. e.g Airport Challenge did not explain WHY I tought I should have methods on the Plane class.  
+* Should explain my process better for code reviews. e.g Airport Challenge did not explain WHY I tought I should have methods on the Plane class.  
 
 ### Feedback/Code Reviews
 * It is valuable for a number of reasons:
@@ -182,6 +159,34 @@ weather.new
   * find out things you don't already know.
 * When reviewing, if you are not sure whether you are right when making a suggestion, just ask a question about the code. 
 * There are many solutions to the same problem. There is no best solution.
+
+### Feedback Workshop 
+* Feedback is used as a basis of improvement
+* There is no such thing as positive or negative feedback. Only feedback.
+* Feedback is kind
+* The receiver of feedback is empowered - they can decide whether or not to take the feedback on board.
+* When it comes to receiving feedback, it is important to know thyself. If you are reacting in a certain way then is this down to how you often react to criticism/feedback? 
+* Reliance is important and this can be improved with meditation, and also getting to know as much about yourself as possible. 
+* Take a look at the ['How to Make a Decision blog post'](https://blog.makersacademy.com/how-to-make-a-decision-588d0247ace0)
+* Permission is important when it comes to what type of feedback the person is wanting. Three types of feedback:
+1. Appreciation
+2. Evaluation
+3. Coaching
+* Think about the type of coding they want before deciding on which of the above feedback you are going to give.
+* Check your energy before giving feedback - what is the purpose of the feedback you are giving?
+* Use a framework, e.gs:
+>
+>ASK:
+>
+>Actionable 
+>Specific
+>Kind
+>
+> NVC
+> Non-Violent Communication
+>
+
+
 
 ### TDD
 * Need to be careful that when coding solo or in pairs, even when good test-first practice is be followed on the whole, not to ahead, skipping steps. Still quite often when trying to make a test pass, one would not try to make the test pass in the simplest way possible, but rush ahead and try to make the code do what we want it to.
@@ -220,6 +225,21 @@ end
  * If you want to write a test so you don't forget it but don't want it to run initially use ```xit```
  * if you get an error message like ```#<double :plane> received unexpected message :land``` then you need to allow the double to receive the message (i.e. the method), e.g. ```let(:plane) {double: :plane, land: nil}```
  * Can use ```attr_reader``` under the private section of the class for any variables which don't need to be instance variables.
+
+### MOCKS and DOUBLES
+ * Use for unit tests only as they isolate testing the class. When mocking is used you will need separate feature tests because the unit tests using mocks, etc will not check the program features actually work (as classes might not be interating correctly).
+  * Not good practice to use allow(subject)
+  Example of doubling and stubbing for a class:
+```
+weather = double :fake_weather
+allow(weather).to receive(:stormy?).and return(false)
+```
+   
+   the first line above effectively creates a blank class and then creates a new instance of it, i.e. 
+```class weather end
+weather.new
+```
+
 
 ### Mocking
 * This is where we create mocks of classes or other objects (e.g. an instance variable) so that when we do unit tests they are not dependant on other classes or other features of the program. Here is an example from the week 1 Boris Bikes challenge. We create doubles of a working_bike, a broken_bike and an instance of the DockingStation class. We also later create a mock bikes array containing the bike doubles:
