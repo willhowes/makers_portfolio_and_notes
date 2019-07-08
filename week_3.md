@@ -30,9 +30,8 @@
 
 1. Learn about MVC
 * Achieved by:
- * See take away notes below. 
-
-2. Have a go at the [servers practical](https://github.com/makersacademy/skills-workshops/blob/master/practicals/servers_and_clients/servers.md)
+ * See take away notes below from the workshop. 
+ * Read this [helpful article](https://www.tomdalling.com/blog/software-design/model-view-controller-explained/)
 
 ## Takeaways/Notes
 ### Workshop Monday (10.30 with Sam)
