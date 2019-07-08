@@ -6,6 +6,9 @@
 3. Explain the basics of how the web works (e.g. request/response, HTTP, HTML, CSS)
 4. Explain the MVC pattern
 
+## Goal set for myself 
+1. Watch the takeaway challenge video https://www.youtube.com/watch?v=mgiJKdH9x8c
+
 ### My daily goal for this week, after Week 2 Retrospective
 1. Draw more diagrams.  
 
@@ -17,3 +20,9 @@
 ### 3. Explain the basics of how the web works (e.g. request/response, HTTP, HTML, CSS)
 
 ### 4. Explain the MVC pattern
+
+## Daily Goals
+
+1. Watch the what to test and what note to test video: https://www.youtube.com/watch?v=URSWYvyc42M
+
+## Takeaways/Notes
