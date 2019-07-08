@@ -32,6 +32,9 @@
 
 ## Daily Goals
 
+###
+1. Read up and understand [Google Dev Tools](https://developers.google.com/web/tools/chrome-devtools/beginners/html)
+
 ### Monday
 1. Learn about MVC
 * Achieved by:
