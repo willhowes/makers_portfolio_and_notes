@@ -37,6 +37,10 @@
 * Achieved by:
  * See takeaway notes below from the workshop. 
  * Read this [helpful article](https://www.tomdalling.com/blog/software-design/model-view-controller-explained/). See takeaway notes below from this 
+ 
+ 2. Review weekend challenges with pair partner.
+  * I reviewed Renata's: 
+  * Renata reviewed mine: https://github.com/makersacademy/takeaway-challenge/pull/1363#discussion_r301003316
 
 ## Takeaways/Notes
 ### Workshop Monday (10.30 with Sam)
