@@ -1,4 +1,5 @@
 # Week 3 Goals
+[Weekm outline](https://github.com/makersacademy/course/blob/master/week_outlines.md/#week-3)
 
 ## Goals set by Makers
 1. Build a simple web app
