@@ -7,7 +7,7 @@
 3. Explain the basics of how the web works (e.g. request/response, HTTP, HTML, CSS)
 4. Explain the MVC pattern
 
-## Goal set for myself 
+## Goals set for myself 
 1. Watch the takeaway challenge video https://www.youtube.com/watch?v=mgiJKdH9x8c
 
 2. Write a blog
@@ -46,7 +46,6 @@
    * I reviewed Renata's: https://github.com/renatapop/takeaway-challenge
    * Renata reviewed mine: https://github.com/makersacademy/takeaway-challenge/pull/1363#discussion_r301003316
    * This proved an important exercise in trying to understand someone else's code and also undertanding someone's comments on your own code. Something I want to get better at, with the weekly code reviews on a Monday.
-  
 
 ## Takeaways/Notes
 ### Workshop Monday (10.30 with Sam)
@@ -77,6 +76,35 @@ FROM THE WORKSHOP
 * MVC process is: client_request-->CONTROLLER-->MODEL-->CONTROLLER-->VIEW-->CONTROLLER-->client.
 * Controller will throw a 404 error if it doesn't know what to do with the client request.
 * Controller is the only contact with the client essentially. It is the gateway into the server. 
-* When you hit ctrl-U on a website to see the source code you only see the VIEW part of the code. 
+* When you hit ctrl-U on a website to see the source code you only see the VIEW part of the code.
 
+### Sinatra
+* Sinatra is Gem you can use in ruby to mock a server locally. 
+* You can use 'shotgun' when running the sinatra server from the terminal, i.e. ```shotgun app.rb``` this makes the server constantly referesh so you can instantly see the changes. 
+* learned how interractions between a MODEL file and a VIEW file work. For example:
+```
+### app.rb
+
+  get '/cat-form' do
+    erb :cat_form
+  end
+
+  post '/named-cat' do
+    p params
+    @name = params[:name]
+    erb :index
+  end
+  
+ ### cat_form.erb
+ <form action="/named-cat" method="post">
+  <input type="text" name="name">
+  <input type="submit" value="Submit">
+</form>
+
+### index.erb
+<% if @name %>
+<h1>My name is <%= @name %></h1>
+<% end %>
+```
+With the above, on the ```/cat-form``` web page we submit fill in the name of the cat and submit this; then ```action="/named-cat"``` takes us to the ```"/named-cat"``` page which is linked to ```index.erb``` and prints ```My name is [CAT NAME]```.
 
