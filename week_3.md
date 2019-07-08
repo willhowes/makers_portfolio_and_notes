@@ -39,8 +39,11 @@
  * Read this [helpful article](https://www.tomdalling.com/blog/software-design/model-view-controller-explained/). See takeaway notes below from this 
  
  2. Review weekend challenges with pair partner.
-  * I reviewed Renata's: 
-  * Renata reviewed mine: https://github.com/makersacademy/takeaway-challenge/pull/1363#discussion_r301003316
+  * Achieved by:
+   * I reviewed Renata's: https://github.com/renatapop/takeaway-challenge
+   * Renata reviewed mine: https://github.com/makersacademy/takeaway-challenge/pull/1363#discussion_r301003316
+   * This proved an important exercise in trying to understand someone else's code and also undertanding someone's comments on your own code. Something I want to get better at, with the weekly code reviews on a Monday.
+  
 
 ## Takeaways/Notes
 ### Workshop Monday (10.30 with Sam)
