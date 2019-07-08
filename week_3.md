@@ -28,7 +28,9 @@
 
 ## Daily Goals
 
-1. Learn about building a simple web appp
+1. Learn about MVC
+* Achieved by:
+ * See take away notes below. 
 
 2. Have a go at the [servers practical](https://github.com/makersacademy/skills-workshops/blob/master/practicals/servers_and_clients/servers.md)
 
