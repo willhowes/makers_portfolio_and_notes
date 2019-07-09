@@ -119,9 +119,13 @@ With the above, on the ```/cat-form``` web page we submit fill in the name of th
 * HTTP is an application protocol that sits above all communications between client and the server. 
 * URIs (Uniform Resource Identifyers) are the labels for a web resource (or pieces of information). It it means the server knows where to find the information when a request is recieved. 
 * There are 8 HTTP methods for requesting a URI: OPTIONS, GET, HEAD, POST, PUT, DELETE, TRACE, CONNECT. The most common is GET. 
-* 200 code - OK 
-* 400+ code - can't find server
-* 500+ code - problem with server
+* What the different type of response codes the client receives from the server are:
+ * 1xx (Informational): Request received, continuing process.
+ * 2xx (Successful): The action was successfully received, understood, and accepted.
+ * 3xx (Redirection): Further action needs to be taken in order to complete the request.
+ * 4xx (Client Error): The request contains bad syntax or cannot be fulfilled.
+ * 5xx (Server Error): The server failed to fulfil an apparently valid request.
+
 * Use Dev Tools - Network tab so show what is going on with the request response cycle. 
 * On the first GET request the client browser just gets the html, then the browser fires off more requests for the photos, etc.
 * When you go to a page with, say a picture on it, it does a second GET request when it gets to ```<img src="cat.jpg'>```. It would be the same for a script. So there are two GET requests in this instance, the first to GET the actual webpage, the second for the picture. N.B. These are seperate GET requests. If you have lots of photos on a page this will generate lots of GET requests all trying run simultaneously. The GET responses are set one at a time but do not wait for the first to get back before sending the second, so they can run concurrently. 
@@ -132,10 +136,10 @@ With the above, on the ```/cat-form``` web page we submit fill in the name of th
 * Example of a process model for the HTTP REQUEST-RESPONSE cycle for going to this webpage https://makers-cats.herokuapp.com/cats.html :
 
 1. CLIENT (browser) makes an http GET request using this url: https://makers-cats.herokuapp.com/cats.html)
-2. SERVER (in this case a heruko web host) returns to the CLIENT the html of the webpage and sends a '200 OK' message.
+2. SERVER (in this case a heruko web host) returns to the CLIENT the html of the webpage and sends a '200' response code.
 3. CLIENT reads the html and sees that there is a photo it needs to get.
 4. CLIENT sends a second separate http GET request for the photo using this url: https://makers-cats.herokuapp.com/cat.jpg.
-5. SERVER returns the cat.jpg to the CLIENT with a '200 OK' message.
+5. SERVER returns the cat.jpg to the CLIENT with a '200' response code.
 
 
 
