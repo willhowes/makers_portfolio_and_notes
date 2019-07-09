@@ -114,11 +114,19 @@ FROM THE WORKSHOP
 ```
 With the above, on the ```/cat-form``` web page we submit fill in the name of the cat and submit this; then ```action="/named-cat"``` takes us to the ```"/named-cat"``` page which is linked to ```index.erb``` and prints ```My name is [CAT NAME]```.
 
-### HTTP Client-Server Requests
+### HTTP Client-Server Request-Response Cycle
 * HTTP = Hypertext Transfer Protocol
 * HTTP is an application protocol that sits above all communications between client and the server. 
 * URIs (Uniform Resource Identifyers) are the labels for a web resource (or pieces of information). It it means the server knows where to find the information when a request is recieved. 
 * There are 8 HTTP methods for requesting a URI: OPTIONS, GET, HEAD, POST, PUT, DELETE, TRACE, CONNECT. The most common is GET. 
+* 200 code - OK 
+* 400+ code - can't find server
+* 500+ code - problem with server
+* Use Dev Tools - Network tab so show what is going on with the request response cycle. 
+
+### Process Modelling
+* A diagram(or anything, a blog post) which helps you understand a process.
+
 
 
 
