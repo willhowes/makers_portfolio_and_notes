@@ -38,7 +38,7 @@
  * Read and understood these articles:
  * https://dev.opera.com/articles/http-basic-introduction/
  * https://dev.opera.com/articles/http-lets-get-it-on/
- * 
+ * See takeaway notes below. 
 
 
 ### Monday
@@ -129,6 +129,13 @@ With the above, on the ```/cat-form``` web page we submit fill in the name of th
 
 ### Process Modelling
 * A diagram(or anything, a blog post) which helps you understand a process.
+* Example of a process model for the HTTP REQUEST-RESPONSE cycle for going to this webpage https://makers-cats.herokuapp.com/cats.html :
+
+1. CLIENT (browser) makes an http GET request using this url: https://makers-cats.herokuapp.com/cats.html)
+2. SERVER (in this case a heruko web host) returns to the CLIENT the html of the webpage and sends a '200 OK' message.
+3. CLIENT reads the html and sees that there is a photo it needs to get.
+4. CLIENT sends a second separate http GET request for the photo using this url: https://makers-cats.herokuapp.com/cat.jpg.
+5. SERVER returns the cat.jpg to the CLIENT with a '200 OK' message.
 
 
 
