@@ -123,6 +123,7 @@ With the above, on the ```/cat-form``` web page we submit fill in the name of th
 * 400+ code - can't find server
 * 500+ code - problem with server
 * Use Dev Tools - Network tab so show what is going on with the request response cycle. 
+* When you go to a page with, say a picture on it, it does a second GET request when it gets to ```<img src="cat.jpg'>```. It would be the same for a script. So there are two GET requests in this instance, the first to GET the actual webpage, the second for the picture. N.B. These are seperate GET requests. If you have lots of photos on a page this will generate lots of GET requests all trying run simultaneously. 
 
 ### Process Modelling
 * A diagram(or anything, a blog post) which helps you understand a process.
