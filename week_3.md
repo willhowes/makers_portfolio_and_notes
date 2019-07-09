@@ -144,6 +144,7 @@ With the above, on the ```/cat-form``` web page we submit fill in the name of th
 ### Chat with Bobby (Senior Developer friend) about the [Takeaway Challenge](https://github.com/willhowes/takeaway-challenge)
 * Very important to go through all user stories before writing any tests and try a domain model. If it doesn't seem right, try different models. 
 * Whilst there's many ways to build a project, it is important to be clear on what classes you will need from the outset. It may have been better in this project, to have had a Takeaway class, a Dish class, an Order class, and a Customer class (needed for sending the confirm test).
+* For creating the order to do a hash (rather than an array of hashes) and then update the value of each key when duplicate orders of the same item are made, to do this you would need to take the key=>value out of the hash and put it back in with the new value. For example, you add "fish"=>1 to the order, when you do "fish"=>1 again you take the original "fish"=>1 from the order, add +1 to the value of the key and put it back in the hash. 
 
 
 
