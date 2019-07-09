@@ -141,6 +141,10 @@ With the above, on the ```/cat-form``` web page we submit fill in the name of th
 4. CLIENT sends a second separate http GET request for the photo using this url: https://makers-cats.herokuapp.com/cat.jpg.
 5. SERVER returns the cat.jpg to the CLIENT with a '200' response code.
 
+### Chat with Bobby (Senior Developer friend) about the [Takeaway Challenge](https://github.com/willhowes/takeaway-challenge)
+* Very important to go through all user stories before writing any tests and try a domain model. If it doesn't seem right, try different models. 
+* Whilst there's many ways to build a project, it is important to be clear on what classes you will need from the outset. It may have been better in this project, to have had a Takeaway class, a Dish class, an Order class, and a Customer class (needed for sending the confirm test).
+
 
 
 
