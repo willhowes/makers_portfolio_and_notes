@@ -189,5 +189,5 @@ end
 * Metta Bhavana - wish someone else that they are happy. For example, before an interview (even though you may not have met them before), wish them well (actually think "I wish this person to be happy").
 * Empathic listening - listen as if you are going to be receiving a test on what they said the next day
 
-
-
+### Gem files
+* To create gemfile use ```bundle init```
