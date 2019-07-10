@@ -70,8 +70,17 @@
 ### Meeting weekly goals
 * e.g. number 3 - ('Explain the basics of how the web works'). This can be achieved by being able to draw a diagram and explain it someone. 
 
-### Web
-
+### Notes from the Takeaway challenge [youtube video](https://www.youtube.com/watch?v=mgiJKdH9x8c&t=2477s)
+ * Can use intance doubles if you want your doubles of object to actually verifies whether that class actually has those doubles or not. For example: ```let(:order) { instance_double "Order", total: 15:50 }``` will actually check that the ```Order``` class actually has a method called ```total```.
+ * When you have something like Twilio where you are relying on all the redentials etc from it to be able to send the text, rather than have this in the class that sends the text, you can pass it into that class as an argument, e.g.
+ ```
+ class SMS 
+  def initialize(config, client)
+   @client = client. 
+  end
+ end
+ ```
+ * So in the above, the SMS class needs the configeration details from Twilio, and details of the client for it to be able to send the text, but those credidentials do not need to be put into the class itself. 
 ### MVC (Model View Controller)
 FROM THE [ARTICLE](https://www.tomdalling.com/blog/software-design/model-view-controller-explained/)
 * It is a design pattern which sets out the components of a server.
@@ -173,13 +182,12 @@ class Order
 end
 ```
 
-### Empathty workshop
+### Empathy workshop
 * To image what someone else is thinking. 
 * Important to understand teammates, clients, colleagues who aren't developers, for example. 
 * "Just like me...", i.e. we all have similarities. E.g. "Just like me, this person is seeking happiness in their like." Worth thinking of before pairing - do not pre-judge; remember you have things in common. 
 * Metta Bhavana - wish someone else that they are happy. For example, before an interview (even though you may not have met them before), wish them well (actually think "I wish this person to be happy").
 * Empathic listening - listen as if you are going to be receiving a test on what they said the next day
-
 
 
 
