@@ -42,6 +42,26 @@
 2. Try to understand more of what is going on between the controller file (i.e. where you have ```get...``` and the view file (where the html is).
  * Achieved by:
   * I now understand how the GET and POST created in the controller file (usually ```app.rb```) makes a get request and then tells what view should do. For example:
+```
+get '/' do
+    erb :index
+  end
+
+  post '/names' do
+    session[:player_1_name] = params[:player_1_name]
+    session[:player_2_name] = params[:player_2_name]
+    redirect '/play'
+  end
+
+  get '/play' do 
+    erb :play
+  end
+```
+The above works like so:
+* On receipt of the first ```get``` request from the client (the browser) returns the ```index.erb``` view file.
+* The ```index.erb``` file has a form which directs the client to ```/names``` page when the submit button is pressed .
+* On receipt of the ```post``` request from the client (posting ```player_1_name``` and ```player_2_name```, we re-direct the client to the ```/play'``` page (this invokes an automatic ```get``` request)
+* On receipt of this automatic ```get``` request the client is directed to the ```play.erb``` view file.
   
 
 ### Tuesday
