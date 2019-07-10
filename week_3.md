@@ -35,9 +35,14 @@
 ## Daily Goals
 
 ### Wednesday
-1. Finish the takeaway video. 
+1. Finish the takeaway video and make some notes on TDD.
+ * Achieved by:
+  * Watching the video and learning a few extra pointers on TDD and rspec (see takeaways below).
 
 2. Try to understand more of what is going on between the controller file (i.e. where you have ```get...``` and the view file (where the html is).
+ * Achieved by:
+  * I now understand how the GET and POST created in the controller file (usually ```app.rb```) makes a get request and then tells what view should do. For example:
+  
 
 ### Tuesday
 1. Learn about HTTP request response cycles
