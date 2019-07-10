@@ -173,6 +173,13 @@ class Order
 end
 ```
 
+### Empathty workshop
+* To image what someone else is thinking. 
+* Important to understand teammates, clients, colleagues who aren't developers, for example. 
+* "Just like me...", i.e. we all have similarities. E.g. "Just like me, this person is seeking happiness in their like." Worth thinking of before pairing - do not pre-judge; remember you have things in common. 
+* Metta Bhavana - wish someone else that they are happy. For example, before an interview (even though you may not have met them before), wish them well (actually think "I wish this person to be happy").
+* Empathic listening - listen as if you are going to be receiving a test on what they said the next day
+
 
 
 
