@@ -13,7 +13,9 @@
 2. Write a blog
 
 ### My daily goal for this week, after Week 2 Retrospective
-1. Draw more diagrams.  
+1. Draw more diagrams.
+ * Achieved by:
+  * Attended workshop about process modelling. Made a model of the request-response for HTTP requests between client and server. (See takeaways below).  
 
 ## How have I acheieved my goals?
 ### 1. Build a simple web app (and understood it)
