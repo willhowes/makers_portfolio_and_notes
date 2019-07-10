@@ -34,6 +34,11 @@
 
 ## Daily Goals
 
+### Wednesday
+1. Finish the takeaway video. 
+
+2. Try to understand more of what is going on between the controller file (i.e. where you have ```get...``` and the view file (where the html is).
+
 ### Tuesday
 1. Learn about HTTP request response cycles
 * Achieved by:
