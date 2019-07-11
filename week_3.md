@@ -38,6 +38,8 @@
 
 ### Thursday
 1. Continue with the [Birthday Challenge](https://diode.makersacademy.com/students/alicelieutier/projects/439)
+* Achieved by:
+ * Getting close to completing this challenge. It is only a question of getting the our ```birthday_helper.rb``` module to correctly work out the days between today and the birthday, and making it look nice with css, and then we will be done. I have learned about how is best to keep anything other than very basic logic (perhaps one if statement) out of a ```view```, and into the controller file. 
 
 2. Understand Debugging basics for web apps
 
