@@ -235,10 +235,10 @@ end
  * Stack trace (and their error messages)
  * p/print/puts (to ascertain what each of part of the code is actually doing. 
  * rspec
- * running the code in browser to feature test.
-* Do NOT change code or tests until we are sure of where the issue with the code is.
-* try ```save_and_open_page``` in the capybara test failing at the point where you would like to pause the program.  It will show you what is on the page at the moment. So you can run the program in the browser and see what the view is producing at that point. 
-* If after changing the code you get the same error message that is a red flag that you have done something wrong. A different error message is generally good.
-* Capybara test run on a pretend browser under the hood but you cannot see it. 
-* You must test code in the browser as some tests might pass because sinatra, when throwing an error message, the page might actually have the test written and therefore the content in the test is found. 
+ * running the code in browser to feature test. Generally speaking, this is where you should feature test for web apps, rather than in a REPL (e.g. irb or pry). 
+* You should NOT change the code or the tests until we are sure of where the issue with the code is. It is dangerous to change the code on pure guess work. You may forget to revert code back to how it was and take yourself further away from finding a solution. 
+* If after changing the code you get the same error message that is a red flag that you have done something wrong and should put the code back to how it was. A different error message is generally good.
+* In cabybara it is worth trying ```save_and_open_page``` in the failing test at the point where you would like to pause the program.  It will show you what is on the page at that particular moment. So you can run the program in the browser and see what the view is producing at that point. 
+* Worth noting that the way Capybara works is it runs the tests on a pretend browser under the hood and so you cannot see it. 
+* Even if all your tests are passing, you should still test the code in the browser as some tests might pass when they shouldn't. In particular Sinatra can cause this to happen - when an error message is thrown by sinatra, the page might actually have the test written on the web page (as part of the errror message that Sinatra throws) and therefore if the test is searching for content on the web page it may be found by the test in the error message on the page. 
  
