@@ -34,6 +34,13 @@
 
 ## Daily Goals
 
+### Friday
+
+### Thursday
+1. Continue with the [Birthday Challenge](https://diode.makersacademy.com/students/alicelieutier/projects/439)
+
+2. Understand Debugging basics for web apps
+
 ### Wednesday
 1. Finish the takeaway video and make some notes on TDD.
  * Achieved by:
@@ -58,9 +65,9 @@ get '/' do
   end
 ```
 The above works like so:
-* On receipt of the first ```get``` request from the client (the browser) returns the ```index.erb``` view file.
-* The ```index.erb``` file has a form which directs the client to ```/names``` page when the submit button is pressed .
-* On receipt of the ```post``` request from the client (posting ```player_1_name``` and ```player_2_name```, we re-direct the client to the ```/play'``` page (this invokes an automatic ```get``` request)
+* On receipt of the first ```get``` request from the client (the browser) our server (run with sinatra) returns the ```index.erb``` view file.
+* The ```index.erb``` file (not shown above) has a form which generates a ```post``` of the ```/names``` page when the submit button is pressed.
+* On receipt of the ```post``` request from the client (which is  (posting ```player_1_name``` and ```player_2_name```, we our server re-directs the client to the ```/play``` page (this invokes an automatic ```get``` request)
 * On receipt of this automatic ```get``` request the client is directed to the ```play.erb``` view file.
   
 
