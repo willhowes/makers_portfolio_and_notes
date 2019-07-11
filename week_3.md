@@ -225,3 +225,12 @@ end
 
 ### Gem files
 * To create gemfile use ```bundle init```
+
+### Debugging workshop - web apps
+* Few more areas to consider with web apps as we have MODEL, CONTROLLER and VIEW rather than just classes as before with basic ruby programs.
+* TOOLS
+ * Stack trace (and their error messages)
+ * p/print/puts
+ * rspec
+ * running the code in browser to feature test.
+ 
