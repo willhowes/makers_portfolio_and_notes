@@ -41,7 +41,10 @@
 * Achieved by:
  * Getting close to completing this challenge. It is only a question of getting the our ```birthday_helper.rb``` module to correctly work out the days between today and the birthday, and making it look nice with css, and then we will be done. I have learned about how is best to keep anything other than very basic logic (perhaps one if statement) out of a ```view```, and into the controller file. 
 
-2. Understand Debugging basics for web apps
+2. Understand Debugging basics for web apps:
+ * Achieved by:
+  * Attending the debugging workshop and attempting the exercise. 
+  * See my takeaway notes below. 
 
 ### Wednesday
 1. Finish the takeaway video and make some notes on TDD.
@@ -227,15 +230,15 @@ end
 * To create gemfile use ```bundle init```
 
 ### Debugging workshop - web apps
-* Few more areas to consider with web apps as we have MODEL, CONTROLLER and VIEW rather than just classes as before with basic ruby programs.
-* TOOLS
+* There a few more areas to consider with web apps. We do not have just the ruby code to consider, as we did in weeks 3 and 4. We have the MODEL, CONTROLLER and VIEW which can all throw errors, as can the framework we are using for these (Sinatra, Capybara, etc). Therefore, there arte considerably possiblilities for where an error might occur. 
+* TOOLS WE CAN USE TO FIND THE ISSUE WITH THE CODE:
  * Stack trace (and their error messages)
- * p/print/puts
+ * p/print/puts (to ascertain what each of part of the code is actually doing. 
  * rspec
  * running the code in browser to feature test.
 * Do NOT change code or tests until we are sure of where the issue with the code is.
 * try ```save_and_open_page``` in the capybara test failing at the point where you would like to pause the program.  It will show you what is on the page at the moment. So you can run the program in the browser and see what the view is producing at that point. 
 * If after changing the code you get the same error message that is a red flag that you have done something wrong. A different error message is generally good.
 * Capybara test run on a pretend browser under the hood but you cannot see it. 
-* You must test code in reality in the browser as some tests might pass because sinatra, when throwing an error message, the page might actually have the test written and therefore the content in the test is found. 
+* You must test code in the browser as some tests might pass because sinatra, when throwing an error message, the page might actually have the test written and therefore the content in the test is found. 
  
