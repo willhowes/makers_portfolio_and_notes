@@ -233,4 +233,9 @@ end
  * p/print/puts
  * rspec
  * running the code in browser to feature test.
+* Do NOT change code or tests until we are pretty sure of what the issue is
+* try ```save_and_open_page``` in the capybara test failing at the point where you would like to pause the program.  It will show you what is on the page at the moment. So you can run the program in the browser and see what the view is producing at that point. 
+* If after changing the code you get the same error message that is a red flag that you have done something wrong. A different error message is generally good.
+* Capybara test run on a pretend browser under the hood but you cannot see it. 
+* You must test code in reality in the browser as some tests might pass because sinatra, when throwing an error message, the page might actually have the test written and therefore the content in the test is found. 
  
