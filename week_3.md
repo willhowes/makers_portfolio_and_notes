@@ -35,6 +35,7 @@
 ## Daily Goals
 
 ### Friday
+1. Debug the [Birthday Challenge](https://diode.makersacademy.com/students/alicelieutier/projects/439)
 
 ### Thursday
 1. Continue with the [Birthday Challenge](https://diode.makersacademy.com/students/alicelieutier/projects/439)
