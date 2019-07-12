@@ -242,4 +242,10 @@ end
 * In cabybara it is worth trying ```save_and_open_page``` in the failing test at the point where you would like to pause the program.  It will show you what is on the page at that particular moment. So you can run the program in the browser and see what the view is producing at that point. 
 * Worth noting that the way Capybara works is it runs the tests on a pretend browser under the hood and so you cannot see it. 
 * Even if all your tests are passing, you should still test the code in the browser as some tests might pass when they shouldn't. In particular Sinatra can cause this to happen - when an error message is thrown by sinatra, the page might actually have the test written on the web page (as part of the errror message that Sinatra throws) and therefore if the test is searching for content on the web page it may be found by the test in the error message on the page. 
+
+### Retrospective
+* LACKED - Testing web apps. There is a lot of extra files when testing compared to what we are used to. The initial setup with capybara, sinatra, using spec_helper, etc. Main thing is to know why you are installing those tools (like capybara). 
+* Feature tests cover the application as a whole and how user interracts with it. You should begin creating unit tests as soon as you start to introduce a MODEL. 
+* MVC is a key outcome of this week. It is a very common achitecture pattern.
+* CONTROLLER should only have variable assignments and method calls, in terms of actual logic.
  
