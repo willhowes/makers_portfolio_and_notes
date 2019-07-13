@@ -248,4 +248,8 @@ end
 * Feature tests cover the application as a whole and how user interracts with it. You should begin creating unit tests as soon as you start to introduce a MODEL. 
 * MVC is a key outcome of this week. It is a very common achitecture pattern.
 * CONTROLLER should only have variable assignments and method calls, in terms of actual logic.
+
+### Weekend challenge - things I learned
+* If you need to stub out a random element, seems to be easier to put this random element in a separate class so that you can mock it and stub the ```rand``` method.
+* In Capybara feature tests, if you want to only check part of the page, then you will need to give that element of the page (in the VIEW file) an ID (using CSS) so that you can just check that element in your Capybara test. 
  
