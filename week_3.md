@@ -265,6 +265,6 @@ end
 ```
 ```Singleton``` is a module in Ruby. To create the instance you will call ```shop.instance``` as ```shop.new``` will create an error as it is a private method to provent multiple instances. 
 
-* WARNING - Singleton classes should be avoided in Ruby if possible. 
+* WARNING - Singleton classes should be avoided in Ruby if possible. The reason being, it creates a global variable which can then be changed by any outside file and it would be very difficult to trace where it has been changed if it is a big project. 
 
  
