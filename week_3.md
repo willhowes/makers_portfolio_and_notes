@@ -252,4 +252,19 @@ end
 ### Weekend challenge - things I learned
 * If you need to stub out a random element, seems to be easier to put this random element in a separate class so that you can mock it and stub the ```rand``` method.
 * In Capybara feature tests, if you want to only check part of the page, then you will need to give that element of the page (in the VIEW file) an ID (using CSS) so that you can just check that element in your Capybara test. 
+
+### Singleton Pattern
+* This is where you want to restrict a class (or object) to only creating one instance of itself.
+* An example of when you might want to use this is a an object for the game Scrabble that contains all the letters available for the game. The two players should us the same class so that they both share the same pool of letters. 
+* To acheieve this you can have a class variable that is set to true or false depending on whether an instance of the class has been created.
+* IN ruby you can just use: 
+```
+class Shop 
+ include Singleton
+end
+```
+```Singleton``` is a module in Ruby. To create the instance you will call ```shop.instance``` as ```shop.new``` will create an error as it is a private method to provent multiple instances. 
+
+* WARNING - Singleton classes should be avoided in Ruby if possible. 
+
  
