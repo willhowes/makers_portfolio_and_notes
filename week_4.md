@@ -25,3 +25,7 @@
 * I reviewed [Kareem's code](https://github.com/makersacademy/rps-challenge/pull/1345#pullrequestreview-261696717). I was able to read his code easily, give him feedback, praising him on what I though was good code and also make some suggestions of how it could have be improved.
 
 ## Takeaways/Notes
+### Week kick-off
+* Theme of the week is databases
+* A lot to learn this week. Can feel overwhelmed. You will not be able to learn everything. 
+
