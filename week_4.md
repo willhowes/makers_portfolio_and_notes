@@ -18,5 +18,8 @@
 ## Daily Goals
 
 ### Monday
+1. Understand goals for the week.
+
+2. Have code reviewed and review someone elses code. 
 
 ## Takeaways/Notes
