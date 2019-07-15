@@ -10,8 +10,6 @@
 ## Goals set for myself 
 1. Watch the takeaway challenge video https://www.youtube.com/watch?v=mgiJKdH9x8c
 
-2. Write a blog
-
 ### My daily goal for this week, after Week 2 Retrospective
 1. Draw more diagrams.
  * Achieved by:
