@@ -19,6 +19,8 @@
 
 ### Monday
 1. Understand goals for the week and establish how I am going to achieve them.
+* It was explained to us that the focus on this week is databases. This is going to be a tough week with a look of new things to learn but we are not expected to learn everything. 
+* With this in mind I will take it in small steps and try to understand one or two things only per day. 
 
 2. Have code reviewed and review someone elses code. 
 * [My weekend pull request](https://github.com/makersacademy/rps-challenge/pull/1343)
