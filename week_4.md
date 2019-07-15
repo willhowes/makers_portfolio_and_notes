@@ -23,9 +23,9 @@
 * With this in mind I will take it in small steps and try to understand one or two things only per day. 
 
 2. Have code reviewed and review someone elses code. 
-* [My weekend pull request](https://github.com/makersacademy/rps-challenge/pull/1343)
+* [My weekend challenge pull request](https://github.com/makersacademy/rps-challenge/pull/1343)
   * Received some helpful feedback - like reducing lines of code where possible, and have less actual code in VIEW files. 
-* I reviewed [Kareem's code](https://github.com/makersacademy/rps-challenge/pull/1345#pullrequestreview-261696717). I was able to read his code easily, give him feedback, praising him on what I though was good code and also make some suggestions of how it could have be improved.
+* I reviewed [Kareem's weekend challenge](https://github.com/makersacademy/rps-challenge/pull/1345#pullrequestreview-261696717). I was able to read his code easily, give him feedback, praising him on what I though was good code and also made some suggestions of how it could have be improved.
 
 ### Tuesday
 (Loïc and I got up to [step 6](https://github.com/makersacademy/course/blob/master/bookmark_manager/06_manipulating_table_data.md), i.e. completed 5. 
