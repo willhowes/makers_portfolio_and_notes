@@ -27,16 +27,18 @@
 * I carried out a lot of debugging this week and, with the help of the [workshop](https://github.com/makersacademy/skills-workshops/tree/master/week-3/debugging_2) with our coach, I was able to follow an effective methodical process. With building web apps there different error messages to consider and much longer stack traces. With practice, I got used to these new error messages and improved my ability to find bugs in my apps. See also my notes from the debugging workshop below.
 
 ### 3. Explain the basics of how the web works (e.g. request/response, HTTP, HTML, CSS)
-* See my notes on HTTP requests in Takeaways below.
+* See my notes on HTTP requests in [takeaways](https://github.com/willhowes/makers_portfolio_and_notes/blob/master/week_3.md#takeawaysnotes).
 
 ### 4. Explain the MVC (Model View Controller) pattern
 * Achieved by:
- * Being able to draw a diagram to show the MVC design. Can articulate the compenents of MVC and how they interact with each other (or how they DON'T interact with each other in MODEL and VIEW's case). Explain the advantages of using MVC, as opposed to having a direct MODEL to VIEW relationship. See my takeaways notes below. 
+ * Being able to draw a diagram to show the MVC design. Can articulate the compenents of MVC and how they interact with each other (or how they DON'T interact with each other in MODEL and VIEW's case). Explain the advantages of using MVC, as opposed to having a direct MODEL to VIEW relationship. See my notes in [takeaways](https://github.com/willhowes/makers_portfolio_and_notes/blob/master/week_3.md#takeawaysnotes). 
 
 ## Daily Goals
 
 ### Friday
-1. Debug the [Birthday Challenge](https://diode.makersacademy.com/students/alicelieutier/projects/439)
+1. Debug the [Birthday Challenge](https://diode.makersacademy.com/students/alicelieutier/projects/439).
+* Acheieved by:
+ * Was able to effectively debug my program which was previously not working, to make it fully functioning. I used the 'get-cope/tighten-the-loop/change-the-code/repeat process. 
 
 ### Thursday
 1. Continue with the [Birthday Challenge](https://diode.makersacademy.com/students/alicelieutier/projects/439)
@@ -46,16 +48,16 @@
 2. Understand Debugging basics for web apps:
  * Achieved by:
   * Attending the debugging workshop and attempting the exercise. 
-  * See my takeaway notes below. 
+  * See my [takeaway notes](https://github.com/willhowes/makers_portfolio_and_notes/blob/master/week_3.md#takeawaysnotes). 
 
 ### Wednesday
-1. Finish the takeaway video and make some notes on TDD.
+1. Finish the takeaway challenge video and make some notes on TDD.
  * Achieved by:
-  * Watching the video and learning a few extra pointers on TDD and rspec (see takeaways below).
+  * Watching the video and learned a few extra pointers on TDD and rspec (see [takeaways](https://github.com/willhowes/makers_portfolio_and_notes/blob/master/week_3.md#takeawaysnotes)).
 
 2. Try to understand more of what is going on between the controller file (i.e. where you have ```get...``` and the view file (where the html is).
  * Achieved by:
-  * I now understand how the GET and POST created in the controller file (usually ```app.rb```) makes a get request and then tells what view should do. For example:
+  * I now understand how the GET and POST created in the controller file (usually ```app.rb```) takes a get request and then tells what view file should do with this request. For example:
 ```
 get '/' do
     erb :index
@@ -74,7 +76,7 @@ get '/' do
 The above works like so:
 * On receipt of the first ```get``` request from the client (the browser) our server (run with sinatra) returns the ```index.erb``` view file.
 * The ```index.erb``` file (not shown above) has a form which generates a ```post``` of the ```/names``` page when the submit button is pressed.
-* On receipt of the ```post``` request from the client (which is  (posting ```player_1_name``` and ```player_2_name```, we our server re-directs the client to the ```/play``` page (this invokes an automatic ```get``` request)
+* On receipt of the ```post``` request from the client (which is  (posting ```player_1_name``` and ```player_2_name```, our server re-directs the client to the ```/play``` page (this invokes an automatic ```get``` request)
 * On receipt of this automatic ```get``` request the client is directed to the ```play.erb``` view file.
   
 
@@ -84,7 +86,7 @@ The above works like so:
  * Read and understood these articles:
  * https://dev.opera.com/articles/http-basic-introduction/
  * https://dev.opera.com/articles/http-lets-get-it-on/
- * See takeaway notes below. 
+ * See [takeaway notes](https://github.com/willhowes/makers_portfolio_and_notes/blob/master/week_3.md#takeawaysnotes).
 
 
 ### Monday
@@ -101,7 +103,7 @@ The above works like so:
 
 ## Takeaways/Notes
 ### Workshop Monday (10.30 with Sam)
-* doubles and stubs are on the whole are great to isolate tests on a class.
+* Doubles and stubs are on the whole great for isolating tests on a class.
 * If you have a long list of doubles and stubs and you are getting confused about what they are doing and chaining behaviour, then this is an indication that you might have too many objects (classes).
 * Doubling with dependency injection:
  * If in a method you have a call to ```.new``` then this is where you need dependency injection as you cannot test that method without creating a new instance of the object (with ```.new```).
@@ -110,8 +112,8 @@ The above works like so:
 * e.g. number 3 - ('Explain the basics of how the web works'). This can be achieved by being able to draw a diagram and explain it someone. 
 
 ### Notes from the Takeaway challenge [youtube video](https://www.youtube.com/watch?v=mgiJKdH9x8c&t=2477s)
- * Can use intance doubles if you want your doubles of object to actually verifies whether that class actually has those doubles or not. For example: ```let(:order) { instance_double "Order", total: 15:50 }``` will actually check that the ```Order``` class actually has a method called ```total```.
- * When you have something like Twilio where you are relying on all the redentials etc from it to be able to send the text, rather than have this in the class that sends the text, you can pass it into that class as an argument, e.g.
+ * Can use instance doubles if you want your doubles of an object to verify whether that class actually has those doubles or not. For example: ```let(:order) { instance_double "Order", total: 15:50 }``` will actually check that the ```Order``` class actually has a method called ```total```.
+ * When you have something like Twilio where you are relying on all the credentials etc from it to be able to send the text, rather than have this in the class that sends the text, you can pass it into that class as an argument, e.g.
  ```
  class SMS 
   def initialize(config, client)
@@ -120,12 +122,13 @@ The above works like so:
  end
  ```
  * So in the above, the SMS class needs the configeration details from Twilio, and details of the client for it to be able to send the text, but those credidentials do not need to be put into the class itself. 
+ 
 ### MVC (Model View Controller)
 FROM THE [ARTICLE](https://www.tomdalling.com/blog/software-design/model-view-controller-explained/)
 * It is a design pattern which sets out the components of a server.
-* MODEL - this simply represents the data and it doesn't do anything else. It is independent of the CONTROLLER and the VIEW. N.B. - THIS IS THE GOLDEN RULE OF MVC. 
-* VIEW - this is essentially the displaer of the MODEL (i.e. the data). VIEW also sends user actions to the CONTROLLER (e.g. a button click). Whilst the view can be independent of the MODEL and ther CONTROLLER, it can also actually be the CONTROLLER (in which case it would depend on the MODEL). 
-* CONTROLLER - this handels the client requests, then provides the data in MODEL to the VIEW and interprets the user actions (e.g. a button click) to send back to the client. 
+* MODEL represents the data. It is independent of the CONTROLLER and the VIEW - THIS IS THE GOLDEN RULE OF MVC. 
+* VIEW - this is essentially the displayer of the MODEL (i.e. the data). VIEW also sends user actions to the CONTROLLER (e.g. a button click). Whilst the view can be independent of the MODEL and ther CONTROLLER, it can also actually be the CONTROLLER (in which case it would depend on the MODEL). 
+* CONTROLLER - this handles the client requests, then provides the data in MODEL to the VIEW and interprets the user actions (e.g. a button click) to send back to the client. 
 * Advantages of MVC:
  * Simplicity - it removes unnecessary dependancies in between classes. 
  * MODEL becomes reusable with differnet VIEW classes. For example, if you had a ```user_data``` class (the MODEL), a ```data_controller``` class (the CONTROLLER) and a ```view_data_in_table``` class then you would not need to amend the MODEL (```user_data```) if you wanted to build an additional VIEW class, e.g ```view_data_as_pie_chart```. If you did not use MVC and, say just had a MODEL and a VIEW then the code in MODEL would need to be altered to be able to interract with the VIEW classes. 
@@ -151,7 +154,6 @@ FROM THE WORKSHOP
   end
 
   post '/named-cat' do
-    p params
     @name = params[:name]
     erb :index
   end
@@ -167,7 +169,7 @@ FROM THE WORKSHOP
 <h1>My name is <%= @name %></h1>
 <% end %>
 ```
-With the above, on the ```/cat-form``` web page we submit fill in the name of the cat and submit this; then ```action="/named-cat"``` takes us to the ```"/named-cat"``` page which is linked to ```index.erb``` and prints ```My name is [CAT NAME]```.
+With the above, on the ```/cat-form``` web page we submit fills in the name of the cat and submits this; then ```action="/named-cat"``` takes us to the ```"/named-cat"``` page which is linked to ```index.erb``` and prints ```My name is [CAT NAME]```.
 
 ### HTTP Client-Server Request-Response Cycle
 * HTTP = Hypertext Transfer Protocol
@@ -181,9 +183,9 @@ With the above, on the ```/cat-form``` web page we submit fill in the name of th
  * 4xx (Client Error): The request contains bad syntax or cannot be fulfilled.
  * 5xx (Server Error): The server failed to fulfil an apparently valid request.
 
-* Use Dev Tools - Network tab so show what is going on with the request response cycle. 
+* Use Chrome Dev Tools - Network tab so show what is going on with the request response cycle. 
 * On the first GET request the client browser just gets the html, then the browser fires off more requests for the photos, etc.
-* When you go to a page with, say a picture on it, it does a second GET request when it gets to ```<img src="cat.jpg'>```. It would be the same for a script. So there are two GET requests in this instance, the first to GET the actual webpage, the second for the picture. N.B. These are seperate GET requests. If you have lots of photos on a page this will generate lots of GET requests all trying run simultaneously. The GET responses are set one at a time but do not wait for the first to get back before sending the second, so they can run concurrently. 
+* When you go to a page with, say a picture on it, it does a second GET request when it gets to ```<img src="cat.jpg'>```. It would be the same for a script. So there are two GET requests in this instance, the first to GET the actual webpage, the second to GET the picture. These are seperate GET requests. If you have lots of photos on a page this will generate lots of GET requests all running simultaneously (hence why these pages can be slow to load). The GET responses are set one at a time but do not wait for the first to get back before sending the second, so they can run concurrently. 
 * Can use "preserve log" in Chrome Devs Tools to keep recording the activity. 
 
 ### Process Modelling
@@ -197,7 +199,7 @@ With the above, on the ```/cat-form``` web page we submit fill in the name of th
 5. SERVER returns the cat.jpg to the CLIENT with a '200' response code.
 
 ### Chat with Bobby (Senior Developer friend) about the [Takeaway Challenge](https://github.com/willhowes/takeaway-challenge)
-* Very important to go through all user stories before writing any tests and try a domain model. If it doesn't seem right, try different models. 
+* Very important to go through all user stories before writing any tests and draft a domain model. If it doesn't seem right, try different models when you start testing, stop and try a new model. 
 * Whilst there's many ways to build a project, it is important to be clear on what classes you will need from the outset. It may have been better in this project, to have had a Takeaway class, a Dish class, an Order class, and a Customer class (needed for sending the confirm test).
 * For creating the order to do a hash (rather than an array of hashes) and then update the value of each key when duplicate orders of the same item are made. Like so:
 
@@ -222,26 +224,26 @@ end
 ```
 
 ### Empathy workshop
-* To image what someone else is thinking. 
-* Important to understand teammates, clients, colleagues who aren't developers, for example. 
-* "Just like me...", i.e. we all have similarities. E.g. "Just like me, this person is seeking happiness in their like." Worth thinking of before pairing - do not pre-judge; remember you have things in common. 
-* Metta Bhavana - wish someone else that they are happy. For example, before an interview (even though you may not have met them before), wish them well (actually think "I wish this person to be happy").
-* Empathic listening - listen as if you are going to be receiving a test on what they said the next day
+* To have empathy is to imagine what someone else is thinking. 
+* Important to understand what team-mates, clients, colleagues who aren't developers, for example are thinking. 
+* "Just like me...", i.e. we all have similarities. E.g. "Just like me, this person is seeking happiness in their live." Worth thinking of this before pairing - do not pre-judge; remember you have things in common. 
+* Metta Bhavana - wish someone else that they are happy. For example, before an interview (even though you may not have met them before), wish them well internally (actually think "I wish this person to be happy").
+* Empathetic listening - listen as if you are going to be receiving a test on what they said the next day
 
 ### Gem files
 * To create gemfile use ```bundle init```
 
 ### Debugging workshop - web apps
-* There a few more areas to consider with web apps. We do not have just the ruby code to consider, as we did in weeks 3 and 4. We have the MODEL, CONTROLLER and VIEW which can all throw errors, as can the framework we are using for these (Sinatra, Capybara, etc). Therefore, there arte considerably possiblilities for where an error might occur. 
+* There a few more areas to consider with web apps. We do not have just the ruby code to consider, as we did in weeks 1 and 2. We have the MODEL, CONTROLLER and VIEW which can all throw errors, as can the framework we are using for these (Sinatra, Capybara, etc). Therefore, there are considerably more possibilities for where an error might occur. 
 * TOOLS WE CAN USE TO FIND THE ISSUE WITH THE CODE:
  * Stack trace (and their error messages)
  * p/print/puts (to ascertain what each of part of the code is actually doing. 
  * rspec
- * running the code in browser to feature test. Generally speaking, this is where you should feature test for web apps, rather than in a REPL (e.g. irb or pry). 
+ * running the code in a browser to feature test. Generally speaking, this is where you should feature test for web apps, rather than in a REPL (e.g. irb or pry). 
 * You should NOT change the code or the tests until we are sure of where the issue with the code is. It is dangerous to change the code on pure guess work. You may forget to revert code back to how it was and take yourself further away from finding a solution. 
-* If after changing the code you get the same error message that is a red flag that you have done something wrong and should put the code back to how it was. A different error message is generally good.
+* If, after changing the code, you get the same error message that is a red flag that you have done something wrong and should put the code back to how it was. A different error message is generally good.
 * In cabybara it is worth trying ```save_and_open_page``` in the failing test at the point where you would like to pause the program.  It will show you what is on the page at that particular moment. So you can run the program in the browser and see what the view is producing at that point. 
-* Worth noting that the way Capybara works is it runs the tests on a pretend browser under the hood and so you cannot see it. 
+* Worth noting that the way Capybara works is it runs tests on a pretend browser under the hood and so you cannot see it. 
 * Even if all your tests are passing, you should still test the code in the browser as some tests might pass when they shouldn't. In particular Sinatra can cause this to happen - when an error message is thrown by sinatra, the page might actually have the test written on the web page (as part of the errror message that Sinatra throws) and therefore if the test is searching for content on the web page it may be found by the test in the error message on the page. 
 
 ### Retrospective
@@ -264,7 +266,7 @@ class Shop
  include Singleton
 end
 ```
-```Singleton``` is a module in Ruby. To create the instance you will call ```shop.instance``` as ```shop.new``` will create an error as it is a private method to provent multiple instances. 
+```Singleton``` is a module in Ruby. To create the instance you will call ```shop.instance```. ```shop.new``` would create an error as it is a private method to provent multiple instances. 
 
 * WARNING - Singleton classes should be avoided in Ruby if possible. The reason being, it creates a global variable which can then be changed by any outside file and it would be very difficult to trace where it has been changed if it is a big project. 
 
