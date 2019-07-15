@@ -28,10 +28,21 @@
 * I reviewed [Kareem's weekend challenge](https://github.com/makersacademy/rps-challenge/pull/1345#pullrequestreview-261696717). I was able to read his code easily, give him feedback, praising him on what I though was good code and also made some suggestions of how it could have be improved.
 
 ### Tuesday
-(Loïc and I got up to [step 6](https://github.com/makersacademy/course/blob/master/bookmark_manager/06_manipulating_table_data.md), i.e. completed 5. 
+(Loïc and I got up to [step 6](https://github.com/makersacademy/course/blob/master/bookmark_manager/06_manipulating_table_data.md), i.e. completed 5). 
 
 ## Takeaways/Notes
 ### Week kick-off
 * Theme of the week is databases
-* A lot to learn this week. Can feel overwhelmed. You will not be able to learn everything. 
+* A lot to learn this week. There is a risk of feeling overwhelmed. Remember: you will not be able to learn everything and that is OK. 
+
+### [Weekly challenge](https://github.com/makersacademy/course/blob/master/bookmark_manager/00_challenge_map.md)
+* Learned how to make a new database using PostgreSQL and set up a table in a database.
+
+### [Process Workshop](https://github.com/makersacademy/skills-workshops/tree/master/process_review)
+* In a group of three. The other two first attempted the 'Middle letter' challenge while I monitored. 
+* Learned that it is very important to follow proper TDD process.
+* I also learned that, when monitoring, not to note down everything, just the points at which correct process not followed. 
+* When I attempted the challenge I generally followed good TDD practice. However, I did perhaps rush a little a points, particularly by misnaming a method. If I had taken a bit longer over reading the instructions this could have been avoided. 
+* It was generally very good practice to code in front of others with a bit of time pressure. Will definitely try to go to more of these workshops. 
+
 
