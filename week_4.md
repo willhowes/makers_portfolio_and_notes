@@ -26,6 +26,9 @@
 * [My weekend pull request](https://github.com/makersacademy/rps-challenge/pull/1343)
 * I reviewed [Kareem's code](https://github.com/makersacademy/rps-challenge/pull/1345#pullrequestreview-261696717). I was able to read his code easily, give him feedback, praising him on what I though was good code and also make some suggestions of how it could have be improved.
 
+### Tuesday
+(Loïc and I got up to [step 6](https://github.com/makersacademy/course/blob/master/bookmark_manager/06_manipulating_table_data.md), i.e. completed 5. 
+
 ## Takeaways/Notes
 ### Week kick-off
 * Theme of the week is databases
