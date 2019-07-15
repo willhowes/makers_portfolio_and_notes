@@ -19,7 +19,8 @@
 ## How have I acheieved my goals?
 ### 1. Build a simple web app (and understood it)
 * Acheived by:
-  * Pair programming on the [week's challenge](https://github.com/makersacademy/course/tree/master/intro_to_the_web)
+  * Pair programming on the [week's challenge](https://github.com/makersacademy/course/tree/master/intro_to_the_web). A basic battle app, like Pokemon. [Last repositorty worked on](https://github.com/willhowes/battle-challenge)
+  * Also built a [Rock-Paper-Scissors](https://github.com/willhowes/rps-challenge). This was the weekend challenge.
 
 ### 2. Follow an effective debugging process for web applications
 * I am going to try to debug someone else's code (or do a practical if there is one)
