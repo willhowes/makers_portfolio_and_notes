@@ -24,6 +24,7 @@
 
 2. Have code reviewed and review someone elses code. 
 * [My weekend pull request](https://github.com/makersacademy/rps-challenge/pull/1343)
+  * Received some helpful feedback - like reducing lines of code where possible, and have less actual code in VIEW files. 
 * I reviewed [Kareem's code](https://github.com/makersacademy/rps-challenge/pull/1345#pullrequestreview-261696717). I was able to read his code easily, give him feedback, praising him on what I though was good code and also make some suggestions of how it could have be improved.
 
 ### Tuesday
