@@ -21,12 +21,13 @@
 * Acheived by:
   * Pair programming on the [week's challenge](https://github.com/makersacademy/course/tree/master/intro_to_the_web). A basic battle app, like Pokemon. [Last repositorty worked on](https://github.com/willhowes/battle-challenge)
   * Also built a [Rock-Paper-Scissors](https://github.com/willhowes/rps-challenge). This was the weekend challenge.
+  * I now understand the process of building a simple web app using Sinatra, Ruby and HTML using the MVC model. 
 
 ### 2. Follow an effective debugging process for web applications
-* I am going to try to debug someone else's code (or do a practical if there is one)
+* I carried out a lot of debugging this week and, with the help of the [workshop](https://github.com/makersacademy/skills-workshops/tree/master/week-3/debugging_2) with our coach, I was able to follow an effective methodical process. With building web apps there different error messages to consider and much longer stack traces. With practice, I got used to these new error messages and improved my ability to find bugs in my apps. See also my notes from the debugging workshop below.
 
 ### 3. Explain the basics of how the web works (e.g. request/response, HTTP, HTML, CSS)
-* Perhaps write a blog to try and articulate this (with a diagram?)
+* See my notes on HTTP requests in Takeaways below.
 
 ### 4. Explain the MVC (Model View Controller) pattern
 * Achieved by:
@@ -103,7 +104,7 @@ The above works like so:
 * doubles and stubs are on the whole are great to isolate tests on a class.
 * If you have a long list of doubles and stubs and you are getting confused about what they are doing and chaining behaviour, then this is an indication that you might have too many objects (classes).
 * Doubling with dependency injection:
- * If in a method you have a call to ```.new``` then this is where you need dependenct injection as you cannot test that method without creating a new instance of the object (with ```.new```).
+ * If in a method you have a call to ```.new``` then this is where you need dependency injection as you cannot test that method without creating a new instance of the object (with ```.new```).
  
 ### Meeting weekly goals
 * e.g. number 3 - ('Explain the basics of how the web works'). This can be achieved by being able to draw a diagram and explain it someone. 
