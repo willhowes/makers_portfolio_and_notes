@@ -13,7 +13,8 @@
 ### My daily goal for this week, after Week 2 Retrospective
 1. Draw more diagrams.
  * Achieved by:
-  * Attended workshop about process modelling. Made a model of the request-response for HTTP requests between client and server. (See takeaways below).  
+  * Attended workshop about process modelling. Made a model of the request-response for HTTP requests between client and server. (See takeaways below). 
+  * I started to get in the habit of drawing a diagram as a domain model before starting to build anything. I also used diagrams to reinforce my understanding of concepts such as the MVC (Model-View-Controller) Model.
 
 ## How have I acheieved my goals?
 ### 1. Build a simple web app (and understood it)
