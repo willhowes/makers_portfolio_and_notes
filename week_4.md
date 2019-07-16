@@ -64,6 +64,7 @@ N.B. (Loïc and I got up to [step 6](https://github.com/makersacademy/course/blo
  2. Non-relational - more flexible, less strict on data types. e.g. mongoDB
  
  ### ERDs (Entity Relationship Diagrams)
+ * [Practical](https://github.com/makersacademy/skills-workshops/blob/master/practicals/databases/entity_relationship_diagrams.md)
  * [Useful video](https://www.youtube.com/watch?v=QpdhBUYk7Kk)
  * Examples of entities: Customer, Order, Product. 
  * Entities have attributes - e.g. customer_id, name, address
