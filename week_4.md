@@ -72,6 +72,12 @@ N.B. (Loïc and I got up to [step 6](https://github.com/makersacademy/course/blo
  * The relationship between them with lines which shows the 'cardinality' (e.g. 'one', 'many', 'zero to one', 'zero to many')
  * I can now draw basic ERDs, e.g. [one for twitter](https://www.lucidchart.com/invitations/accept/c700895e-bd79-4410-8916-1eb441e97449) 
  
- 
+ ### Development environments
+ * A web project will usuall have three (or more) environments: 
+ 1. Development
+ 2. Test 
+ 3. Production
+ * Since the behaviour of the project will be very different depending on what environment it is in, you would want separate databases for each environment.
+ * For example, if you had a million users on your website, you would not want to use the main database for testing or development. When in development, you would want to use a database with just a few users. When testing you would want to use a blank database as you will want the database to presume that there is nothing there that was not created explicitly. 
 
 
