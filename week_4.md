@@ -19,12 +19,17 @@ More detail on the learning objectives of the [weekly challenge](https://github.
 
 ## Daily Goals
 
+### Wednesday
+N.B. Kaja and I were most of the way through stage 10 of the week challenge. 
+
 ### Tuesday
 N.B. (Loïc and I got up to [step 6](https://github.com/makersacademy/course/blob/master/bookmark_manager/06_manipulating_table_data.md), i.e. completed 5).
 
 1. Re-draft my blog post and send to Haylee - done.
 
 2. Make a start on a practical to enhance learning about databases.
+* Achieved by:
+ * Learning about ERD (Entity Relationship Diagrams) and attempted a few diagrams of my own. See takeaways below
 
 ### Monday
 1. Understand goals for the week and establish how I am going to achieve them.
