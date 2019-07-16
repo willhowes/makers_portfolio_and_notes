@@ -50,4 +50,16 @@ N.B. (Loïc and I got up to [step 6](https://github.com/makersacademy/course/blo
 * When I attempted the challenge I generally followed good TDD practice. However, I did perhaps rush a little a points, particularly by misnaming a method. If I had taken a bit longer over reading the instructions this could have been avoided. 
 * It was generally very good practice to code in front of others with a bit of time pressure. Will definitely try to go to more of these workshops. 
 
+### General database learning
+* Every database as a DBMS (Database Management System) which structures how we organise and interact with our stored data. 
+* CRUD - is the four fundamental way we interact with our data:
+ * Create
+ * Read
+ * Update
+ * Delete
+* There are two main types of DBMS:
+ 1. Relational - highly structured and have strict data types. e.g. Oracle, MySQL, PostgreSQL, MicrosoftSQL
+ 2. Non-relational - more flexible, less strict on data types. e.g. mongoDB
+ 
+
 
