@@ -49,7 +49,7 @@ N.B. (Loïc and I got up to [step 6](https://github.com/makersacademy/course/blo
 * In a group of three. The other two first attempted the 'Middle letter' challenge while I monitored. 
 * Learned that it is very important to follow proper TDD process.
 * I also learned that, when monitoring, not to note down everything, just the points at which correct process not followed. 
-* When I attempted the challenge I generally followed good TDD practice. However, I did perhaps rush a little a points, particularly by misnaming a method. If I had taken a bit longer over reading the instructions this could have been avoided. 
+* When I attempted the challenge I generally followed good TDD practice. However, I did perhaps rush a little a points, particularly by misnaming a method. If I had taken a bit longer over reading the instructions this could have been avoided. I also should have taken a little more time setting up my environment, e.g. putting the spec file on one side of the view and the code on the other side. 
 * It was generally very good practice to code in front of others with a bit of time pressure. Will definitely try to go to more of these workshops. 
 
 ### General database learning
@@ -69,7 +69,9 @@ N.B. (Loïc and I got up to [step 6](https://github.com/makersacademy/course/blo
  * Examples of entities: Customer, Order, Product. 
  * Entities have attributes - e.g. customer_id, name, address
  * An ERD shows how the entities interract with each other. 
- * The relationship between them with lines which shows the 'cardinality' (e.g. 'one', 'many', 'zero or one', 'zero or many')
+ * The relationship between them with lines which shows the 'cardinality' (e.g. 'one', 'many', 'zero to one', 'zero to many')
+ * I can now draw basic ERDs, e.g. [one for twitter](https://www.lucidchart.com/invitations/accept/c700895e-bd79-4410-8916-1eb441e97449) 
+ 
  
 
 
