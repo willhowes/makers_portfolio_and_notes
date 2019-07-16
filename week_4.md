@@ -8,6 +8,8 @@
 2. Follow an effective debugging process for database applications
 3. Explain the basics of how databases work (e.g. tables, SQL, basic relationships)
 
+More detail on the learning objectives of the [weekly challenge](https://github.com/makersacademy/course/blob/master/bookmark_manager) [here](https://github.com/makersacademy/course/blob/master/bookmark_manager/learning_objectives.md)
+
 ## How have I achieved my goals
 
 ### 1. Build a simple web app with a database
