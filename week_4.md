@@ -63,5 +63,12 @@ N.B. (Loïc and I got up to [step 6](https://github.com/makersacademy/course/blo
  1. Relational - highly structured and have strict data types. e.g. Oracle, MySQL, PostgreSQL, MicrosoftSQL
  2. Non-relational - more flexible, less strict on data types. e.g. mongoDB
  
+ ### ERDs (Entity Relationship Diagrams)
+ * [Useful video](https://www.youtube.com/watch?v=QpdhBUYk7Kk)
+ * Examples of entities: Customer, Order, Product. 
+ * Entities have attributes - e.g. customer_id, name, address
+ * An ERD shows how the entities interract with each other. 
+ * The relationship between them with lines which shows the 'cardinality' (e.g. 'one', 'many', 'zero or one', 'zero or many')
+ 
 
 
