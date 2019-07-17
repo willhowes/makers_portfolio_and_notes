@@ -93,4 +93,17 @@ N.B. (Loïc and I got up to [step 6](https://github.com/makersacademy/course/blo
  * For example, if you had a million users on your website, you would not want to use the main database for testing or development. When in development, you would want to use a database with just a few users. When testing you would want to use a blank database as you will want the database to presume that there is nothing there that was not created explicitly. 
 
 ### General
-* use cmd-d to change all variables with the same name. 
+* use cmd-d to change all variables with the same name.
+
+### CRC (Class-Resonsibility-Collaborator)
+* It is a way to model a domain.
+* [Example](https://github.com/makersacademy/skills-workshops/blob/master/week-4/databases_2/crc_example.md)
+
+### Databases Q&A (Weds)
+* A relational databases are in table format with columns and rows (or x and y co-ordinates).
+* Main thing for us to learn how to query databases. Unless you want to become a database engineer or database architect.
+* SQL is a language but has ont sole purpose. 
+* Will need an escape an inverted comma with another inverted comma. e.g. ```'O''Hara'```.
+* An ORM would normally handle where you need escape characters. An ORM handles your SQL queries so you don't have to manually type them. 
+* When you use ```Date.now``` on the Chitter challenge, this will be stored in the database as a 'timestamp'.
+* When in a session in your controller all that data is stored in the browser.
