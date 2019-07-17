@@ -19,6 +19,9 @@ More detail on the learning objectives of the [weekly challenge](https://github.
 
 ## Daily Goals
 
+### Thursday 
+1. Maybe have a look at a ORM explanation video.
+
 ### Wednesday
 N.B. Kaja and I were most of the way through stage 10 of the week challenge. 
 
