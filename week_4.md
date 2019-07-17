@@ -73,6 +73,7 @@ N.B. (Loïc and I got up to [step 6](https://github.com/makersacademy/course/blo
 * There are two main types of DBMS:
  1. Relational - highly structured and have strict data types. e.g. Oracle, MySQL, PostgreSQL, MicrosoftSQL
  2. Non-relational - more flexible, less strict on data types. e.g. mongoDB
+ * When developing a web app with a database, if you have a 'test' environment set up, with a test database (which should be an exact replica of the production database, save that it will be empty), then you will not need to mock or double the test database in your unit or feature tests.
  
  ### ERDs (Entity Relationship Diagrams)
  * [Practical](https://github.com/makersacademy/skills-workshops/blob/master/practicals/databases/entity_relationship_diagrams.md)
@@ -91,4 +92,5 @@ N.B. (Loïc and I got up to [step 6](https://github.com/makersacademy/course/blo
  * Since the behaviour of the project will be very different depending on what environment it is in, you would want separate databases for each environment.
  * For example, if you had a million users on your website, you would not want to use the main database for testing or development. When in development, you would want to use a database with just a few users. When testing you would want to use a blank database as you will want the database to presume that there is nothing there that was not created explicitly. 
 
-
+### General
+* use cmd-d to change all variables with the same name. 
