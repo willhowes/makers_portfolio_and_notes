@@ -22,12 +22,18 @@ More detail on the learning objectives of the [weekly challenge](https://github.
 ### Thursday 
 1. Maybe have a look at a ORM explanation video.
 
-### Wednesday
-N.B. Kaja and I were most of the way through stage 10 of the week challenge. 
+2. Go through steps 11 and 12 of the bookmark manager challenge. 
 
+### Wednesday
 1. Go through yesterday's steps (6-10) on the weekly challenge, to reinforce my understanding of databases.
+ * Acheieved by going through these steps. It helped to understand how our program interracted with the database.
 
 2. Further my understanding my understanding of databases by going through some more course materials. 
+ * Achieved by:
+  * Used [CRC (Class-Responsibilty-Collaborator)](http://www.agilemodeling.com/artifacts/crcModel.htm) to further my understanding of how to model a domain that uses a database. 
+   * Class - describe the class
+   * Responsibilty - what responsiblities does that class have?
+   * Collaborator - what other classes does this class communicate with
 
 ### Tuesday
 N.B. (Loïc and I got up to [step 6](https://github.com/makersacademy/course/blob/master/bookmark_manager/06_manipulating_table_data.md), i.e. completed 5).
@@ -105,7 +111,7 @@ N.B. (Loïc and I got up to [step 6](https://github.com/makersacademy/course/blo
 ### Databases Q&A (Weds)
 * A relational databases are in table format with columns and rows (or x and y co-ordinates).
 * Main thing for us to learn how to query databases. Unless you want to become a database engineer or database architect.
-* SQL is a language but has ont sole purpose. 
+* SQL is a language but has one sole purpose - querying databases. 
 * Will need an escape an inverted comma with another inverted comma. e.g. ```'O''Hara'```.
 * An ORM would normally handle where you need escape characters. An ORM handles your SQL queries so you don't have to manually type them. 
 * When you use ```Date.now``` on the Chitter challenge, this will be stored in the database as a 'timestamp'.
