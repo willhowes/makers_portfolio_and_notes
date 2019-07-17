@@ -22,6 +22,10 @@ More detail on the learning objectives of the [weekly challenge](https://github.
 ### Wednesday
 N.B. Kaja and I were most of the way through stage 10 of the week challenge. 
 
+1. Go through yesterday's steps (6-10) on the weekly challenge, to reinforce my understanding of databases.
+
+2. Further my understanding my understanding of databases by going through some more course materials. 
+
 ### Tuesday
 N.B. (Loïc and I got up to [step 6](https://github.com/makersacademy/course/blob/master/bookmark_manager/06_manipulating_table_data.md), i.e. completed 5).
 
