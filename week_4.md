@@ -20,7 +20,9 @@ More detail on the learning objectives of the [weekly challenge](https://github.
 ## Daily Goals
 
 ### Thursday 
-1. Look at a ORM explanation video to understand what and ORM is. 
+1. Look into ORM to understand what it is. 
+* Achieved by:
+* Reading articles and watching videos. Can now explain what ORM is see takeaways
 
 2. Go through steps 11 and 12 of the bookmark manager challenge again. In order to consolidate my understanding of what we did yesterday.
 
