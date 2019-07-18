@@ -20,9 +20,9 @@ More detail on the learning objectives of the [weekly challenge](https://github.
 ## Daily Goals
 
 ### Thursday 
-1. Maybe have a look at a ORM explanation video.
+1. Look at a ORM explanation video to understand what and ORM is. 
 
-2. Go through steps 11 and 12 of the bookmark manager challenge. 
+2. Go through steps 11 and 12 of the bookmark manager challenge again. In order to consolidate my understanding of what we did yesterday.
 
 ### Wednesday
 1. Go through yesterday's steps (6-10) on the weekly challenge, to reinforce my understanding of databases.
@@ -116,3 +116,35 @@ N.B. (Loïc and I got up to [step 6](https://github.com/makersacademy/course/blo
 * An ORM would normally handle where you need escape characters. An ORM handles your SQL queries so you don't have to manually type them. 
 * When you use ```Date.now``` on the Chitter challenge, this will be stored in the database as a 'timestamp'.
 * When in a session in your controller all that data is stored in the browser.
+
+### ORM (Object-relational Mapping)
+* I can explain that this is a technique whereby data which is non-comptable between a relational databases and OOP languages is converted and wrapped in an object that can be read by the OOP language.
+
+### CRUD 
+* A CRUD applications is one that CREATES, READS, UPDATES, and DELETES data. Most Web Apps are CRUDs.
+* CRUD are the four basic functions of persistent data.
+
+### RESTful routing conventions
+* 
+
+### Four-phase testing - SETUP/EXERCISE/VERIFY/TEARDOWN
+ * SETUP - set up the test, e.g:
+ ```
+ visit('/bookmarks/new')
+ fill_in('url', with: 'www.bbc.co.uk')
+ fill_in('title', with: 'BBC')
+ ```   
+ * EXERCISE - carry out the method/function we are testing. e.g:
+ ```
+ click_button 'Submit'
+ ```
+ * VERIFY - check the result of the exercise meets our expectations. e.g:
+ ```
+ expect(page).to have_link('BBC', href: 'www.bbc.co.uk') 
+```
+ * TEAR DOWN - system under test is reset to its pre-setup state. This is usually handled implicitly by the database or program. In the example of the bookmarks_manager, we do this in the ```set_up_database``` helper file:
+ ```
+connection.exec("TRUNCATE bookmarks;")
+```
+ 
+
