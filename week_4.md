@@ -22,9 +22,10 @@ More detail on the learning objectives of the [weekly challenge](https://github.
 ### Thursday 
 1. Look into ORM to understand what it is. 
 * Achieved by:
-* Reading articles and watching videos. Can now explain what ORM is see takeaways
+* Reading articles and watching videos. Can now explain what ORM is see [takeaways](https://github.com/willhowes/makers_portfolio_and_notes/blob/master/week_4.md#orm-object-relational-mapping)
 
 2. Go through steps 11 and 12 of the bookmark manager challenge again. In order to consolidate my understanding of what we did yesterday.
+* Did this and I now understand better how the MVC model interacts with databases.
 
 ### Wednesday
 1. Go through yesterday's steps (6-10) on the weekly challenge, to reinforce my understanding of databases.
