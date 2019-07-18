@@ -125,7 +125,12 @@ N.B. (Loïc and I got up to [step 6](https://github.com/makersacademy/course/blo
 * CRUD are the four basic functions of persistent data.
 
 ### RESTful routing conventions
-* 
+* Representational State Transfer
+* It is a set of conventions so http request follow a similar format. The idea is that you have a one 'resource' or 'noun' (usually the web page) and verbs, i.e. GET/POST/PATCH/DELETE. These conform with CRUB:
+* CREATE - POST 
+* READ - GET
+* UPDATE - PATCH
+* DELETE - DELETE
 
 ### Four-phase testing - SETUP/EXERCISE/VERIFY/TEARDOWN
  * SETUP - set up the test, e.g:
