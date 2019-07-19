@@ -155,4 +155,8 @@ N.B. (Loïc and I got up to [step 6](https://github.com/makersacademy/course/blo
 connection.exec("TRUNCATE bookmarks;")
 ```
  
-
+### Retrospective
+* Remember that this week is just a building block.
+* Nothing wrong with copying and pasting from other projects. 
+* Worth trying an ORM with Chitter - e.g. Datamapper, ActiveRecord.   
+* Re: weekly challenges, try without walkthrough for a start, but time box it for maybe 20 mins and then go to the walkthrough. Always worth reading the walkthrough even if you think you have done it without the walkthrough.
