@@ -19,7 +19,7 @@
 
 2. Understand this weeks goals and set my own additional goals if appropriate. 
  * Achieved by:
-  * I attended the workshop for setting up the week's ouline and goals see [takeaways]
+  * I attended the workshop for setting up the week's ouline and goals see [takeaways](https://github.com/willhowes/makers_portfolio_and_notes/blob/master/week_5.md#weeks-goals-etc)
 
 ## Takeaways & Notes
 
@@ -48,7 +48,7 @@
  * 'The Count' practical is good to get an overview of a javasript project.
  * Javascript is the only language that can be run directly in the browser.
  * Javascript can change the html without a new request-response cycle (i.e without a client call to the server). 
- * Javascript is a-syncanous (it does not need to run in order), unlike Ruby. 
+ * Javascript is a-syncranous (it does not need to run in order), unlike Ruby. 
  * Can run javascript in chrome-dev tools in the Console. 
  * We will be using version ES5 of Javascript. ES6 has extra features but can create bad-habits. 
   
