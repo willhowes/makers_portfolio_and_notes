@@ -40,6 +40,8 @@ More detail on the learning objectives of the [weekly challenge](https://github.
 
 * I am able to draw ERD (entity relationship diagrams) which show relationships between objects in databases (i.e. which objects relate to which, whether the relationships are one-to-one (e.g. a country has one capital city and a capital city has one country), one-to-many (e.g. a tweet has one user, but a user has many tweets), many-to-many (e.g. a tweet can have many tags, and a tag can have many tweets).
 
+* See further takeaways from the week below.
+
 ## Daily Goals
 
 ### Friday
@@ -61,7 +63,7 @@ More detail on the learning objectives of the [weekly challenge](https://github.
 1. Go through yesterday's steps (6-10) on the weekly challenge, to reinforce my understanding of databases.
  * Acheieved by going through these steps. It helped to understand how our program interracted with the database.
 
-2. Further my understanding my understanding of databases by going through some more course materials. 
+2. Further my understanding of databases by going through some more course materials. 
  * Achieved by:
   * Used [CRC (Class-Responsibilty-Collaborator)](http://www.agilemodeling.com/artifacts/crcModel.htm) to further my understanding of how to model a domain that uses a database. 
    * Class - describe the class
@@ -69,11 +71,9 @@ More detail on the learning objectives of the [weekly challenge](https://github.
    * Collaborator - what other classes does this class communicate with
 
 ### Tuesday
-N.B. (Loïc and I got up to [step 6](https://github.com/makersacademy/course/blob/master/bookmark_manager/06_manipulating_table_data.md), i.e. completed 5).
-
 1. Re-draft my blog post and send to Haylee.
  * Achieved by:
-  * Redrafted, sent to Haylee, and eventually added to the Makers blog.
+  * Redrafted, sent to Haylee, and after tweaking was added to the Makers blog.
 
 2. Make a start on a practical to enhance learning about databases.
 * Achieved by:
@@ -81,7 +81,7 @@ N.B. (Loïc and I got up to [step 6](https://github.com/makersacademy/course/blo
 
 ### Monday
 1. Understand goals for the week and establish how I am going to achieve them.
-* It was explained to us that the focus on this week is databases. This is going to be a tough week with a look of new things to learn but we are not expected to learn everything. 
+* It was explained to us that the focus on this week is databases. This is going to be a tough week with a lot of new things to learn but we are not expected to learn everything. 
 * With this in mind I will take it in small steps and try to understand one or two things only per day. 
 
 2. Have code reviewed and review someone elses code. 
@@ -95,19 +95,16 @@ N.B. (Loïc and I got up to [step 6](https://github.com/makersacademy/course/blo
 * Theme of the week is databases
 * A lot to learn this week. There is a risk of feeling overwhelmed. Remember: you will not be able to learn everything and that is OK. 
 
-### [Weekly challenge](https://github.com/makersacademy/course/blob/master/bookmark_manager/00_challenge_map.md)
-* Learned how to make a new database using PostgreSQL and set up a table in a database.
-
 ### [Process Workshop](https://github.com/makersacademy/skills-workshops/tree/master/process_review)
 * In a group of three. The other two first attempted the 'Middle letter' challenge while I monitored. 
 * Learned that it is very important to follow proper TDD process.
 * I also learned that, when monitoring, not to note down everything, just the points at which correct process not followed. 
-* When I attempted the challenge I generally followed good TDD practice. However, I did perhaps rush a little a points, particularly by misnaming a method. If I had taken a bit longer over reading the instructions this could have been avoided. I also should have taken a little more time setting up my environment, e.g. putting the spec file on one side of the view and the code on the other side. 
+* When I attempted the challenge I generally followed good TDD practice. However, I did perhaps rush a little at points, particularly by misnaming a method. If I had taken a bit longer over reading the instructions this could have been avoided. I also should have taken a little more time setting up my environment, e.g. putting the spec file on one side of the view and the code on the other side. 
 * It was generally very good practice to code in front of others with a bit of time pressure. Will definitely try to go to more of these workshops. 
 
 ### General database learning
-* Every database as a DBMS (Database Management System) which structures how we organise and interact with our stored data. 
-* CRUD - is the four fundamental way we interact with our data:
+* Every database has a DBMS (Database Management System) which structures how we organise and interact with our stored data. 
+* CRUD - is the four fundamental ways we interact with our data:
  * Create
  * Read
  * Update
@@ -134,21 +131,21 @@ N.B. (Loïc and I got up to [step 6](https://github.com/makersacademy/course/blo
  * Since the behaviour of the project will be very different depending on what environment it is in, you would want separate databases for each environment.
  * For example, if you had a million users on your website, you would not want to use the main database for testing or development. When in development, you would want to use a database with just a few users. When testing you would want to use a blank database as you will want the database to presume that there is nothing there that was not created explicitly. 
 
-### General
-* use cmd-d to change all variables with the same name.
+### General coding tip:
+* Use cmd-d (after selecting a variable) to change all variables with the same name.
 
 ### CRC (Class-Resonsibility-Collaborator)
 * It is a way to model a domain.
 * [Example](https://github.com/makersacademy/skills-workshops/blob/master/week-4/databases_2/crc_example.md)
 
 ### Databases Q&A (Weds)
-* A relational databases are in table format with columns and rows (or x and y co-ordinates).
+* A relational databases are in table format with columns and rows (i.e. x and y co-ordinates).
 * Main thing for us to learn how to query databases. Unless you want to become a database engineer or database architect.
 * SQL is a language but has one sole purpose - querying databases. 
 * Will need an escape an inverted comma with another inverted comma. e.g. ```'O''Hara'```.
 * An ORM would normally handle where you need escape characters. An ORM handles your SQL queries so you don't have to manually type them. 
 * When you use ```Date.now``` on the Chitter challenge, this will be stored in the database as a 'timestamp'.
-* When in a session in your controller all that data is stored in the browser.
+* When in a Sinatra session all that data relating to that session is stored in the browser.
 
 ### ORM (Object-relational Mapping)
 * I can explain that this is a technique whereby data which is non-comptable between a relational databases and OOP languages is converted and wrapped in an object that can be read by the OOP language.
@@ -159,7 +156,7 @@ N.B. (Loïc and I got up to [step 6](https://github.com/makersacademy/course/blo
 
 ### RESTful routing conventions
 * Representational State Transfer
-* It is a set of conventions so http request follow a similar format. The idea is that you have a one 'resource' or 'noun' (usually the web page) and verbs, i.e. GET/POST/PATCH/DELETE. These conform with CRUB:
+* It is a set of conventions so http request follow a similar format. The idea is that you have a one 'resource' or 'noun' (usually the web page) and verbs, i.e. GET/POST/PATCH/DELETE. These conform with CRUD:
 * CREATE - POST 
 * READ - GET
 * UPDATE - PATCH
@@ -180,7 +177,7 @@ N.B. (Loïc and I got up to [step 6](https://github.com/makersacademy/course/blo
  ```
  expect(page).to have_link('BBC', href: 'www.bbc.co.uk') 
 ```
- * TEAR DOWN - system under test is reset to its pre-setup state. This is usually handled implicitly by the database or program. In the example of the bookmarks_manager, we do this in the ```set_up_database``` helper file:
+ * TEAR DOWN - system under test is reset to its pre-setup state. This is usually handled implicitly by the database or program. In the example of the [Bookmark Manager Challenge](https://github.com/willhowes/bookmark_manager_will_josh), we do this in the ```set_up_database``` helper file:
  ```
 connection.exec("TRUNCATE bookmarks;")
 ```
@@ -189,4 +186,4 @@ connection.exec("TRUNCATE bookmarks;")
 * Remember that this week is just a building block.
 * Nothing wrong with copying and pasting from other projects. 
 * Worth trying an ORM with Chitter - e.g. Datamapper, ActiveRecord.   
-* Re: weekly challenges, try without walkthrough for a start, but time box it for maybe 20 mins and then go to the walkthrough. Always worth reading the walkthrough even if you think you have done it without the walkthrough.
+* Re: weekly challenges, try without walkthrough at the start of each section, but time box it for maybe 20 mins and then go to the walkthrough if you are stuck. Always worth reading the walkthrough even if you think you have done it without the walkthrough.
