@@ -5,6 +5,9 @@
 * Test drive a simple front-end web app with Javascript
 * Follow an effective process for learning a new language
 
+## Own Goals
+* Can explain what Ruby is good for and what Javascript is good for. Maybe a blog post on this. 
+
 ## Daily Goals
 ### Monday
 1. Review someone else code and get my code reviewed. 
@@ -15,3 +18,36 @@
   * GENERAL OTHER POINT: when using databases need to set up a suitable RAKE file, e.g. https://github.com/samover/chitter/blob/master/Rakefile
 
 2. Understand this weeks goals and set my own additional goals if appropriate. 
+
+## Takeaways
+
+### Monday's code review
+* What tools to use. e.g Ruby gems, like BCrypt - how secure? Worth looking at how many downloads the gem has had. e.g. BCrypt has had 62m downloads. Look at how often it is updated. How good is the documenation - i.e. README. Not necessarily a concern that failing Travis. 
+* Primary Keys - unique identifier for a row in a database table. Can have more than one per row. Not a good idea for anything that might need changing - e.g. emails as user could not then change it.  Useful article: https://www.itprotoday.com/sql-server/sql-design-how-choose-primary-key. Usually you would just use the Primary Serial Key.
+* When to use class methods and when yo use instance methods:
+ * ```.all``` on, for example, the Peep class you would want class method as it needs to refer to all instances of the Peep class. 
+ * ORMs (e.g. Active Record) take out the need to think about class methods, as they have these methods as default. 
+ * ```require``` at top of Ruby file means you can all use the methods available in the module you are requiring. 
+ * Inheritance just allow the class that is inheriting to use all the attributes and methods in the class it is inheriting. 
+ * Many-to-many:
+  * e.g. Tags and Posts (in Twitter)
+   * Make a join table of the tag_id and the post_id. 
+   * Get the tag_id by searching for the name of the tag
+   * Search for the tag_id in the joint table and return an array of the post_ids that have the tag_id we have searched for. 
+   * Convert that array of post_ids into an array of posts. 
+   
+### Weeks goals, etc
+ * Main goal is learning a new language. Javascript is just a tool for learning a new language.
+ * Key: can you learn a new language and its patterns. 
+ * Make sure you are making your own goals - relate these to the goals for the whole course. 
+ * The ```this``` keyword in javascript is v important. Do I understand this?
+ * Remember: Javascript is not an OO language, so you have to adapt it accordingly. 
+ * V Important - Javascript runs IN THE BROWSER
+ * 'The Count' practical is good to get an overview of a javasript project.
+ * Javascript is the only language that can be run directly in the browser.
+ * Javascript can change the html without a new request-response cycle (i.e without a client call to the server). 
+ * Javascript is a-syncanous (it does not need to run in order), unlike Ruby. 
+ * Can run javascript in chrome-dev tools in the Console. 
+ * We will be using version ES5 of Javascript. ES6 has extra features but can create bad-habits. 
+  
+   * 
