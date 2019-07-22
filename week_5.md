@@ -18,8 +18,10 @@
   * GENERAL OTHER POINT: when using databases need to set up a suitable RAKE file, e.g. https://github.com/samover/chitter/blob/master/Rakefile
 
 2. Understand this weeks goals and set my own additional goals if appropriate. 
+ * Achieved by:
+  * I attended the workshop for setting up the week's ouline and goals see [takeaways]
 
-## Takeaways
+## Takeaways & Notes
 
 ### Monday's code review
 * What tools to use. e.g Ruby gems, like BCrypt - how secure? Worth looking at how many downloads the gem has had. e.g. BCrypt has had 62m downloads. Look at how often it is updated. How good is the documenation - i.e. README. Not necessarily a concern that failing Travis. 
@@ -50,4 +52,3 @@
  * Can run javascript in chrome-dev tools in the Console. 
  * We will be using version ES5 of Javascript. ES6 has extra features but can create bad-habits. 
   
-   * 
