@@ -42,6 +42,13 @@ More detail on the learning objectives of the [weekly challenge](https://github.
 
 ## Daily Goals
 
+### Friday
+
+1. Understand how to implement a logging in system for a web app, using a database. 
+* Achieved by:
+ * Going through the steps for creating creating user accounts, logging in and logging out on the [weekly challenge](https://github.com/makersacademy/course/blob/master/bookmark_manager). I understood that you would need to create a separate 'users' table to your database which can then be queried when logging in to authenticate the log in details provided by the user. Understood that so that the program knows which user is logged in the user can be saved in the Sinatra 'session' and then, when logging out the Sinatra session can be terminated. 
+ * The above was put into practice in my attempt at the [weekend challenge](https://github.com/willhowes/chitter-challenge)
+
 ### Thursday 
 1. Look into ORM to understand what it is. 
 * Achieved by:
