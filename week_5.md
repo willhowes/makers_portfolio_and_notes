@@ -77,3 +77,6 @@ var joe = new Person("Joe", "Bloggs", "40", "Brown")
 joe.name()
 => "Joe Bloggs"
 ```
+```
+joe.nationality
+=> "English"
