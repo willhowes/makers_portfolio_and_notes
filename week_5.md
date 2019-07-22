@@ -24,19 +24,19 @@
 ## Takeaways & Notes
 
 ### Monday's code review
-* What tools to use. e.g Ruby gems, like BCrypt - how secure? Worth looking at how many downloads the gem has had. e.g. BCrypt has had 62m downloads. Look at how often it is updated. How good is the documenation - i.e. README. Not necessarily a concern that failing Travis. 
-* Primary Keys - unique identifier for a row in a database table. Can have more than one per row. Not a good idea for anything that might need changing - e.g. emails as user could not then change it.  Useful article: https://www.itprotoday.com/sql-server/sql-design-how-choose-primary-key. Usually you would just use the Primary Serial Key.
-* When to use class methods and when yo use instance methods:
- * ```.all``` on, for example, the Peep class you would want class method as it needs to refer to all instances of the Peep class. 
- * ORMs (e.g. Active Record) take out the need to think about class methods, as they have these methods as default. 
- * ```require``` at top of Ruby file means you can all use the methods available in the module you are requiring. 
- * Inheritance just allow the class that is inheriting to use all the attributes and methods in the class it is inheriting. 
- * Many-to-many:
-  * e.g. Tags and Posts (in Twitter)
-   * Make a join table of the tag_id and the post_id. 
-   * Get the tag_id by searching for the name of the tag
-   * Search for the tag_id in the joint table and return an array of the post_ids that have the tag_id we have searched for. 
-   * Convert that array of post_ids into an array of posts. 
+* What tools to use? e.g Ruby gems, like BCrypt - how secure are they? It is worth looking at how many downloads the gem has had. e.g. BCrypt has had 62 million downloads. Look at how often it is updated. How good is the documenation on git hub (or elsewhere). It is not necessarily a concern that it is failing Travis. 
+* Primary Keys - unique identifiers for a row in a database table. You can have more than one per row. Not a good idea for anything that might need changing - e.g. emails, as user would not be able to change it.  Useful article: https://www.itprotoday.com/sql-server/sql-design-how-choose-primary-key. Usually you would just use the Primary Serial Key as the only primary key for a row of data.
+* When to use class methods and when to use instance methods:
+ * ```.all``` on, for example, the Peep class you would want to be a class method as it needs to refer to all instances of the Peep class. 
+* ORMs (e.g. Active Record, Data Mapper) take out the need to think about class methods, as they have these methods as default. 
+* ```require``` at top of Ruby file means you can all use the methods available in the module you are requiring. 
+* Inheritance just allow the class that is inheriting to use all the attributes and methods in the class it is inheriting. 
+* Many-to-many:
+ * e.g. Tags and Posts (in Twitter)
+  * Make a join table of the tag_id and the post_id. 
+  * Get the tag_id by searching for the name of the tag
+  * Search for the tag_id in the joint table and return an array of the post_ids that have the tag_id we have searched for. 
+  * Convert that array of post_ids into an array of posts which we can then use.
    
 ### Weeks goals, etc
  * Main goal is learning a new language. Javascript is just a tool for learning a new language.
@@ -51,4 +51,29 @@
  * Javascript is a-syncranous (it does not need to run in order), unlike Ruby. 
  * Can run javascript in chrome-dev tools in the Console. 
  * We will be using version ES5 of Javascript. ES6 has extra features but can create bad-habits. 
-  
+ 
+ ### Javascript 
+ * Objects inherit all methods and properties from the prototype object, e.g:
+ ```Person``` inherits all methods and properties from ```Person.prototype```
+ * New properties or method cans be added to the object prototype, e.g:
+ ```
+ function Person(first, last, age, eyecolor) {
+  this.firstName = first;
+  this.lastName = last;
+  this.age = age;
+  this.eyeColor = eyecolor;
+}
+
+Person.prototype.nationality = "English";
+
+Person.prototype.name = function() {
+  return this.firstName + " " + this.lastName;
+};
+```
+Using the above example you can call the ```.name``` function on the new Person object as follows:
+```
+var joe = new Person("Joe", "Bloggs", "40", "Brown")
+
+joe.name()
+=> "Joe Bloggs"
+```
