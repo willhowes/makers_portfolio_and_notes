@@ -13,9 +13,32 @@ More detail on the learning objectives of the [weekly challenge](https://github.
 ## How have I achieved my goals
 
 ### 1. Build a simple web app with a database
+* Achieved by:
+ * In the afternoon pairing sessions we built a bookmark manager web app which used a database to store the bookmarks, tags, comments and user details. https://github.com/willhowes/bookmark_manager_will_josh
+ *  For the weekend challenge, I built a basic copy of Twitter ('Chitter') which used a databse to store the 'peeps' and user details to allow for logging in and out. https://github.com/willhowes/chitter-challenge
 ### 2. Follow an effective debugging process for database applications
-### 3. Explain the basics of how databases work (e.g. tables, SQL, basic relationships)
+* Achieved by:
+ * During making the bookmark manager and 'Chitter' I came across with my pairing partner and on my own, numerous bugs. Over the course of the week and the weekend I got better at identifying the issues. The error messages you get when using Sinatra, Capybara and databases can be overwhelming at first. However, in reality, if you use the same debugging process as we have used on basic ruby programs in weeks 1-3, the you can debug effectively. I used the 'Get Visbility', 'Tighten the loop', 'Once you know for sure one thing is wrong try to fix it', repeat with further error messages/bugs.
+### 3. Explain the basics of how databases work (e.g. tables, SQL, basic relationships).
+* Achieved by:
+ * I can explain that a database is a place to store information.
+ * Databases usually have 'tables' where the different types of data divided in columns and each row is one entity. For example a basic user database table might look like this:
+ 
+ ----------------------------------------
+ | id | name     | username   | password |
+ ----------------------------------------
+ | 1 | Joe Bloggs| joebloggs1 | pword123 |
+ ----------------------------------------
+ | 2 | John Johns| johnjohn123| pword321 |
+ ----------------------------------------
+ 
+ * SQL is a commonly used language for querying databases. The following command retrieves all entries from the 'users' table:
+ ```
+ SELECT * FROM users;
+ ```
+* postgres databases which we have been using this weekend, responds to SQL commands. In reality, when dealing with anything more than a very basic program, we would use ORM (Object-relational Mapping) which is where non-compatable databases and code (e.g. a postgreSQL database and Ruby) use a program which wraps the data from the database in an object which can then be used in an object orientated language like Ruby. 
 
+* I am able to draw ERD (entity relationship diagrams) which show relationships between objects in databases (i.e. which objects relate to which, whether the relationships are one-to-one (e.g. a country has one capital city and a capital city has one country), one-to-many (e.g. a tweet has one user, but a user has many tweets), many-to-many (e.g. a tweet can have many tags, and a tag can have many tweets).
 
 ## Daily Goals
 
