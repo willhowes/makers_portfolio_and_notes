@@ -102,3 +102,14 @@ var dog = {
 dog.bark()
 => "bark!"
 ```
+### 'this' - the Javascript keyword
+* It references the object that executing the current function
+* Need to think of functions on objects as 'methods' and functions outside objects (i.e. global) as 'functions'
+* Example of ```this``` in a method (i.e. a function in a class):
+```
+var cat = {
+ legs: 4,
+ printObject: function() {
+  console.log(this)
+ }
+};
