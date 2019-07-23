@@ -113,3 +113,18 @@ var cat = {
   console.log(this)
  }
 };
+cat.printObject()
+=> {legs: 4, printObject: ƒ}
+```
+* In a function (i.e. a function on the global object, not with a object) ```this``` will just return the global object (which for javascript is the ```window```).Example with a normal global function:
+```
+function globalFunc(param) { console.log(this) }
+globalFunc("a")
+=> Window {postMessage: ƒ, blur: ƒ, focus: ƒ, close: ƒ, parent: Window, …}
+```
+Example with constructor function:
+```
+function New(title) { console.log(this) }
+New("a")
+=> Window {postMessage: ƒ, blur: ƒ, focus: ƒ, close: ƒ, parent: Window, …}
+```
