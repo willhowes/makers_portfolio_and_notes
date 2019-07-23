@@ -9,6 +9,10 @@
 * Can explain what Ruby is good for and what Javascript is good for. Maybe a blog post on this. 
 
 ## Daily Goals
+### Tuesday
+1. Understand Javasript objects and prototypes and how these differ from using classes in Ruby.
+
+
 ### Monday
 1. Review someone else code and get my code reviewed. 
 * Achieved by:
@@ -80,3 +84,13 @@ joe.name()
 ```
 joe.nationality
 => "English"
+```
+* You can set a function on an object to be an already created function, e.g. 
+```
+var sayHello = function() { return "Hello" };
+var person = { legs: 2 };
+person.englishGreeting = sayHello;
+person.englishGreeting();
+=> "Hello"
+```
+ 
