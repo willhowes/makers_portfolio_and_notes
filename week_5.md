@@ -124,7 +124,16 @@ globalFunc("a")
 ```
 Example with constructor function:
 ```
-function New(title) { console.log(this) }
-New("a")
+function Func(title) { console.log(this) }
+Func("a")
 => Window {postMessage: ƒ, blur: ƒ, focus: ƒ, close: ƒ, parent: Window, …}
+```
+However, if you call a constructor function using the ```new``` operator this creates a new empty object and ```this``` will return the object it is being called on rather than the global object, e.g":
+```
+function Video(title) {
+    this.title = title;
+    console.log(this)
+}
+const v = new Video('b');
+=> Video {title: "b"}
 ```
