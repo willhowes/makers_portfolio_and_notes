@@ -93,4 +93,12 @@ person.englishGreeting = sayHello;
 person.englishGreeting();
 => "Hello"
 ```
- 
+
+* You can set an object's function using a key: value pair, e.g:
+```
+var dog = {
+ speak: function() { return "bark!" }
+ };
+dog.bark()
+=> "bark!"
+```
