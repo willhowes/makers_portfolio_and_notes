@@ -11,7 +11,9 @@
 ## Daily Goals
 ### Tuesday
 1. Understand Javascript objects and prototypes and how these differ from using classes in Ruby.
-
+* Achieved by:
+ * I can explain that, unlike Ruby, Javascript does not have classes. Although Javascript ES6 does have the keyword ```class``` which can create something which is like a class, it is not the same thing. The class keyword just creates a constructor object which you can use to create new instance objects with the same methods and attributes of the original consructor object. See [my example](https://github.com/willhowes/makers_portfolio_and_notes/blob/master/week_5.md#javascript-objects-and-classes).
+ * I can explain that every object in Javascript has a prototype property which contains all the methods of that object. [See my example](https://github.com/willhowes/makers_portfolio_and_notes/blob/master/week_5.md#prototype-in-javascript). If you want an object to have a method then you should add it using objectName.prototype.methodName = function() {}
 
 ### Monday
 1. Review someone else code and get my code reviewed. 
@@ -134,11 +136,11 @@ userOne.login()
 ```
 
 ### Prototype in Javascript
-* It is usually better to use a 'prototype property' to add a method to an object
-* Every object has a ```__proto__```  property which lists all the methods for that object. 
-* This above example the ```this.login``` method is not part of the prototype property. It was not attached to the ```__proto__``` property.
-* Example using the ```User``` object above. The ```User``` object has the prototype property, but the instances of the ```User``` object do not. The instances of that object, e.g. ```userOne``` have the ```__proto__``` property which points to the prototype property of the object (the contructor function)
-* We can then attach methods to the prototype property, example using the ```User``` object above:
+* Usually you will want to use the 'prototype property' to add a method to an object
+* Every object has a ```__proto__```  property which lists all the methods for that object. You can see this when you return an object to the console. 
+* In the above example the ```this.login``` method is not part of the prototype property. It was not attached to the ```__proto__``` property.
+* In the ```User``` object above, the ```User``` object has the prototype property, but the instances of the ```User``` object do not. The instances of that object, e.g. ```userOne``` have the ```__proto__``` property which points to the prototype property of the object (the contructor function)
+* We can attach methods to the prototype property. Example using the ```User``` object above:
 ```
 User.prototype.login = function() {
  this.online = true;
@@ -147,11 +149,11 @@ User.prototype.login = function() {
 userOne.login
 =>  test@example.com has logged in
 ```
-* Adding methods to an object using the ```prototype``` property also means that we can use inheritane. 
+* Adding methods to an object using the ```prototype``` property also means that we can use inheritance. 
 
 ### 'this' - the Javascript keyword
-* It references the object that executing the current function
-* Need to think of functions on objects as 'methods' and functions outside objects (i.e. global) as 'functions'
+* It references the object that is executing the current function
+* We need to think of functions on objects as 'methods' and functions outside objects (i.e. global functions) as 'functions'
 * Example of ```this``` in a method (i.e. a function in a class):
 ```
 var cat = {
@@ -163,7 +165,7 @@ var cat = {
 cat.printObject()
 => {legs: 4, printObject: ƒ}
 ```
-* In a function (i.e. a function on the global object, not with a object) ```this``` will just return the global object (which for javascript is the ```window```).Example with a normal global function:
+* In a function (i.e. a function on the global object, not with another object) ```this``` will just return the global object (which, for javascript, is the ```window```).Example with a normal global function:
 ```
 function globalFunc(param) { console.log(this) }
 globalFunc("a")
@@ -185,6 +187,5 @@ const v = new Video('b');
 => Video {title: "b"}
 ```
 ### Softwire Tech Talk
-* When looking for work - do they actually mention working hours?
-* Career path?
+* When looking for work - do the employers actually mention working hours? Do they mention career path you can take there?
 
