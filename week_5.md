@@ -102,6 +102,26 @@ var dog = {
 dog.bark()
 => "bark!"
 ```
+
+### Javascript objects and 'classes'
+* Javascript doesn't really have classes, it only has 'pretend classes' in ES6 (the ```class``` keyword is not available in ES5 but, in any case, the ```class``` keyword is doing the same thing as setting up a constructer function. Example:
+```
+function User(email, name) {
+ this.email = email
+ this.name = name
+ this.login = function() {
+ console.log(this.email, 'has logged in');
+ }
+}
+
+var userOne = new User('test@example.com', 'test_user');
+userOne
+=> User {email: "test@example.com", name: "test_user", login: ƒ}
+
+userOne.login()
+=> test@example.com has logged in
+```
+
 ### 'this' - the Javascript keyword
 * It references the object that executing the current function
 * Need to think of functions on objects as 'methods' and functions outside objects (i.e. global) as 'functions'
