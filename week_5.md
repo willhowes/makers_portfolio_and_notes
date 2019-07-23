@@ -184,3 +184,7 @@ function Video(title) {
 const v = new Video('b');
 => Video {title: "b"}
 ```
+### Softwire Tech Talk
+* When looking for work - do they actually mention working hours?
+* Career path?
+
