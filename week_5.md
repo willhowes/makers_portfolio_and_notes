@@ -56,7 +56,18 @@
  * Can run javascript in chrome-dev tools in the Console. 
  * We will be using version ES5 of Javascript. ES6 has extra features but can create bad-habits. 
  
- ### Javascript 
+ ### Javascript general notes
+ * Most things in Javascript are an object, but not everthing is. For example, ```null``` is not an object, neither are strings, numbers and booleans and so they do not have methods. However, if you try to call a method on a string, for example, Javascript will wrap the string into an object temporarily so the method can be called. For example:
+ ```
+ "hello".length
+ => 5
+ ``` 
+ or you can do this: 
+ ```
+ var hello = new String("Hello")
+ ```
+ The above will have all the methods of a String object. 
+ 
  * Objects inherit all methods and properties from the prototype object, e.g:
  ```Person``` inherits all methods and properties from ```Person.prototype```
  * New properties or method cans be added to the object prototype, e.g:
