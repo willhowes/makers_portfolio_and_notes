@@ -7,6 +7,24 @@
 
 ## Own Goals
 * Can explain what Ruby is good for and what Javascript is good for. Maybe a blog post on this. 
+ * Some notes on this:
+ - Javascript can be run directly in the browser. This has the benefits of being able to create web pages/web apps which are fully interactive but do not require GET, POST,etc requests each time the page needs updating. 
+ - Javascript is not an Object Orientated language. However, it can be used as such but has not been designed with Object Orientated design like Ruby has. 
+ - In Ruby everything is an object. *Nearly* everything is an object, however, strings, numbers and booleans are 'primitive values' rather than objects. This has the benefit of faster code since primative values can be called faster than objects which may have lots of methods and attributes. 
+ - However, Javascript treats primitive values as objects when calling methods on them. Examples:
+ ```
+ true.toString()
+ => "true"
+ "name".length()
+ =>
+ x = 1
+ x.toString()
+ => "1"
+ y = 9.99
+ y.toFixed()
+ => 10
+ ```
+ 
 
 ## Daily Goals
 ### Tuesday
