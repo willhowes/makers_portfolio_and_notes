@@ -10,7 +10,7 @@
 
 ## Daily Goals
 ### Tuesday
-1. Understand Javasript objects and prototypes and how these differ from using classes in Ruby.
+1. Understand Javascript objects and prototypes and how these differ from using classes in Ruby.
 
 
 ### Monday
@@ -121,6 +121,22 @@ userOne
 userOne.login()
 => test@example.com has logged in
 ```
+
+### Prototype in Javascript
+* It is usually better to use a 'prototype property' to add a method to an object
+* Every object has a ```__proto__```  property which lists all the methods for that object. 
+* This above example the ```this.login``` method is not part of the prototype property. It was not attached to the ```__proto__``` property.
+* Example using the ```User``` object above. The ```User``` object has the prototype property, but the instances of the ```User``` object do not. The instances of that object, e.g. ```userOne``` have the ```__proto__``` property which points to the prototype property of the object (the contructor function)
+* We can then attach methods to the prototype property, example using the ```User``` object above:
+```
+User.prototype.login = function() {
+ this.online = true;
+ console.log(this.email, 'has logged in')
+}
+userOne.login
+=>  test@example.com has logged in
+```
+* Adding methods to an object using the ```prototype``` property also means that we can use inheritane. 
 
 ### 'this' - the Javascript keyword
 * It references the object that executing the current function
