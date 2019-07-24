@@ -212,6 +212,17 @@ function Video(title) {
 const v = new Video('b');
 => Video {title: "b"}
 ```
+
+### Javascript closure
+* Example scope of a local:
+``` 
+function rainbow() {
+ unicorn() // this will work as we are within the rainbow function 
+ function unicorn() {
+ }
+}
+unicorn() //this would not work as unicorn is local to the rainbow function.
+```
 ### Softwire Tech Talk
 * When looking for work - do the employers actually mention working hours? Do they mention career path you can take there?
 
