@@ -38,7 +38,7 @@
 
 2. Have a look at closures
  * Achieved by watching [this youtube video](https://www.youtube.com/watch?v=-jysK0nlz7A) and doing some research. 
- * I can explain that in Javascript, when you have a function nested within another function you cannot call that function from outside that function. See [example below]
+ * I can explain that in Javascript, when you have a function nested within another function you cannot call that function from outside the parent function. See [example below](https://github.com/willhowes/makers_portfolio_and_notes/blob/master/week_5.md#javascript-closures).
 
 
 ### Tuesday
@@ -237,7 +237,7 @@ function rainbow() {
 unicorn() //this would not work as unicorn is local to the rainbow function.
 ```
 * Because the ```unicorn()``` function is an 'inner function' it has access to all the variables in the parent function (in this case the ```rainbow()```.
-* Every time the ```rainbow()``` function is called a new ```unicorn()``` function is created in the computer's memory. However, you cannot access the ```unicorn()``` from outside of the ```rainbow()``` function.   
+* Every time the ```rainbow()``` function is called a new ```unicorn()``` function is created in the computer's memory. However, you cannot access the ```unicorn()``` function from outside of the ```rainbow()``` function.   
 
 ### Softwire Tech Talk
 * When looking for work - do the employers actually mention working hours? Do they mention career path you can take there?
