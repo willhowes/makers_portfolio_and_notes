@@ -30,6 +30,11 @@
 
 ### Wednesday
 1. Understand how encapsulation works in Javascript
+ * Achieved by:
+  * Attended the [skills workshop](https://github.com/makersacademy/skills-workshops/tree/master/week-5/encapsulation_with_constructor_and_prototype_pattern) 
+  * I can explain that in Javascript we can encapsulate code by using contructor functions and the prototype object.
+  * A constructor function is a way of creating an object in Javascript which can then be used as template object which other new objects can reference all the methods and attributes of. 
+  * I can explain that every object in Javascript has a prototype object which contains all the methods available to that object. The methods in the prototype object can then be reference by new objects which are created as ```new``` instances of the parent object. See more notes on prototypes [below]()
 
 2. Have a look at closures
 
