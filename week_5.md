@@ -140,6 +140,7 @@ var dog = {
 dog.bark()
 => "bark!"
 ```
+```var rainbow = function() {}``` and ```function rainbow() {}``` do the same thing.
 
 ### Javascript objects and 'classes'
 * Javascript doesn't really have classes, it only has 'pretend classes' in ES6 (the ```class``` keyword is not available in ES5 but, in any case, the ```class``` keyword is doing the same thing as setting up a constructer function. Example:
