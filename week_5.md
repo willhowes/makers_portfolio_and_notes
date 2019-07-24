@@ -34,9 +34,11 @@
   * Attended the [skills workshop](https://github.com/makersacademy/skills-workshops/tree/master/week-5/encapsulation_with_constructor_and_prototype_pattern) 
   * I can explain that in Javascript we can encapsulate code by using contructor functions and the prototype object.
   * A constructor function is a way of creating an object in Javascript which can then be used as template object which other new objects can reference all the methods and attributes of. 
-  * I can explain that every object in Javascript has a prototype object which contains all the methods available to that object. The methods in the prototype object can then be reference by new objects which are created as ```new``` instances of the parent object. See more notes on prototypes [below]()
+  * I can explain that every object in Javascript has a prototype object which contains all the methods available to that object. The methods in the prototype object can then be reference by new objects which are created as ```new``` instances of the parent object. See more notes on prototypes [below](https://github.com/willhowes/makers_portfolio_and_notes/blob/master/week_5.md#prototype-in-javascript)
 
 2. Have a look at closures
+ * Achieved by watching [this youtube video](https://www.youtube.com/watch?v=-jysK0nlz7A) and doing some research. 
+ * I can explain that in Javascript, when you have a function nested within another function you cannot call that function from outside that function. See [example below]
 
 
 ### Tuesday
