@@ -141,6 +141,11 @@ dog.bark()
 => "bark!"
 ```
 ```var rainbow = function() {}``` and ```function rainbow() {}``` do the same thing.
+* ```use strict``` means you cannot access a variable before it has been defined in the code. 
+* Probably advisable to use ```strict``` all the time. 
+* underscores for private variables is only a convention ```._leaveAlone``` will do the same thing as ```.leavealone```. It is just to sell someone else reading the code that it should not be accessed from out of its function. 
+* If you have a private variable, e.g. ```_name``` it is good practice to have a getter method to access this, e.g. ```Sheep.prototype.getName  = function() { return this._name }```. Even though you could actually access it using ```Sheep._name```.
+* when you are using a method like ```.map``` need to make sure something is returned on each iteration, otherwise ```undefined``` will be returned. 
 
 ### Javascript objects and 'classes'
 * Javascript doesn't really have classes, it only has 'pretend classes' in ES6 (the ```class``` keyword is not available in ES5 but, in any case, the ```class``` keyword is doing the same thing as setting up a constructer function. Example:
@@ -176,6 +181,7 @@ userOne.login
 =>  test@example.com has logged in
 ```
 * Adding methods to an object using the ```prototype``` property also means that we can use inheritance. 
+* If you add a method to an instance of an object e.g. ```userOne.login = function() {}``` then this would override the function of the same name (```.login```) under the prototype object. 
 
 ### 'this' - the Javascript keyword
 * ```this``` references the object that is executing the current function
@@ -223,8 +229,14 @@ function rainbow() {
 }
 unicorn() //this would not work as unicorn is local to the rainbow function.
 ```
+* Because the ```unicorn()``` function is an 'inner function' it has access to all the variables in the parent function (in this case the ```rainbow()```.
 * Every time the ```rainbow()``` function is called a new ```unicorn()``` function is created in the computer's memory. However, you cannot access the ```unicorn()``` from outside of the ```rainbow()``` function.   
 
 ### Softwire Tech Talk
 * When looking for work - do the employers actually mention working hours? Do they mention career path you can take there?
+
+### Wednesday's Encapsulation Workshop
+* getting visibility - ```console.log()``` it is the equivalent of ```puts``` in ruby (not ```p```). It will always return ```undefined```.
+
+
 
