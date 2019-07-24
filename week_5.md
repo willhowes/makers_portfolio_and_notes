@@ -27,6 +27,13 @@
  
 
 ## Daily Goals
+
+### Wednesday
+1. Understand how encapsulation works in Javascript
+
+2. Have a look at closures
+
+
 ### Tuesday
 1. Understand Javascript objects and prototypes and how these differ from using classes in Ruby.
 * Achieved by:
@@ -90,7 +97,7 @@
  
  * Objects inherit all methods and properties from the prototype object, e.g:
  ```Person``` inherits all methods and properties from ```Person.prototype```
- * New properties or method cans be added to the object prototype, e.g:
+ * New properties or methods can be added to the object prototype, e.g:
  ```
  function Person(first, last, age, eyecolor) {
   this.firstName = first;
@@ -170,7 +177,7 @@ userOne.login
 * Adding methods to an object using the ```prototype``` property also means that we can use inheritance. 
 
 ### 'this' - the Javascript keyword
-* It references the object that is executing the current function
+* ```this``` references the object that is executing the current function
 * We need to think of functions on objects as 'methods' and functions outside objects (i.e. global functions) as 'functions'
 * Example of ```this``` in a method (i.e. a function in a class):
 ```
