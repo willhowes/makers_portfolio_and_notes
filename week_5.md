@@ -35,7 +35,7 @@
  * Achieved by: 
   * Carrying out the [skills workshop](https://github.com/makersacademy/skills-workshops/tree/master/week-5/callbacks_following_the_flow_of_control)
   * I understand that, where there are requests made in, for example, jQuery or Ajax, the code continues running other code in the program while it waits for the callback from the jQuery or Ajax request.
-  * Further notes on other types of callback are below. 
+  * Notes on other types of callback in Javascript are below in [notes](https://github.com/willhowes/makers_portfolio_and_notes/blob/master/week_5.md#callback-functions)
 
 ### Wednesday
 1. Understand how encapsulation works in Javascript
