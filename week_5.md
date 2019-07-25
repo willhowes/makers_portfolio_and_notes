@@ -254,7 +254,7 @@ unicorn() //this would not work as unicorn is local to the rainbow function.
 * getting visibility - ```console.log()``` it is the equivalent of ```puts``` in ruby (not ```p```). It will always return ```undefined```.
 
 ### Callback functions
-* This is a where another function is called from another function. Basic example:
+* This is a where another function is called in is passed into another function. Basic example:
 ```
 var x = function() {
   console.log("I am called from within a function");
@@ -270,6 +270,24 @@ y(x)
 => "Do something"
 => "I am called from within a function"
 ```
+* More useful example with numbers: 
+```
+var calc = function(num1, num2, callback) {
+ return callback(num1, num2);
+};
 
+var add = function(a, b) {
+ return a + b;
+};
+
+var multiply = function(a, b) {
+ return a * b;
+};
+
+console.log(calc(4, 4, add))
+console.log(calc(4, 4, multiply))
+=> 8
+=> 16
+```
 
 
