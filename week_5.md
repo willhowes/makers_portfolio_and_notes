@@ -30,6 +30,8 @@
 
 ### Thursday
 1. Go through yesterday afternoon's steps on the Thermostat challenge to reinforce what I learned.
+* Achieved by:
+ * Going through the guidelines, walkthroughs and our code. I understand how jQuery requests work and can confidently use these in a program. 
 
 2. Learn about callbacks and control flow in Javascript.
  * Achieved by: 
