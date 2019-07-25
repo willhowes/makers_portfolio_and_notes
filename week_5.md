@@ -164,6 +164,7 @@ dog.bark()
 * when you are using a method like ```.map``` need to make sure something is returned on each iteration, otherwise ```undefined``` will be returned. 
 * use ```isStormy``` when we have a method that always returns a boolean value. This is the equivalant of ```stormy?``` in  Ruby.
 * constants use all capitals like```this.MIN_TEMP = 10```. However, like with most things in Javascript, this is purely convention so another developer knows that this variable is intended to be a constant; the value can be amended. 
+* Javascript does not execute any code after a ```return``` statement in a function.
 
 ### Javascript objects and 'classes'
 * Javascript doesn't really have classes, it only has 'pretend classes' in ES6 (the ```class``` keyword is not available in ES5 but, in any case, the ```class``` keyword is doing the same thing as setting up a constructer function. Example:
