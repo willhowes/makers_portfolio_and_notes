@@ -28,6 +28,12 @@
 
 ## Daily Goals
 
+### Thursday
+1. Go through yesterday afternoon's steps on the Thermostat challenge to reinforce what I learned.
+
+2. Learn about callbacks and control flow in Javascript. 
+ * [Skills workshop](https://github.com/makersacademy/skills-workshops/tree/master/week-5/callbacks_following_the_flow_of_control)
+
 ### Wednesday
 1. Understand how encapsulation works in Javascript
  * Achieved by:
