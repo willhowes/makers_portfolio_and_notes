@@ -159,7 +159,7 @@ dog.bark()
 * underscores for private variables is only a convention ```._leaveAlone``` will do the same thing as ```.leavealone```. It is just to sell someone else reading the code that it should not be accessed from out of its function. 
 * If you have a private variable, e.g. ```_name``` it is good practice to have a getter method to access this, e.g. ```Sheep.prototype.getName  = function() { return this._name }```. Even though you could actually access it using ```Sheep._name```.
 * when you are using a method like ```.map``` need to make sure something is returned on each iteration, otherwise ```undefined``` will be returned. 
-* use ```isStormy``` as a method name rather than ```stormy?```
+* use ```isStormy``` when we have a method that always returns a boolean value. This is the equivalant of ```stormy?``` in  Ruby.
 * constants use all capitals like```this.MIN_TEMP = 10```. However, like with most things in Javascript, this is purely convention so another developer knows that this variable is intended to be a constant; the value can be amended. 
 
 ### Javascript objects and 'classes'
