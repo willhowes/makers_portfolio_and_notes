@@ -300,5 +300,15 @@ $('#some-heading').click(function() {
   // this function is the callback!
 })
 ```
+### jQuery
+* This is how an 'event' (i.e. a click, hover, etc) on a web page occurs:
+```user input -> event listener -> update model -> update view to reflect change in model```
+* Example from the Thermostat challenge:
+```$('#temp-up').on('click', function() { // event listener
+  thermostat.increaseTemperature(); // update model
+  $('#temperature').text(thermostat.temperature); // update view
+})
+```
+
 
 
