@@ -253,5 +253,8 @@ unicorn() //this would not work as unicorn is local to the rainbow function.
 ### Wednesday's Encapsulation Workshop
 * getting visibility - ```console.log()``` it is the equivalent of ```puts``` in ruby (not ```p```). It will always return ```undefined```.
 
+### Callback functions
+* This is a where another function is called from another function. 
+
 
 
