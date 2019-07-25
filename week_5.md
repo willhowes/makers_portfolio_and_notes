@@ -31,8 +31,11 @@
 ### Thursday
 1. Go through yesterday afternoon's steps on the Thermostat challenge to reinforce what I learned.
 
-2. Learn about callbacks and control flow in Javascript. 
- * [Skills workshop](https://github.com/makersacademy/skills-workshops/tree/master/week-5/callbacks_following_the_flow_of_control)
+2. Learn about callbacks and control flow in Javascript.
+ * Achieved by: 
+  * Carrying out the [skills workshop](https://github.com/makersacademy/skills-workshops/tree/master/week-5/callbacks_following_the_flow_of_control)
+  * I understand that, where there are requests made in, for example, jQuery or Ajax, the code continues running other code in the program while it waits for the callback from the jQuery or Ajax request.
+  * Further notes on other types of callback are below. 
 
 ### Wednesday
 1. Understand how encapsulation works in Javascript
