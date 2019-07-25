@@ -294,5 +294,11 @@ console.log(calc(4, 4, multiply))
 => 8
 => 16
 ```
+* in jQuery a callback is where an anonomous function is called as the last argument to the event handler. For example, the folowing is a blank anonomous function which is the last argument called on a click event:
+```
+$('#some-heading').click(function() {
+  // this function is the callback!
+})
+```
 
 
