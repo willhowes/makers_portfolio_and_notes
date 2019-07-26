@@ -28,6 +28,10 @@
 
 ## Daily Goals
 
+### Friday
+
+1. Complete fizzbuzz with TDD in a third language. 
+
 ### Thursday
 1. Go through yesterday afternoon's steps on the Thermostat challenge to reinforce what I learned.
 * Achieved by:
