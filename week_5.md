@@ -321,5 +321,8 @@ $('#some-heading').click(function() {
 * Ajax requests respond to Javascript code. You code makes a request and when it receives a response, a callback function can be triggered. 
 * Because an Ajax request is asynchronous, the rest of the code can be executed while it is waiting for the response. 
 
+### Feature testing with capybara
+* will need to set up sinatra with an app.rb file with one statement being ```GET ('/')```. 
+* run your feature tests with capybara in ruby. 
 
 
