@@ -107,6 +107,7 @@
  * We will be using version ES5 of Javascript. ES6 has extra features but can create bad-habits. 
  
  ### Javascript general notes
+ * JS can update the DOM (Document Object Model) without refreshing the page. It ca, for example, make elements appear and disappear from the page without the need for refreshing the page.  
  * Most things in Javascript are an object, but not everthing is. For example, ```null``` is not an object, neither are strings, numbers and booleans and so they do not have methods. However, if you try to call a method on a string, for example, Javascript will wrap the string into an object temporarily so the method can be called. For example:
  ```
  "hello".length
@@ -316,13 +317,42 @@ $('#some-heading').click(function() {
 })
 ```
 
-### [Ajax (Asynchronous Javascript XML)] (https://learn.jquery.com/ajax/)
-* Allows browsers to communicate with servers without the need for page refreshes. 
-* Ajax requests respond to Javascript code. You code makes a request and when it receives a response, a callback function can be triggered. 
-* Because an Ajax request is asynchronous, the rest of the code can be executed while it is waiting for the response. 
-
 ### Feature testing with capybara
 * will need to set up sinatra with an app.rb file with one statement being ```GET ('/')```. 
 * run your feature tests with capybara in ruby. 
+
+### APIs (Application Programming Interface)
+* [Useful video](https://www.youtube.com/watch?v=QDsrErWpizI) explaining APIs, Ajax and JSON. 
+* Can have two meanings:
+1. When you run a library like jQuery or Sinatra, the methods they provide are part of the API, e.g. ```$('#temp)...``` the $ method is part of the API. 
+2. The more established meaning of an API is the kind of methods you can call over a network connection. When a request is sent to the server, the server does not need to send back html for a webpage, it could be sending back any kind of data (e.g. XML, or JSON) for a machine rather than an html page for a browser. That data might be changed in to html but might not if it does not need to be displayed on a webpage. When the data is called for (e.g. something like, ```city.weather``` by a http request (e.g. a get request) the end point where the data is retrieved from on the server is the API, e.g. city/temperature on a weather API. You may also be able to push data to an API, not retrieve data from it.
+
+### [Ajax (Asynchronous Javascript and XML)] (https://learn.jquery.com/ajax/)
+* It is a JS function
+* Sends requests to other servers without page refreshes.
+* For example, on gmail, you do not have to refresh the page to get new emails, nor do you go to new pages when you click on a new email. It is using AJAX to call out to the server and then gets back a JSON object which can be used to update the page. 
+* Allows browsers to communicate with servers without the need for page refreshes. 
+* Ajax requests respond to Javascript code. Your code makes a request and when it receives a response, a callback function can be triggered. 
+* Because an Ajax request is asynchronous, the rest of the code can be executed while it is waiting for the response. 
+* You can use Ajax requests with a local server as well as external servers, for example using jQuery if you do not want the page to refresh when you get new data:
+```
+//in interface.js
+$.get("http://localhost:4567/time")
+
+// in app.rb
+get ('/time') do
+ headers: 'Access-Control-Allow-Origin' => '*'
+ Time.new
+end
+```
+
+* we need the ``` headers: 'Access-Control-Allow-Origin' => '*'``` line because Ajax requests will not allow you to take data from one server and pass it through a different server (for security reasons). 
+
+* Note, Jasmine as a plug-in for stubbing out Ajax calls...
+
+
+### JSON (JS Object Notation)
+* A data format that allows us to send data from the API/Server that is in a format that the program/computer/machine we are sending it to understands and can manage quickly. 
+* Is like a hash in JS, but is in fact a string.
 
 
