@@ -15,7 +15,7 @@ By the end of the week all developers can build tested, easy-to-change software 
 ### High goals to refer to each day:
 1. Can you use the XP values to guide your behaviour?
 * Simplicity - small simple steps. 
-* Communication
+* Communication - communicate face-to-face daily. Work together on all aspects of the project. Create solutions together.
 * Feedback - Actionable, Specific and Kind
 * Respect - everyone in team is equally valued and respect
 * Courage - do not fear anything because no one works alone. Adapt changes, do not make excuses for failure.
