@@ -56,25 +56,6 @@ Main goal (build tested, easy-to-change software in a team)
 * Achieved by:
  * Worked with databases throughout the week for the MakersBnB challenge. See notes below.
 
-## Daily Goals
-
-### Friday
-
-### Thursday
-
-### Wednesday
-
-### Tuesday
-
-1. Remember to do git fetches from master branch when making lots of commits on a separate branch. 
-
-2. Reflect with Alice and my peer group how I am progressing and if I am recording my progress effectively. 
-
-3. Have a look at Rake for setting up the databases automatically. 
-
-### Monday
-1. Understand week's goals
-
 ## Takeaways & Notes
 
 ### Databases
