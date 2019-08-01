@@ -63,6 +63,7 @@ Main goal (build tested, easy-to-change software in a team)
  * Set up a Rake file so that exact replicas of the databases can be created easily by running the Rake file. 
  * Rather than trying to create a copy of the database in Table Plus, we could have run the SQL code in ```psql```. I spent a short amount of time looking for the correct psql commands but perhaps gave up too easily when it did not work.
  * Another lesson learned was that it is not a good idea rename the serial id columns. Having renamed the ```id``` columns in both the ```users``` and ```spaces``` table to ```user_id``` and ```space_id``` respectively, this caused an issue when one of us tried to reinstall the database on their macbook. It will also cause problems if someone want to clone and use our code on their own computer (as it would not let them create the tables to the databases with the serial ID columns called something other than ```ID```.
+ * SQL can store store an array of data. For example, for MakersBnB, we used an array to store all the dates and date ranges for bookings on a space. 
  
  ### MVP 
  * Think of it like, if your client is asking for you to build a car for the user to get between A and B quicker, do not start building the components of the car from the outset, try to build the simplest thing possible that can be presented to the client, and then work on the next simplest thing and so on. The steps could be:
@@ -71,4 +72,7 @@ Main goal (build tested, easy-to-change software in a team)
  3. Build a bike
  4. Build a motor-bike
  5. Build a car. 
+ 
+ ### Git/Github
+ * ```git fetch origin``` will make sure you have local repository has all the latest branches on the github repository. 
  
