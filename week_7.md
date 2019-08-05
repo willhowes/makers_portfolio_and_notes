@@ -3,15 +3,15 @@
 
 ## Week's Goals
 
-### Main goal for the week
-
-
-### High goals to refer to each day:
-
+1. Can you write a frontend, single page app using only pure JavaScript?
 
 ### Have I achieved the above goals?
 
-## Own Goals
+## Own Goals for the Week
+
+1. Go to a Process Workshop.
+
+2. Have a deeper understanding of JS
 
 ## Takeaways & Notes
 
