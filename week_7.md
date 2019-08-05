@@ -15,3 +15,9 @@
 
 ## Takeaways & Notes
 
+### For reviews
+Ask the reviewer: 
+1. What input I am getting?
+2. What output are you expecting?
+3. How will the user interact with the program?
+
