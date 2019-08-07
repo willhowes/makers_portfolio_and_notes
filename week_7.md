@@ -21,6 +21,7 @@ Ask the reviewer:
 1. What input I am getting?
 2. What output are you expecting?
 3. How will the user interact with the program?
+4. Any edgecases
 
 ### Testing without a framework
 1. Produced our own JS testing framework 'Dave' which made constance functions ```describe```, ```it```, ```expect``` and one matcher ```toBe``` which we could then use for our own project.
