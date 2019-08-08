@@ -14,6 +14,8 @@
 
 2. Have a deeper understanding of JS
 
+3. Look at and understand: https://github.com/makersacademy/course/blob/master/pills/javascript_module_pattern.md
+
 ## Takeaways & Notes
 
 ### For reviews
@@ -32,4 +34,6 @@ Ask the reviewer:
 2. Debug a bit quicker using ```p``` or ```console.log```. 
 3. Don't go into doing major logic for the problem until necessary. 
 
-
+### Module Patterns Workshops
+1. Whether to use multi-page app or single page app is really a UX design decision rather than a developer one. 
+2. By using 
