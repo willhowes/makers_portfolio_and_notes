@@ -45,3 +45,51 @@ and then later:
 ```namee = will```
 this will through an error but wouldn't do if you were not using static typing (for example with ruby) which would just declare a new variable ```namee```.
 
+### IIFE ('iffy') = Immediately Invoked Function Expression
+- Example:
+```
+(function() {
+  console.log("hi");
+})();
+```
+- broken down this is:
+1. An annonymous function, i.e the 
+```
+function() {
+  console.log("hi");
+}
+```
+2. The parentesis that wrap this annonymous function.
+3. The final set of parentheis after the wrapping parenthesis which runs the annonymous function.
+
+* IIFEs are used to hide variable and function declarations. So in reality the above example is pointless as the is no reason to hide ```console.log```. 
+
+* A better example:
+```
+(function () {
+  var EXCLAMATION_MARK_COUNT = 5
+
+  function exclaim(string) {
+    return string + "!".repeat(EXCLAMATION_MARK_COUNT);
+  };
+
+  console.log(exclaim("hi"));
+})();
+```
+In the above code the the ```exclaim``` function and the ```EXCLAMATION_MARK_COUNT``` are hidden and cannot be accessed.
+
+* When we are using the 'module pattern' we are basically just using an IIFE, but with the ```export``` keyword which makes the functions and variables to the public interface. 
+ * With the below example, the same IIFE above is exported to the public interface so calling ```explain("Hello")``` will not throw an error:
+ 
+```
+(function(exports) {
+  var EXCLAMATION_MARK_COUNT = 5
+
+  function exclaim(string) {
+    return string + "!".repeat(EXCLAMATION_MARK_COUNT);
+  };
+
+  exports.exclaim = exclaim;
+})(this);
+```
+However, we will not be able to access ```EXCLAMATION_MARK_COUNT```. So the function is available but not the variables inside of that function. This means that our variables will not clash with the variable in the reset of the program. 
