@@ -93,3 +93,19 @@ In the above code the the ```exclaim``` function and the ```EXCLAMATION_MARK_COU
 })(this);
 ```
 However, we will not be able to access ```EXCLAMATION_MARK_COUNT```. So the function is available but not the variables inside of that function. This means that our variables will not clash with the variable in the reset of the program. 
+
+### Careers Workshop
+* Becks, Hannah and Nick.
+* Pathway - in contract with Makers for a year. Idea is that you become permanent after a years.
+- Support from Will and Lauren with career progression. 
+- Makers provide the necessary tech coaching.
+* Meetups:
+- e.g. Ruby User Groups.
+* blog
+* tweet
+* message Hannah or Nick to say want to work in Brighton.
+* process in final project v important
+
+* 3-5 projects on CV (inc. final project). 
+* quite often have to talk about the final project in the interview.
+* READMEs important.
