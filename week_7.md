@@ -36,4 +36,12 @@ Ask the reviewer:
 
 ### Module Patterns Workshops
 1. Whether to use multi-page app or single page app is really a UX design decision rather than a developer one. 
-2. By using 
+2. It is way of encapsulating behaviour. Iife's are essentially private methods.
+3. This is one pattern. If you are using this pattern should be consistent throughout your code. 
+4. If using static typing (like with ```sctrict```) you should declare a variable using ```var``` and then access it without the ```var``` later. This will mean that if you make a typo when you try to access it later it will through an error, e.g.:
+
+```var name = will```
+and then later:
+```namee = will```
+this will through an error but wouldn't do if you were not using static typing (for example with ruby) which would just declare a new variable ```namee```.
+
