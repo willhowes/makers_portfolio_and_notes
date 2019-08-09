@@ -129,3 +129,22 @@ However, we will not be able to access ```EXCLAMATION_MARK_COUNT```. So the func
 * The Note App is not a good example of single page web app. It is far common that you make HTTP requests to different API end points. 
 * Facebook, for example is not completely single page - log in, register pages, profile pages are separate, but the 'feed' is only on one page. 
 * Might want to isolate the Ajax requests - so you hard code what you get back from the request.
+
+### My end of week reflection:
+
+Overall, you rated this week: 7
+You felt it was because of this: I am very much enjoying the course but at times I feel like I am not keeping up. I also feel like some of the ruby, TDD with rspec we learned at the start of the course which was second nature to me is not any longer.
+You decided these resources and/or strategies could be useful: I am going to continue going to process workshops and do the odd kata to practice TDD and ruby.
+Send a coach a message on Slack and we can have a chat anytime!
+
+----------------------------
+Week Objectives: 7
+Your objectives this week were: Build a front-end app in Javascript Work competently in Javascript Reason about asynchronous behaviour in Javascript
+You felt the primary reason for your score was: I feel pretty confident at building a front end app in JS. In terms of working competently in Javascript I feel I have to do a lot of googling other than the very basics. I think i understand what asynchronous behaviour is in JS but I am not to confident about this from a practical perspective.
+You decided these resources and/or strategies could be useful: A workshop on asyncrhonous behaviour would have been helpful perhaps or some practicals.
+----------------------------
+Personal Objectives: 7
+Your objectives this week were: Go to a process workshop. Understand the module pattern.
+You felt the primary reason for your score was: I went to a process workshop and this was really helpful practice for a review. Whilst I have a basic understanding of the module pattern I would like to understand when this might be useful.
+You decided these resources and/or strategies could be useful: A youtube tutorial or an example project when module is used.
+----------------------------
