@@ -122,3 +122,10 @@ However, we will not be able to access ```EXCLAMATION_MARK_COUNT```. So the func
 
 * STATE:
 - components have a "state" which is an object which determines how the components renders and behaves.
+
+* Uses ```jsx``` and this means you cannot use ```class``` in the html file but need to use ```className``` instead. 
+
+### Retrospective
+* The Note App is not a good example of single page web app. It is far common that you make HTTP requests to different API end points. 
+* Facebook, for example is not completely single page - log in, register pages, profile pages are separate, but the 'feed' is only on one page. 
+* Might want to isolate the Ajax requests - so you hard code what you get back from the request.
