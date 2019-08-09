@@ -109,3 +109,16 @@ However, we will not be able to access ```EXCLAMATION_MARK_COUNT```. So the func
 * 3-5 projects on CV (inc. final project). 
 * quite often have to talk about the final project in the interview.
 * READMEs important.
+
+### REACT
+* It is a single page application framework.
+* The main app outputs to the ```id="root"``` element.
+* Only for the View part of the MVC model. 
+* COMPONENTS - e.g. on a Todo web app you might have:
+- a "Search" component for the search bar section of the page
+- a "TodoList" component for listing the all the todos. 
+- a "Todo" component for each individual Todo item
+- an "AddTodo" component for adding a new Todo item
+
+* STATE:
+- components have a "state" which is an object which determines how the components renders and behaves.
