@@ -8,7 +8,8 @@
 
 ## Week's Goals
 
-* I help my teams succeed
+* Can you use high-quality processes to build a project in a team?
+
 
 ### Have I achieved the above goals?
 
