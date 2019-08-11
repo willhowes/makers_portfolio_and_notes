@@ -7,6 +7,9 @@
 
 ### Have I achieved the above goals?
 
+* Built the [note app](https://github.com/willhowes/Seton2) with my group using only pure JS. 
+* We also built a our own testing framework ('Dave') so we could test drive the build. 
+
 ## Own Goals for the Week
 
 1. Go to a Process Workshop.
@@ -148,3 +151,18 @@ Your objectives this week were: Go to a process workshop. Understand the module 
 You felt the primary reason for your score was: I went to a process workshop and this was really helpful practice for a review. Whilst I have a basic understanding of the module pattern I would like to understand when this might be useful.
 You decided these resources and/or strategies could be useful: A youtube tutorial or an example project when module is used.
 ----------------------------
+
+### Asychronous JS
+* Unlike syncronous JS which waits for 1 action to complete before moving onto the next, asychronous JS can make a request in one line of code and then the rest of the code gets read whilst we are waiting for the request to be handled. 
+
+* Diagram to explain this:
+
+- Code line
+- Code line
+- Code line (a request) --------------------------------
+- Code line                                             |
+- Code line                                             |
+- Code line                                         ( DATA )
+- Code line                                             |
+- Code line                                             |
+- Callback (executed when response to request rec'd) --- 
