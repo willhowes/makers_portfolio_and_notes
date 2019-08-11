@@ -156,7 +156,7 @@ You decided these resources and/or strategies could be useful: A youtube tutoria
 * Unlike syncronous JS which waits for 1 action to complete before moving onto the next, asychronous JS can make a request in one line of code and then the rest of the code gets read whilst we are waiting for the request to be handled. 
 
 * Diagram to explain this:
-
+```
 - Code line
 - Code line
 - Code line (a request) --------------------------------
@@ -166,7 +166,15 @@ You decided these resources and/or strategies could be useful: A youtube tutoria
 - Code line                                             |
 - Code line                                             |
 - Callback (executed when response to request rec'd) --- 
-
+```
 * Above is just one way to handle a asynchronous request (i.e. using a callback). You can also use:
 - Promises (better)
 - Generators (even better but only ES6)
+
+### Ajax requests
+* An Ajax get request using jQuery looks like this: 
+```
+$.get("address/of/where/we/want/to/get/the/data/from", theCallbackFunction(dataWeAreGettngBack) {
+  console.log(data) // <--what gets executed when the data comes back;
+});
+```
