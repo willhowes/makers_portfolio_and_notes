@@ -166,3 +166,7 @@ You decided these resources and/or strategies could be useful: A youtube tutoria
 - Code line                                             |
 - Code line                                             |
 - Callback (executed when response to request rec'd) --- 
+
+* Above is just one way to handle a asynchronous request (i.e. using a callback). You can also use:
+- Promises (better)
+- Generators (even better but only ES6)
