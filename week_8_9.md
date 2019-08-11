@@ -3,8 +3,13 @@
 * Got up to [here](https://guides.rubyonrails.org/getting_started.html#laying-down-the-groundwork)
 
 
-# Week 8
+# Weeks 8 & 9
 [Week outline](https://github.com/makersacademy/course/blob/master/week_outlines.md/#week-8-9)
+
+Resources for the Project:
+* [Project criteria](https://github.com/makersacademy/course/blob/master/final_projects/project_criteria.md)
+* [Engineering Projects Guide](https://github.com/makersacademy/course/tree/master/engineering_projects)
+* [Rails Engineering Project](https://github.com/makersacademy/course/tree/master/engineering_projects/rails)
 
 ## Week's Goals
 
