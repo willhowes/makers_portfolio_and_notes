@@ -27,3 +27,21 @@ Resources for the Project:
 
 ## Takeaways & Notes
 
+### Week kick off
+* What doesn high-quality processes mean:
+- Standups/Retros
+- TDD
+- XP Values
+- Agile
+- Planning
+- Git workflow
+- Pairing
+
+* N.B. Standups are not the same as planning.
+- Standups: what you did yesterday? what your goals for the day? Mood check-ins.
+
+* These two weeks are all about the process.
+
+* Rota for planning session?
+
+* Use Trello for managing workflow.
