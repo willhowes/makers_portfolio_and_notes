@@ -10,6 +10,7 @@ Resources for the Project:
 * [Project criteria](https://github.com/makersacademy/course/blob/master/final_projects/project_criteria.md)
 * [Engineering Projects Guide](https://github.com/makersacademy/course/tree/master/engineering_projects)
 * [Rails Engineering Project](https://github.com/makersacademy/course/tree/master/engineering_projects/rails)
+* [Two day sprints](https://github.com/makersacademy/acebook-rails-template/blob/master/CONTRIBUTING.md) 
 
 ## Week's Goals
 
