@@ -45,3 +45,15 @@ Resources for the Project:
 * Rota for planning session?
 
 * Use Trello for managing workflow.
+
+### General Notes on Rails
+* It uses the MVC patter.
+
+* The Controller part is referred to as the 'ActiveController'
+* The Model part is referred to at the 'ActiveRecord'
+* The View is referred to as the 'ActionView'
+
+* ```bin``` contains all file sto run application
+* ```config``` configures the routes to send you to the correct controller.
+
+* in erb files use ```<%= some_ruby_code %>``` if we are outputting something or ```<% some_ruby_code %>``` if no output is being rendered. Use ```<%# some_ruby_comment %>``` for commenting.
