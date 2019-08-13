@@ -1,5 +1,5 @@
 # Will Howes - Makers Academy Porfolio
-This is my portfolio for my learning and project work at Makers Academy.
+This is my portfolio for my learning and project work at the 12-week coding bootcamp Makers Academy.
 
 ## Weekly Goals & Notes
 [Week 1](https://github.com/willhowes/makers_portfolio_and_notes/blob/master/week_1.md)
