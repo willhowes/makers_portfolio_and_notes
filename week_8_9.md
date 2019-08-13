@@ -1,8 +1,3 @@
-### Rails tutorial
-
-* Got up to [here](https://guides.rubyonrails.org/getting_started.html#adding-a-second-model)
-
-
 # Weeks 8 & 9
 [Week outline](https://github.com/makersacademy/course/blob/master/week_outlines.md/#week-8-9)
 
@@ -60,3 +55,5 @@ Resources for the Project:
 
 * Example of how to create a one to many relationship (comments on a blog post):
 https://guides.rubyonrails.org/getting_started.html#adding-a-second-model
+
+* sign-up: https://www.railstutorial.org/book/sign_up
