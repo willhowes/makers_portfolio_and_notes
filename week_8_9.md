@@ -57,3 +57,6 @@ Resources for the Project:
 * ```config``` configures the routes to send you to the correct controller.
 
 * in erb files use ```<%= some_ruby_code %>``` if we are outputting something or ```<% some_ruby_code %>``` if no output is being rendered. Use ```<%# some_ruby_comment %>``` for commenting.
+
+* Example of how to create a one to many relationship (comments on a blog post):
+https://guides.rubyonrails.org/getting_started.html#adding-a-second-model
