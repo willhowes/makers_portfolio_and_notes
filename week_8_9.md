@@ -56,4 +56,6 @@ Resources for the Project:
 * Example of how to create a one to many relationship (comments on a blog post):
 https://guides.rubyonrails.org/getting_started.html#adding-a-second-model
 
+* In terms of having a class in Rails, when you set up the model, the class's attributes are determined by the rows that are in that class's databases. For example, if you have set up a ```User``` model 
+
 * sign-up, etc in Rails: https://www.railstutorial.org/book/sign_up
