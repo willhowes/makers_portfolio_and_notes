@@ -56,4 +56,4 @@ Resources for the Project:
 * Example of how to create a one to many relationship (comments on a blog post):
 https://guides.rubyonrails.org/getting_started.html#adding-a-second-model
 
-* sign-up: https://www.railstutorial.org/book/sign_up
+* sign-up, etc in Rails: https://www.railstutorial.org/book/sign_up
