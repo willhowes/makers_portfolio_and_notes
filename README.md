@@ -16,4 +16,4 @@ This is my portfolio for my learning and project work at Makers Academy.
 
 [Week 7](https://github.com/willhowes/makers_portfolio_and_notes/blob/master/week_7.md)
 
-[Week 8](https://github.com/willhowes/makers_portfolio_and_notes/blob/master/week_8.md)
+[Weeks 8 & 9](https://github.com/willhowes/makers_portfolio_and_notes/blob/master/week_8.md)
