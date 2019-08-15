@@ -59,3 +59,9 @@ https://guides.rubyonrails.org/getting_started.html#adding-a-second-model
 * In terms of having a class in Rails, when you set up the model, the class's attributes are determined by the rows that are in that class's databases. For example, if you have set up a ```User``` model 
 
 * sign-up, etc in Rails: https://www.railstutorial.org/book/sign_up
+
+### Careers workshop
+* Process about persuading an employer to give you an interview more important than your CV.
+- LinkedIn, twitter, events, etc. Find a company you want to work for...
+- Still have to have a CV though...
+* If there's a company you really want to work for then let careers team know.
