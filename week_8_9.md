@@ -20,6 +20,8 @@ Resources for the Project:
 
 2. Get an understanding of rails
 
+3. Have a look at Big O Notation. 
+
 ## Takeaways & Notes
 
 ### Week kick off
