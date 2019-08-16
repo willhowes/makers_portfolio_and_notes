@@ -103,3 +103,10 @@ end
 - LinkedIn, twitter, events, etc. Find a company you want to work for...
 - Still have to have a CV though...
 * If there's a company you really want to work for then let careers team know.
+
+### Week 8 Retro
+* Can set 'pessimistic' 'moderate' and 'optimistic' time estimations. 
+* Do a process workshop, record it and send to coach.
+* Group work:
+- Designated leader each day
+- Feedback sessions? (if all happy for this)
