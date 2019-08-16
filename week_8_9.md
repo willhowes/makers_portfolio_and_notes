@@ -63,6 +63,19 @@ https://guides.rubyonrails.org/getting_started.html#adding-a-second-model
 
 * Rails has ```has_many``` and ```belongs_to``` methods for setting up databases to have many-to-one or many-to-many relationsips. 
 
+* To set up a model with a relationship (like a post being related to a user), when you generate the model you use the `reference` keyword, e.g:
+```
+$ rails generate model Micropost content:text user:references
+```
+- the above automatically gets the user_id from the users table of the database, so each post has a foreign key bring the user_id of the user that made the post. 
+
+* For example, with apps like Twitter or Facebook, the posts model would say it belongs_to the User class:
+```
+class Micropost < ApplicationRecord
+   belongs_to :user
+end
+```
+
 ### Careers workshop
 * Process about persuading an employer to give you an interview more important than your CV.
 - LinkedIn, twitter, events, etc. Find a company you want to work for...
