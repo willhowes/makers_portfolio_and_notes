@@ -44,7 +44,8 @@ Resources for the Project:
 * Use Trello for managing workflow.
 
 ### General Notes on Rails
-* Very good Ruby on Rails book: https://www.railstutorial.org/book/
+* Overview guide for a basic app: https://guides.rubyonrails.org/
+* More details book building a more complex app: https://www.railstutorial.org/book/
 * It uses the MVC patter.
 
 * The Controller part is referred to as the 'ActiveController'
@@ -54,12 +55,31 @@ Resources for the Project:
 
 * in erb files use ```<%= some_ruby_code %>``` if we are outputting something or ```<% some_ruby_code %>``` if no output is being rendered. Use ```<%# some_ruby_comment %>``` for commenting.
 
+* In terms of having a class in Rails, when you set up the model, the class's attributes are determined by the rows that are in that class's databases. For example, if you have set up a ```User``` model 
+
+* To set the routes you need to generate a controller for that model, e.g. ```rails generate controller Posts```. This will create a controller class for this model that inherits from the ApplicationController. In this new class you need to define the CRUD routes, e.g:
+```
+def show
+end
+
+def new
+end
+
+def create
+end
+
+def edit 
+end
+
+def destroy
+end
+```
+The ```new``` method will be called when you hit the submit button on the new posts form and rails take you to the path ```app/views/articles/new.html.erb```.
+
 * Example of how to create a one to many relationship (comments on a blog post):
 https://guides.rubyonrails.org/getting_started.html#adding-a-second-model
 
-* In terms of having a class in Rails, when you set up the model, the class's attributes are determined by the rows that are in that class's databases. For example, if you have set up a ```User``` model 
-
-* sign-up, etc in Rails: https://www.railstutorial.org/book/sign_up
+* When you create a form you use a form builder with the ```form_for``` method followed by the model the form is for, e.g. ```@post```. To see where the form goes to you can inspect the submit button on the html use the command ```rails routes``` . If the form 
 
 * Rails has ```has_many``` and ```belongs_to``` methods for setting up databases to have many-to-one or many-to-many relationsips. 
 
@@ -75,6 +95,8 @@ class Micropost < ApplicationRecord
    belongs_to :user
 end
 ```
+
+* The ```resources``` method makes the resource (or object) CRUD.
 
 ### Careers workshop
 * Process about persuading an employer to give you an interview more important than your CV.
