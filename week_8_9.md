@@ -44,6 +44,7 @@ Resources for the Project:
 * Use Trello for managing workflow.
 
 ### General Notes on Rails
+* Very good Ruby on Rails book: https://www.railstutorial.org/book/
 * It uses the MVC patter.
 
 * The Controller part is referred to as the 'ActiveController'
@@ -59,6 +60,8 @@ https://guides.rubyonrails.org/getting_started.html#adding-a-second-model
 * In terms of having a class in Rails, when you set up the model, the class's attributes are determined by the rows that are in that class's databases. For example, if you have set up a ```User``` model 
 
 * sign-up, etc in Rails: https://www.railstutorial.org/book/sign_up
+
+* Rails has ```has_many``` and ```belongs_to``` methods for setting up databases to have many-to-one or many-to-many relationsips. 
 
 ### Careers workshop
 * Process about persuading an employer to give you an interview more important than your CV.
