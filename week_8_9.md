@@ -14,18 +14,22 @@ Resources for the Project:
 
 ### Have I achieved the above goals?
 
+* Yes, in my team throughout the week, we used high-quality process to build our ['Acebook' project](https://github.com/Kaymo1990/acebook---CharliesAngels).
+
 ## Own Goals for the Week
 
 1. Have a my process reviewed
+* Unfortunately, my review was cancelled at the last minute by the reviewer.
 
 2. Get an understanding of rails
+* 
 
 3. Have a look at Big O Notation. 
 
 ## Takeaways & Notes
 
 ### Week kick off
-* What doesn high-quality processes mean:
+* What does high-quality processes mean:
 - Standups/Retros
 - TDD
 - XP Values
@@ -45,8 +49,9 @@ Resources for the Project:
 
 ### General Notes on Rails
 * Overview guide for a basic app: https://guides.rubyonrails.org/
-* More details book building a more complex app: https://www.railstutorial.org/book/
-* It uses the MVC patter.
+* In-depth book for building a more complex app: https://www.railstutorial.org/book/
+
+* Rails uses the MVC patter.
 
 * The Controller part is referred to as the 'ActiveController'
 * The Model part is referred to at the 'ActiveRecord'
@@ -55,7 +60,7 @@ Resources for the Project:
 
 * in erb files use ```<%= some_ruby_code %>``` if we are outputting something or ```<% some_ruby_code %>``` if no output is being rendered. Use ```<%# some_ruby_comment %>``` for commenting.
 
-* In terms of having a class in Rails, when you set up the model, the class's attributes are determined by the rows that are in that class's databases. For example, if you have set up a ```User``` model 
+* In terms of having a class in Rails, when you set up the model, the class's attributes are determined by the rows that are in that class's databases. 
 
 * To set the routes you need to generate a controller for that model, e.g. ```rails generate controller Posts```. This will create a controller class for this model that inherits from the ApplicationController. In this new class you need to define the CRUD routes, e.g:
 ```
@@ -74,12 +79,12 @@ end
 def destroy
 end
 ```
-The ```new``` method will be called when you hit the submit button on the new posts form and rails take you to the path ```app/views/articles/new.html.erb```.
+The ```new``` method will be called when you hit the submit button on the new posts form and rails takes you to the path ```app/views/articles/new.html.erb```.
 
 * Example of how to create a one to many relationship (comments on a blog post):
 https://guides.rubyonrails.org/getting_started.html#adding-a-second-model
 
-* When you create a form you use a form builder with the ```form_for``` method followed by the model the form is for, e.g. ```@post```. To see where the form goes to you can inspect the submit button on the html use the command ```rails routes``` . If the form 
+* When you create a form you use a form builder with the ```form_for``` method followed by the model the form is for, e.g. ```@post```. To see where the form goes to you can inspect the submit button on the html use the command ```rails routes``` .
 
 * Rails has ```has_many``` and ```belongs_to``` methods for setting up databases to have many-to-one or many-to-many relationsips. 
 
@@ -87,7 +92,7 @@ https://guides.rubyonrails.org/getting_started.html#adding-a-second-model
 ```
 $ rails generate model Micropost content:text user:references
 ```
-- the above automatically gets the user_id from the users table of the database, so each post has a foreign key bring the user_id of the user that made the post. 
+- the above automatically gets the user_id from the users table of the database, so each post has a foreign key being the user_id of the user that made the post. 
 
 * For example, with apps like Twitter or Facebook, the posts model would say it belongs_to the User class:
 ```
@@ -105,8 +110,8 @@ end
 * If there's a company you really want to work for then let careers team know.
 
 ### Week 8 Retro
-* Can set 'pessimistic' 'moderate' and 'optimistic' time estimations. 
 * Do a process workshop, record it and send to coach.
+* Can set 'pessimistic' 'moderate' and 'optimistic' time estimations. 
 * Group work:
 - Designated leader each day
 - Feedback sessions? (if all happy for this)
