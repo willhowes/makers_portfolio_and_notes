@@ -115,3 +115,15 @@ end
 * Group work:
 - Designated leader each day
 - Feedback sessions? (if all happy for this)
+
+### Initial Feedback from the Process Review (with Robert)
+* A few syntax issues
+* I coded before testing towards the end with the edgecases, although I noticed that I was doing it and went back to testing. 
+
+* RED-GREEN-REFACTORING - my red-green was good. Refactor was not so good. I should refactor more as I go along. I should look for repetitions (anything that's going over and over again). The basics programming principals will always help: i.e. variables, loops, if statements, methods.
+
+* Lots of ifs might be better than ifs and elsifs. What you need to ask yourself is - do I want all the below ifs to be ignored if this if is true (if so, just use if statements) - or, do all the statements need to be checked (if so, then you need elsifs).
+
+* Naming conventions - "hash", "string", for example NOT GOOD. Can rename them during the REFACTOR stage. During the GREEN stage you can make as many coding sins as you want (naming conventions, loads of if statements), but you should correct these during the REFACTOR process. Keep running the tests when you are refactoring to make sure it is staying green - do it in small increments.
+
+* Dealing with edgecases at the end was good practice. 
