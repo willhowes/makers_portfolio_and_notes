@@ -127,3 +127,21 @@ end
 * Naming conventions - "hash", "string", for example NOT GOOD. Can rename them during the REFACTOR stage. During the GREEN stage you can make as many coding sins as you want (naming conventions, loads of if statements), but you should correct these during the REFACTOR process. Keep running the tests when you are refactoring to make sure it is staying green - do it in small increments.
 
 * Dealing with edgecases at the end was good practice. 
+
+### Thursday Cohort Retrospective
+* Migrations files are like git commits. Allow you to rollback to a certain point. 
+* path_urls are helpful because these are variables that you can change. For example, you could change ```post_path_url``` to go to a different route and this will change everywhere this variable is called. 
+* Framework are used in the real world and it is helpful to get used to this. Useful to get used to reading framework documentation. 
+* Good to get used to not starting a project from scratch - will rarely do this in the real world. 
+* In rails you should test controllers. 
+* If you only feature test then you will not know where the fail is, as the database, model, controller, views are all being checked. 
+* Features tests are to test the user stories, unit tests are testing that your code is solid and well-written.
+* Should test-drive when you are implementing features, e.g:
+   - write the feature test first
+   - will fail because button does not exist, for example. 
+   - then build the html so there is a button, and progress from there...
+
+### Week 10
+* This will be about getting job-ready.
+* Clean up git hub. Look at good example, lose the bad examples. Improve on the good ones. 
+* This weekend do more instagram and improve online presence - get on stackoverflow. 
