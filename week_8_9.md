@@ -141,6 +141,50 @@ end
    - will fail because button does not exist, for example. 
    - then build the html so there is a button, and progress from there...
 
+### Rock Your Tech CV Workshop
+* Github CV first thing employer looks at (Makers hiring partners, anyway)
+* Talk about yourself and past experience
+* Github CV a bit like a covering letter and CV in one
+* What you have done before Makers also important
+* Also have a separate one page CV
+
+* PROFILE SECTION
+- About one paragraph
+- You are a software developer now, not a trainee. Make that clear. 
+- What you love about coding
+- Focus on love of programming, not why you left previous job.
+- Put link to blog
+
+* PROJECT LIST
+- of 3-5 projects. 
+- make sure the READMEs are good
+
+* Don't need to describe or sell Makers
+
+* Only clean-ups READMEs of your main repositories (i.e. the 3-5 featured ones), not all your old ones
+
+* SKILLS
+- Previous skills that is relevant to tech
+
+* EDUCATION
+- Just mention degree, don't go back to A-levels. 
+
+* HOBBIES
+- mention music
+
+* Infer your skills through example, i.e. not something like 'I have strong leadership skills' but 'When I was at school I led...'
+
+* Despite the above guidelines, don't be afraid to break the rules. 
+
+* Maybe build your own website as a project after Makers. 
+
+* JOBS APPLICATIONS GENERALLY
+- If you are missing a bit of experience then apply but get in touch with someone who works in that team.
+
+* In general use some images and creativity
+
+
+
 ### Week 10
 * This will be about getting job-ready.
 * Clean up git hub. Look at good example, lose the bad examples. Improve on the good ones. 
