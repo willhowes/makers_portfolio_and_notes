@@ -32,15 +32,16 @@ b) By recording my screen and sending to a coach
 
 ### Week kick off
 * The Feedback loop:
-- Receive F'back - reflect/plan - improvement
 
-* Why is process important
-- help solve any problem
-- employers look at this
-- repeatable toolset
-- approach to solving a problem
+Receive F'back => reflect/plan => improvement
 
-* Processes:
+* Why is process important?
+- helps to solve any problem
+- employers will look at it
+- a repeatable toolset
+- gives you an approach to solving a problem
+
+* Processes we have learned at Makers:
 - TDD
 - Debugging
 - Self-led learning
@@ -49,17 +50,17 @@ b) By recording my screen and sending to a coach
 - Refacting
 - Modelling (inc. Domain Modelling)
 - Organising work (inc. Version Control)
-- Problem solving (which uses some of the above)
+- Problem solving (which itself uses some of the above processes)
 
 * Code Quality
 - DRY
 - SRP
 - Readable
 - Maintainable
-- Test coverage
-- Dependancy injection as a tool for decoupling
+- Has high test coverage
+- Decoupling (for which you could use, for example, Dependancy injection for) 
 
-- Quality (in engineering) means solving user needs
+N.B. Quality (in engineering terms) means solving user needs
 
 - Why do you write code?
 1. To solve user needs - does it work?
@@ -67,17 +68,17 @@ b) By recording my screen and sending to a coach
 
 * Naming conventions
 - descriptive
-- variable names should describe what data it holds. Should come from the domain (i.e. what we are trying to work with, the topic).
+- variable names should describe what data it holds. This should come from the domain (i.e. what we are trying to work with, the topic).
 
 * Comments 
 - Should not say HOW the code works.
-- instead of comments, properly named variables, etc should do this for you. 
-- However, a comment say WHY the code was done a certain way is a valid comment. 
+- Instead of using comments, properly named variables, methods etc should do this for you. 
+- However, a comment to say WHY the code was done a certain way is a valid comment (e.g. to explain that is sends error message due to an issue with an API) 
 
 * Testing your code quality:
-- Get someone else to read it. Maybe someone less experiences (in the junior cohort).
+- Get someone else to read it. Maybe someone with less experience (in the junior cohort, maybe?).
 - Is the code easy to change?
-- Can I easily add a feature. If I have to add a feature, how much of the code do I need to change?
+- Can I easily add a feature? If I have to add a feature, how much of the code do I need to change?
 
 
 
