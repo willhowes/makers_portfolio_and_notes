@@ -2,6 +2,11 @@
 # Weeks 10
 [Week outline](https://github.com/makersacademy/course/tree/master/individual_challenges)
 
+## Useful resources
+* https://github.com/makersacademy/jobhunters/tree/master/pills/tech_tests
+* https://airtable.com/shrpBfX9gP7pEiW9r/tblTo9xUR2Fdb1of6?blocks=hide
+* https://www.chris-granger.com/2015/01/26/coding-is-not-the-new-literacy/ 
+
 ## Week's Goals
 
 * Can you solve a challenging technical problem by writing well crafted code?
@@ -26,7 +31,7 @@ b) By recording my screen and sending to a coach
 ## Takeaways & Notes
 
 ### Week kick off
-* Feedback loop:
+* The Feedback loop:
 - Receive F'back - reflect/plan - improvement
 
 * Why is process important
