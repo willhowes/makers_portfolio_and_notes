@@ -19,12 +19,13 @@ Resources for the Project:
 ## Own Goals for the Week
 
 1. Have a my process reviewed
-* Unfortunately, my review was cancelled at the last minute by the reviewer.
+* Attended a process review on the Wednesday of week 9.
 
 2. Get an understanding of rails
-* 
-
-3. Have a look at Big O Notation. 
+* Achieved by:
+- A lot of research and following tutorials.
+- In our group project we built [a copy of Facebook](https://github.com/Kaymo1990/acebook---CharliesAngels)
+- Working on my own, I built a copy of Instagram (['Instadamn'](https://github.com/willhowes/instagram-challenge))
 
 ## Takeaways & Notes
 
