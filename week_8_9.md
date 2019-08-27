@@ -52,7 +52,7 @@ Resources for the Project:
 * Overview guide for a basic app: https://guides.rubyonrails.org/
 * In-depth book for building a more complex app: https://www.railstutorial.org/book/
 
-* Rails uses the MVC patter.
+* Rails uses the MVC pattern.
 
 * The Controller part is referred to as the 'ActiveController'
 * The Model part is referred to at the 'ActiveRecord'
@@ -61,7 +61,7 @@ Resources for the Project:
 
 * in erb files use ```<%= some_ruby_code %>``` if we are outputting something or ```<% some_ruby_code %>``` if no output is being rendered. Use ```<%# some_ruby_comment %>``` for commenting.
 
-* In terms of having a class in Rails, when you set up the model, the class's attributes are determined by the rows that are in that class's databases. 
+* In terms of having a class in Rails, when you set up the model, the class's attributes are determined by the columns that are in that class's databases. 
 
 * To set the routes you need to generate a controller for that model, e.g. ```rails generate controller Posts```. This will create a controller class for this model that inherits from the ApplicationController. In this new class you need to define the CRUD routes, e.g:
 ```
@@ -104,16 +104,16 @@ end
 
 * The ```resources``` method makes the resource (or object) CRUD.
 
-### Careers workshop
+### Careers workshop (week 8)
 * Process about persuading an employer to give you an interview more important than your CV.
 - LinkedIn, twitter, events, etc. Find a company you want to work for...
 - Still have to have a CV though...
 * If there's a company you really want to work for then let careers team know.
 
 ### Week 8 Retro
-* Do a process workshop, record it and send to coach.
-* Can set 'pessimistic' 'moderate' and 'optimistic' time estimations. 
+* Do a process workshop, record it and send to a coach.
 * Group work:
+- Can set 'pessimistic' 'moderate' and 'optimistic' time estimations. 
 - Designated leader each day
 - Feedback sessions? (if all happy for this)
 
@@ -123,9 +123,9 @@ end
 
 * RED-GREEN-REFACTORING - my red-green was good. Refactor was not so good. I should refactor more as I go along. I should look for repetitions (anything that's going over and over again). The basics programming principals will always help: i.e. variables, loops, if statements, methods.
 
-* Lots of ifs might be better than ifs and elsifs. What you need to ask yourself is - do I want all the below ifs to be ignored if this if is true (if so, just use if statements) - or, do all the statements need to be checked (if so, then you need elsifs).
+* Lots of ifs might be better than ifs and elsifs. What you need to ask yourself is - do I want all the below ifs to be ignored if this if is true (if so, just use if statements) - or, do all the statements need to be checked? (if so, then you need elsifs).
 
-* Naming conventions - "hash", "string", for example NOT GOOD. Can rename them during the REFACTOR stage. During the GREEN stage you can make as many coding sins as you want (naming conventions, loads of if statements), but you should correct these during the REFACTOR process. Keep running the tests when you are refactoring to make sure it is staying green - do it in small increments.
+* Naming conventions - "hash", "string", for example NOT GOOD. Best time to look at naming is during the REFACTOR stage. During the GREEN stage you can make as many coding sins as you want (naming conventions, loads of if statements), but you should correct these during the REFACTOR process. Keep running the tests when you are refactoring to make sure it is staying green - do it in small increments.
 
 * Dealing with edgecases at the end was good practice. 
 
