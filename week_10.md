@@ -234,4 +234,18 @@ end
 - Difference between shipping product early with poor quality code and shipping later with better quality code
 
 
+### Process Review - initial feedback
+
+First test a bit too complex - too large of an array (should start with one item in array)
+
+Second test dealt with both limits - should have been just one limit to start with.
+
+Then would have been good to test for two items in the array - with just one limit.
+
+Then test for the other limit. Then test for both limits. 
+
+Could have written a test for the refactor - i.e. test more than one frequency.
+
+When refactoring, rather than commenting out the old code, build on it using conditionals.
+
 
