@@ -171,5 +171,67 @@ end
 -- if you cannot do in one line, split the line up into more lines again using plain english and comment out
 
 
+### Tech Interview Lunchtime Talk
+* Key when looking for companies - where can you optimise your learning
+* Teach good practices
+* Avoid small teams that are v busy (how they handled the interview process?)
+* Fast-growing companies are a good option as you can grow with the company
+* Look at this years or last years top start-ups and look at their CEO's backgrounds are
+* Large agents with strong reputations (e.g. Deloitte Digital)
+* Referels:
+- Get to know someone in the company (they may get a fee for referring you)
+- Go to meetups
+- Network
+* Even 'Anyone give me a referel for this company?" on social media
+* Work on LinkedIn profile - developer experience
+* Don't worry about what tech they say they require
+* On LinkedIn, try and work out the management structure and find someone to message saying you are interested in working for them.
+* Ask about what they do to encourage learning (pairing with seniors, tech talks, etc)
+
+* If you are found by a sourcer, try and get to the actual recruiter. 
+
+* First step after this is a non-technical phone screen. Sell yourself and ask questions. Don't worry about salary at that stage.
+* Next is technical phone screen or tech test
+
+* Some companies might put you with a pair for half a day. This is sign of a good co to work for.
+
+* TECH CHALLENGE ROUND
+* Strings and hash map v common in tech interviews
+* Also some computer science concepts: stacks, queues...etc
+
+* Most common 
+- FizzBuzz
+- Reverse a string
+- Fibonacci numbers
+
+* Know a bit about Big O Notation (how efficient an algorithm)
+
+* If not enough time for TDDing or writing clean code then that's fine as long as you explain that to the interviewer. 
+- "I would probably be writing a test for this..."
+- "I would probably have named this function/variable better if I had more time..."
+
+* If you are not sure how to solve the problem then maybe suggest to them a way to solve it and ask if you can google it or work it out with the interviewer.
+
+* Ask at the start "What are your priorities? Do you want me to write tests?"
+
+* Could start with writing something on a whiteboard and ask the interviewer "Does this look good?"
+
+* SYSTEM DESIGN ROUND
+- basic design on a white board to map out a system
+- drawing the system - browser, server, database, etc
+- load balancer
+- relational databses, non-relational databases
+- what happens when things fails
+- how you scale things
+- Look at Martin Fowler for the above
+- Youtube (e.g. MIT) good for computer science basics
+
+* BEHAVIOURAL ROUND
+- Curiosity
+- Self-improvement (always learning)
+- Reflection (i.e. learning from mistakes - think of a time you messed up and what you learned from it)
+- Conflict resolution 
+- Difference between shipping product early with poor quality code and shipping later with better quality code
+
 
 
