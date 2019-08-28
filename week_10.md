@@ -81,10 +81,94 @@ N.B. Quality (in engineering terms) means solving user needs
 - Can I easily add a feature? If I have to add a feature, how much of the code do I need to change?
 
 
+### Algorithm Design
+* Algorithm is: A sequence of instructions that produces an output for a given input
+* Not necessarily for a computer - could be for a maths equation or to solve a rubix cube
+* Solves a problem
+* Accepts different initial states???
+* Repeatable:
+- Given the same 'input', an algorithm should always give the 'same' output. 
+* Examples:
+
+#### Boiled food Recipe
+* Inputs
+- Food item
+- Boiling time
+- Tools (oven, pan, water, etc)
+* Algorithm
+- pour water in pan
+- boil the water
+- if food item = pasta: add salt
+- insert food item into pan
+- wait for (food time)
+- Take food item out
+* Output
+- Boiled egg
+
+* It is important to know the given input and desired output before deciding on algortihm
+
+* Can have multiple inputs, e.g.
+- "["Charlie", "Will", "Leo"] (persons to be split into groups and 2 (number of groups)
+- Can have different outputs from this but solve the problem. i.e. Charlie could be put on his own, or Will or Leo. 
+
+* Where there are multiple different outputs, ask the client what you want to happen in that instance
+
+* When you are handling edge cases, only handle one at the time. i.e. ["Charlie", "Charlie"] and -2 (for no of groups) should be handled separately - once for the two Charlies, and another time for minus numbers. 
+
+* Testing for edge cases: push each inputs to their limits, i.e. :
+- limit of array as an input would be an empty array
+- 0 the limit of an integer as an input
+
+* Before writing an algorithm think about what inputs you expect and what outputs you expect, and any edge cases
+
+* Planning a algorithm and thinking about possible inputs and outputs and edge cases makes it easier to write your tests.
+
+#### Function Signature
+* Name of the function
+* Name of the parameters
+* Types of each argument
+* Types of output
+
+* e.g. for a group divider:
+- function name: equal_groups
+- param_1 name: names
+- param_1 type: string[]
+- param_2 name: no_of_groups
+- param_2 type: int
+- output type: string[][]
+
+* For pure functions use nouns for naming
+* For non-pure functions (i.e. something that changes state) use a verb
+
+#### Pure function
+- No side effects
+- It does not change state
+- e.g. 
+```
+def add(a, b)
+  a + b
+end
+```
+- the above doesn't change state of anything at all
+
+- the below example is not a pure function:
+```
+a = 6
+def add(b)
+  a = a + b
+end
+```
+- The above changes something
 
 
-
-
+* Q's to ask yourself when planning algorithm:
+1. Can I do it on paper?
+- No? Think about it.
+- Yes? How to translate this into code.
+-- Write it out in plain english
+-- copy and paste it into the function and comment it out
+-- translate into code line by line
+-- if you cannot do in one line, split the line up into more lines again using plain english and comment out
 
 
 
