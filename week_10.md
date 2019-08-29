@@ -284,3 +284,52 @@ Where are you getting lost or drifting off in their answers?
 - It is risky to use s metaphor unless you have used it before perhaps.
 Where are you really engaged in the answer? What’s happening?
 - Being very specific and concise in your answer.
+
+### Hash Tables and Hash functions (or Hashes v Arrays) 
+https://www.youtube.com/watch?v=KyUTuwz_b7Q
+
+#### Summary
+* Hash tables are used to index large amounts of data
+* Address of each key calculated using the key itself
+* Collisions resolved with open or closed addressing 
+* Hasing is widely used in database indexing, compilers, caching, password authentication, and more. 
+* Insertion, deletion and retrieval occur in 'constant time' but only if there are no collisions.
+
+* With an array, to search for a item in the array there are two posibilities:
+1. Iterate over the whole array - this can take a very long time if it is a large array.
+2. Find the item by index which is v quick.
+
+* What you can do with arrays is use a formula to decide at what index position an item should go in the array. This can be:
+```
+index = sum ASCII codes % size of the array
+```
+i.e. sum up the ASCII codes for each character of the array item, for example:
+Tim would T = 84; i = 105, m = 109 total = 279 % size of the array (e.g. 10) = 4 (so we put item 'Tim' in item 4 of the array).
+
+* That key (i.e. 4 for 'Tim') could just be one of many attributes of an object stored in the array.
+
+* A Hash table of key-value pairs is sometimes known as a hash map.
+
+* A Hashing Algorithm or Hash Function
+- Calculation applied to a key to transform it into a memory address
+- For numeric keys, you would divide the sum of ASCII codes in a key by the number of available addresses, n, and take the remainder. i.e. ```address = key Mod n```
+- For aplhanumeric keys, divide the sum of ASCII codes in a key by the number of available addresses, n, and take the remainder (this is what we did with the 'Tim' example below).
+- Another method is the 'folding method'. e.g. a tel number could be some of each pair of digits. 
+
+* Collisions 
+- Sometimes you might apply a hash function to two different keys and get the same index number. This is known as a collision. 
+- There are two methods for resolving collisions 
+
+#### Opening Addressing
+- This uses 'liner probing' to find the next available index position in the array. To avoid items bunching together, you could use 'plus 3 rehash' which looks at every third position to see if it is available. 
+- How do you find the index if there have been collisions? You would need to use linear searching (i.e. iterate over the array from the index position it should have been in until you find it. And so, if 'Tim' should have been in index position 5 but that slot was taken then you would have to iterate over the other items items from position 5 until you find 'Tim'.
+- To help avoid this you could make the size of the array bigger than the number of items to be stored. You may, for example, have 70 items but have an array size of 100 so there is extra space to help avoid collisions. This is know as the 'load factor'
+```
+Load Factor = Total no of items stored / size of array
+```
+- You could adjust the size of the array using the load factor as the number of items to be stored increases.
+
+#### Closed Addressing
+- AKA 'chaining'. Here the index position points to the first 'node' of a linked list which can have more than one item in. So, say items 'Tim' and 'Sue' index position (given by the hash function) should be 4, by using 'chaining' both these items could be in the linked list at index 4. 
+- The look up here is *usually* quicker than 'linear probing'
+
