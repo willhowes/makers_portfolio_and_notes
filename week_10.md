@@ -27,6 +27,8 @@ b) By recording my screen and sending to a coach
 - Then look at the form
 - Then approve the code and repeat until you happy with the code quality. 
 
+3. Watch this about Hash mapping
+
 
 ## Takeaways & Notes
 
