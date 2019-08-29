@@ -248,4 +248,22 @@ Could have written a test for the refactor - i.e. test more than one frequency.
 
 When refactoring, rather than commenting out the old code, build on it using conditionals.
 
+### Tech Interviews Workshop
+#### To START doing:
+* Take time to clarify problems (and clarify any questions asked)
+* Blogging
+* Think about good communication (talk out loud)
+* Explained core concepts
+* If you don't know the answer, be honest, say "I don't know, but..." and explain what you would do to find out the answer
+* Big picture about software development
+* Do your technical research
+* Apply for jobs you are exited about (so that you have good energy at the interview - you are enthusiastic about working there)
+* Open posture 
+* Research into company's culture
+* After Makers, pick one language and get really good at it
+
+#### To STOP doing:
+* Firing off things that you've heard about but you do not actually understand (e.g. "REACT is really hot right now...")
+* Don't over power your pair and vice-versa.
+* Slow down, don't panic.
 
