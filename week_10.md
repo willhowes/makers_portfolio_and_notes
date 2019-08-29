@@ -267,3 +267,18 @@ When refactoring, rather than commenting out the old code, build on it using con
 * Don't over power your pair and vice-versa.
 * Slow down, don't panic.
 
+#### Leo's Interview notes
+* Got a bit lost explaining DRY. Remembered towards end.
+* Good at taking time and repeating the question
+* Although did not state a tech excited about, explained why.
+* Enthusiastic about problem solving.
+* Perhaps got a little bit lost when describing what found difficult about programming.
+
+What are you learning from your interviewee about good practice?
+- OK to take time.
+- Try and keep in mind the original question if you get diverted.
+Where are you getting lost or drifting off in their answers?
+- When long examples are given. 
+- It is risky to use s metaphor unless you have used it before perhaps.
+Where are you really engaged in the answer? What’s happening?
+- Being very specific and concise in your answer.
