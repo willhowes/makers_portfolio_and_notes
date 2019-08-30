@@ -337,10 +337,12 @@ Load Factor = Total no of items stored / size of array
 * 'Brilliant' is a good computer science app
 * Scrum.org for explanation of scrum teams. 
 
-#### SWOT analysis on your process
+#### SWOT analysis on my process
 ##### Strengths
 - Improving naming of methods/variables
 - READMEs
+- Asking client lots of questions (in review)
+- Thinking about input and output
 
 ##### Weaknesses
 - Class extraction
@@ -364,3 +366,11 @@ Load Factor = Total no of items stored / size of array
 - Get in early Monday morning. 
 - Should still make time for own work. 
 - Can co-author commits. 
+
+### Advice from Sophie regarding class extraction and TDD
+* When you are refactoring and class extracting, for your unit tests it is a good idea to copy all the existing tests for the current class over to a new test file for the new class. Put these two test files side by side and then go through them one-by-one and deciding whether they are needed for the new class (if so, refactor them to apply to the new classe, if not delete them) and delete those no longer relevant to the old class.
+
+* In terms of not deleting currently working code when you refactor - you could put the new code above the old code and put an explicit return in so that the old code is not called. 
+
+### Advice from Alice, via Freddie, re: feature tests
+* Try doing a feature test at the start which will fail throughout the build until the end when everything has come together. 
