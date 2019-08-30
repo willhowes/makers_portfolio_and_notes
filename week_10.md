@@ -333,3 +333,34 @@ Load Factor = Total no of items stored / size of array
 - AKA 'chaining'. Here the index position points to the first 'node' of a linked list which can have more than one item in. So, say items 'Tim' and 'Sue' index position (given by the hash function) should be 4, by using 'chaining' both these items could be in the linked list at index 4. 
 - The look up here is *usually* quicker than 'linear probing'
 
+### Week 10 Retro
+* 'Brilliant' is a good computer science app
+* Scrum.org for explanation of scrum teams. 
+
+#### SWOT analysis on your process
+##### Strengths
+- Improving naming of methods/variables
+- READMEs
+
+##### Weaknesses
+- Class extraction
+- Refactoring
+
+##### Opportunities
+- Pairing
+- Good for Github CV- N.B. V Important to forcus on process (TDD in particular). 
+- Having fun
+- Learning technologies and learning from each other
+
+##### Threats
+- Poor team work and communication
+- Taking too long to agree on project direction
+
+
+#### Final projects
+- Important to remember - the project is abstract but the people in your team are real. 
+- Distracted by job hunting
+- Make sure commits are even
+- Get in early Monday morning. 
+- Should still make time for own work. 
+- Can co-author commits. 
