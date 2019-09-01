@@ -374,3 +374,6 @@ Load Factor = Total no of items stored / size of array
 
 ### Advice from Alice, via Freddie, re: feature tests
 * Try doing a feature test at the start which will fail throughout the build until the end when everything has come together. 
+
+### Remember to test behaviour not state
+* If you are testing the variables of a class or method then you are going to deep into your method. You should be checking the behviour of the method - i.e. the return value of the method. 
