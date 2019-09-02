@@ -14,7 +14,7 @@ By "well crafted code", we mean code that is well tested, easy to read and easy 
 
 ### Have I achieved the above goals?
 
-* Yes, in my team throughout the week, we used high-quality process to build our ['Acebook' project](https://github.com/Kaymo1990/acebook---CharliesAngels).
+* Yes, I was able to complete the Bank Tech Test using TDD. I beleive the code is well-tested, easy to read and easy to change. However, some of the methods are a bit longer than I would have liked. 
 
 ## Own Goals for the Week
 
@@ -22,13 +22,15 @@ By "well crafted code", we mean code that is well tested, easy to read and easy 
 a) With an official process review
 b) By recording my screen and sending to a coach
 
+* Completed both but, at the time of writing, awaiting feedback on each. 
+
 2. Complete 2 tech tests
 - Start by trying to solve the problem
 - Then look at the form
 - Then approve the code and repeat until you happy with the code quality. 
 
-3. Watch this about Hash mapping
-
+* Completed the Bank Tech Test to a good standard, but did not have time to finish the Gilded Rose refactoring tech test. This is largely due to it being a 4-day week. 
+* Also had my Bank Tech Test (when at the stage of having 3 classes) informally reviewd by Tim Cole and he commented "The code is really readable and very clear what each class and method is doing. However, the transaction class seems unecessary as it is only holder of information and does not have any methods (except private methods to check for the valid arguments).
 
 ## Takeaways & Notes
 
@@ -49,7 +51,7 @@ Receive F'back => reflect/plan => improvement
 - Self-led learning
 - Pairing
 - Working in teams (agile, communication)
-- Refacting
+- Refactoring
 - Modelling (inc. Domain Modelling)
 - Organising work (inc. Version Control)
 - Problem solving (which itself uses some of the above processes)
@@ -82,8 +84,7 @@ N.B. Quality (in engineering terms) means solving user needs
 - Is the code easy to change?
 - Can I easily add a feature? If I have to add a feature, how much of the code do I need to change?
 
-
-### Algorithm Design
+### Algorithm Design Workshop
 * Algorithm is: A sequence of instructions that produces an output for a given input
 * Not necessarily for a computer - could be for a maths equation or to solve a rubix cube
 * Solves a problem
@@ -111,7 +112,7 @@ N.B. Quality (in engineering terms) means solving user needs
 
 * Can have multiple inputs, e.g.
 - "["Charlie", "Will", "Leo"] (persons to be split into groups and 2 (number of groups)
-- Can have different outputs from this but solve the problem. i.e. Charlie could be put on his own, or Will or Leo. 
+- Can have different outputs from this that solve the problem. i.e. Charlie could be put on his own, or Will or Leo. 
 
 * Where there are multiple different outputs, ask the client what you want to happen in that instance
 
@@ -174,11 +175,11 @@ end
 
 
 ### Tech Interview Lunchtime Talk
-* Key when looking for companies - where can you optimise your learning
-* Teach good practices
-* Avoid small teams that are v busy (how they handled the interview process?)
+* Key when looking for companies - where can you optimise your learning?
+* Go for firms that teach good practices
+* Avoid small teams that are v busy (how did they handle the interview process?)
 * Fast-growing companies are a good option as you can grow with the company
-* Look at this years or last years top start-ups and look at their CEO's backgrounds are
+* Look at this years or last years top start-ups and look at their CEO's backgrounds 
 * Large agents with strong reputations (e.g. Deloitte Digital)
 * Referels:
 - Get to know someone in the company (they may get a fee for referring you)
@@ -188,7 +189,7 @@ end
 * Work on LinkedIn profile - developer experience
 * Don't worry about what tech they say they require
 * On LinkedIn, try and work out the management structure and find someone to message saying you are interested in working for them.
-* Ask about what they do to encourage learning (pairing with seniors, tech talks, etc)
+* At the tinerview, ask about what they do to encourage learning (pairing with seniors, tech talks, etc)
 
 * If you are found by a sourcer, try and get to the actual recruiter. 
 
@@ -198,7 +199,7 @@ end
 * Some companies might put you with a pair for half a day. This is sign of a good co to work for.
 
 * TECH CHALLENGE ROUND
-* Strings and hash map v common in tech interviews
+* Strings and hash maps v common in tech interviews
 * Also some computer science concepts: stacks, queues...etc
 
 * Most common 
@@ -223,40 +224,39 @@ end
 - drawing the system - browser, server, database, etc
 - load balancer
 - relational databses, non-relational databases
-- what happens when things fails
+- what happens when things fail?
 - how you scale things
 - Look at Martin Fowler for the above
 - Youtube (e.g. MIT) good for computer science basics
 
 * BEHAVIOURAL ROUND
-- Curiosity
+- Show curiosity
 - Self-improvement (always learning)
 - Reflection (i.e. learning from mistakes - think of a time you messed up and what you learned from it)
 - Conflict resolution 
 - Difference between shipping product early with poor quality code and shipping later with better quality code
 
-
 ### Process Review - initial feedback
 
-First test a bit too complex - too large of an array (should start with one item in array)
+* First test a bit too complex - too large of an array (should start with one item in array)
 
-Second test dealt with both limits - should have been just one limit to start with.
+* Second test dealt with both limits - should have been just one limit to start with.
 
-Then would have been good to test for two items in the array - with just one limit.
+* Then would have been good to test for two items in the array - with just one limit.
 
-Then test for the other limit. Then test for both limits. 
+* Then test for the other limit. Then test for both limits. 
 
-Could have written a test for the refactor - i.e. test more than one frequency.
+* Could have written a test for the refactor - i.e. test more than one frequency.
 
-When refactoring, rather than commenting out the old code, build on it using conditionals.
+* When refactoring, rather than commenting out the old code, build on it using conditionals. Or put new code at the top with an explicit return statement so the old code doesn't get called, then can refactor the old code out. 
 
 ### Tech Interviews Workshop
 #### To START doing:
 * Take time to clarify problems (and clarify any questions asked)
 * Blogging
-* Think about good communication (talk out loud)
-* Explained core concepts
-* If you don't know the answer, be honest, say "I don't know, but..." and explain what you would do to find out the answer
+* Think about good communication (get used to talk out loud when coding)
+* Explain core concepts
+* If you don't know the answer, be honest, say "I don't know, but..." and explain what you would do to find out the answer or say what you think it might mean if you have an idea (but don't pretend you know what it is)
 * Big picture about software development
 * Do your technical research
 * Apply for jobs you are exited about (so that you have good energy at the interview - you are enthusiastic about working there)
@@ -270,38 +270,38 @@ When refactoring, rather than commenting out the old code, build on it using con
 * Slow down, don't panic.
 
 #### Leo's Interview notes
-* Got a bit lost explaining DRY. Remembered towards end.
-* Good at taking time and repeating the question
-* Although did not state a tech excited about, explained why.
+* Got a bit lost explaining DRY. Remembered towards end, however. 
+* Good at taking time and repeating the question to the interview to make sure he understood correctly. 
+* Although did not state a tech he was excited about, explained why.
 * Enthusiastic about problem solving.
 * Perhaps got a little bit lost when describing what found difficult about programming.
 
-What are you learning from your interviewee about good practice?
-- OK to take time.
+*What are you learning from your interviewee about good practice?*
+- OK to your take time when answering.
 - Try and keep in mind the original question if you get diverted.
-Where are you getting lost or drifting off in their answers?
+*Where are you getting lost or drifting off in their answers?*
 - When long examples are given. 
-- It is risky to use s metaphor unless you have used it before perhaps.
-Where are you really engaged in the answer? What’s happening?
+- It is risky to use a metaphor unless you have used it before perhaps.
+*Where are you really engaged in the answer? What’s happening?*
 - Being very specific and concise in your answer.
 
 ### Hash Tables and Hash functions (or Hashes v Arrays) 
 https://www.youtube.com/watch?v=KyUTuwz_b7Q
 
-#### Summary
+#### Summary regarding Hash Tables
 * Hash tables are used to index large amounts of data
 * Address of each key calculated using the key itself
 * Collisions resolved with open or closed addressing 
-* Hasing is widely used in database indexing, compilers, caching, password authentication, and more. 
+* Hashing is widely used in database indexing, compilers, caching, password authentication, and more. 
 * Insertion, deletion and retrieval occur in 'constant time' but only if there are no collisions.
 
-* With an array, to search for a item in the array there are two posibilities:
+* With an array, to search for an item in the array there are two posibilities:
 1. Iterate over the whole array - this can take a very long time if it is a large array.
 2. Find the item by index which is v quick.
 
 * What you can do with arrays is use a formula to decide at what index position an item should go in the array. This can be:
 ```
-index = sum ASCII codes % size of the array
+index = sum of ASCII codes % size of the array
 ```
 i.e. sum up the ASCII codes for each character of the array item, for example:
 Tim would T = 84; i = 105, m = 109 total = 279 % size of the array (e.g. 10) = 4 (so we put item 'Tim' in item 4 of the array).
@@ -313,17 +313,17 @@ Tim would T = 84; i = 105, m = 109 total = 279 % size of the array (e.g. 10) = 4
 * A Hashing Algorithm or Hash Function
 - Calculation applied to a key to transform it into a memory address
 - For numeric keys, you would divide the sum of ASCII codes in a key by the number of available addresses, n, and take the remainder. i.e. ```address = key Mod n```
-- For aplhanumeric keys, divide the sum of ASCII codes in a key by the number of available addresses, n, and take the remainder (this is what we did with the 'Tim' example below).
-- Another method is the 'folding method'. e.g. a tel number could be some of each pair of digits. 
+- For alphanumeric keys, divide the sum of ASCII codes in a key by the number of available addresses, n, and take the remainder (this is what we did with the 'Tim' example above).
+- Another method is the 'folding method'. e.g. a tel number could be the sum of each pair of digits. 
 
 * Collisions 
 - Sometimes you might apply a hash function to two different keys and get the same index number. This is known as a collision. 
 - There are two methods for resolving collisions 
 
 #### Opening Addressing
-- This uses 'liner probing' to find the next available index position in the array. To avoid items bunching together, you could use 'plus 3 rehash' which looks at every third position to see if it is available. 
+- This uses 'linear probing' to find the next available index position in the array. To avoid items bunching together, you could use 'plus 3 rehash' which looks at every third position to see if it is available. 
 - How do you find the index if there have been collisions? You would need to use linear searching (i.e. iterate over the array from the index position it should have been in until you find it. And so, if 'Tim' should have been in index position 5 but that slot was taken then you would have to iterate over the other items items from position 5 until you find 'Tim'.
-- To help avoid this you could make the size of the array bigger than the number of items to be stored. You may, for example, have 70 items but have an array size of 100 so there is extra space to help avoid collisions. This is know as the 'load factor'
+- To help avoid this you could make the size of the array bigger than the number of items to be stored. You may, for example, have 70 items but have an array size of 100 so there is extra space to help avoid collisions. This is known as the 'load factor'
 ```
 Load Factor = Total no of items stored / size of array
 ```
@@ -341,7 +341,7 @@ Load Factor = Total no of items stored / size of array
 ##### Strengths
 - Improving naming of methods/variables
 - READMEs
-- Asking client lots of questions (in review)
+- Asking client lots of questions (in my process review)
 - Thinking about input and output
 
 ##### Weaknesses
@@ -350,7 +350,7 @@ Load Factor = Total no of items stored / size of array
 
 ##### Opportunities
 - Pairing
-- Good for Github CV- N.B. V Important to forcus on process (TDD in particular). 
+- Good for Github CV - N.B. V Important to focus on process (TDD in particular). 
 - Having fun
 - Learning technologies and learning from each other
 
@@ -358,17 +358,15 @@ Load Factor = Total no of items stored / size of array
 - Poor team work and communication
 - Taking too long to agree on project direction
 
-
 #### Final projects
 - Important to remember - the project is abstract but the people in your team are real. 
 - Distracted by job hunting
-- Make sure commits are even
+- Make sure commits are even - you can co-author commits. 
 - Get in early Monday morning. 
 - Should still make time for own work. 
-- Can co-author commits. 
 
 ### Advice from Sophie regarding class extraction and TDD
-* When you are refactoring and class extracting, for your unit tests it is a good idea to copy all the existing tests for the current class over to a new test file for the new class. Put these two test files side by side and then go through them one-by-one and deciding whether they are needed for the new class (if so, refactor them to apply to the new classe, if not delete them) and delete those no longer relevant to the old class.
+* When you are refactoring and class extracting, for your unit tests it is a good idea to copy all the existing tests for the current class over to a new test file for the new class. Put these two test files side by side and then go through them one-by-one and deciding whether they are needed for the new class (if so, refactor them to apply to the new class, if not delete them) and delete those no longer relevant to the old class.
 
 * In terms of not deleting currently working code when you refactor - you could put the new code above the old code and put an explicit return in so that the old code is not called. 
 
@@ -377,3 +375,23 @@ Load Factor = Total no of items stored / size of array
 
 ### Remember to test behaviour not state
 * If you are testing the variables of a class or method then you are going to deep into your method. You should be checking the behviour of the method - i.e. the return value of the method. 
+
+## Self-reflection end-of-week feedback
+Overall, you rated this week: 7
+You felt it was because of this: Having fun although I would like to have a better TDD process. I had also forgotten some of the concepts we had learned in the earlier part of the course.
+You decided these resources and/or strategies could be useful: I will put some time aside to go over concepts and practices I learned earlier in the course.
+Send a coach a message on Slack and we can have a chat anytime!
+
+----------------------------
+Week Objectives: 7
+Your objectives this week were: Can you solve a challenging technical problem by writing well crafted code? By "well crafted code", we mean code that is well tested, easy to read and easy to change.
+You felt the primary reason for your score was: I am pretty proud of the end result of my Bank Tech Test challenge but I didn't quite make all the 'expert' requirements. Also, it took me quite a long time to get the code to a standard I was proud of.
+You decided these resources and/or strategies could be useful: More TDD practice. Practice class extraction. Perhaps better planning and taking more time over planning to avoid having to change the amount of classes at a later stage.
+----------------------------
+Personal Objectives: 7
+Your objectives this week were: Do a process review taken on board the feedback from my last one.
+You felt the primary reason for your score was: I had my processed reviewed and I believe I had improved my refactor stage of TDD. However, I didn't quite complete the challenge as I got stuck on an edge case at the end. Awaiting feedback from reviewer.
+You decided these resources and/or strategies could be useful: More TDD practice. The reviewer recommended I did lots of TDD practice on code wars katas. So I will take this on board.
+----------------------------
+
+
