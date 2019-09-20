@@ -40,4 +40,38 @@ Running through the steps:
 ### Mocking
 - Don't use mocks to isolate classes. 
 
+## Process Review
+#### Initial Feedback
+
+- Don't be afraid to take a while refactoring
+
+- RED-GREEN should only take a minute or two - solve the quickest way possible
+
+- Your quality coding is in the refactor stage
+
+- Main issue is with syntax (i.e. understanding ruby better)
+
+- To enable powerful refactors you need to understand the language you are using well
+
+- when lots of ifs statements:
+-- identify all the lines that are the same above any lines that are different. These can probably be refactored out
+-- Likewise for lines that are the same below any lines that are different. 
+
+- Repeated method calls, e.g. ```sum_as_string.split('')``` can probably be put into it's own variable and called upon where needed
+
+- every time we add a new test there will usually be a new refactor that needs to be done
+- If we don't regularly refactor then we have to do a long refactor
+- During refactor, ask yourself: is there a better way to code this? Criticise your code - review it.
+
+
+### Advice from Robert regarding what to do next after bootcamp:
+- Have a look at Django framework for python (full stack, bit like rails)
+- Java for back end ( a 'C type' language)
+- Web - React, Angular, Django, Rails
+- IoT - C languages
+- Web - exploding! egs: MERN (react) - MEAN (angular)
+- backend - python, java, C++
+- data science may be of iterest
+- BUT MAIN ADVICE: KEEP CODING! And yes do a project.
+
 
