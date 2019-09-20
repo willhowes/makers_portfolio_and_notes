@@ -21,3 +21,5 @@ This is my portfolio for my learning and project work at the 12-week coding boot
 [Week 10](https://github.com/willhowes/makers_portfolio_and_notes/blob/master/week_10.md)
 
 [Week 11 & 12](https://github.com/willhowes/makers_portfolio_and_notes/blob/master/week_11_%26_12.md)
+
+[Post Course](https://github.com/willhowes/makers_portfolio_and_notes/blob/master/post_course_learning.md)
