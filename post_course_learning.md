@@ -74,4 +74,10 @@ Running through the steps:
 - data science may be of iterest
 - BUT MAIN ADVICE: KEEP CODING! And yes do a project.
 
+#### Videos and articles to look at:
 
+- https://hackernoon.com/why-we-chose-angular-over-react-and-django-over-ruby-on-rails-for-atila-ca-77ac03d542cf
+- https://blog.hyperiondev.com/index.php/2018/09/10/everything-need-know-mern-stack/
+- https://blog.cloudboost.io/mean-and-mern-stacks-eb4cee991390
+- https://www.youtube.com/watch?v=SzJ46YA_RaA&feature=youtu.be
+- https://www.youtube.com/watch?v=ecIWPzGEbFc
