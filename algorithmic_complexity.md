@@ -29,6 +29,16 @@
 - stick with same language
 - work out the algorithmic complexity based on time for the above (i.e. test time for small, mid and large inputs)
 
+## Algorithmic Efficiency Video Notes
+https://www.youtube.com/watch?v=u2iHB2vv3iE
+
+* Steps the aglorithm take is approximately equal to the execution time
+* Algorithm's efficiency = step growth as the the input grows (i.e. how many more steps needs as the input gets bigger)
+
+* Focus on how the algorithm handles very large nnumbers
+* Things to look into:
+-- Asymptotic notation
+--
 
 
 
