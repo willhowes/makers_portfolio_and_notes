@@ -101,3 +101,22 @@ def shuffle(array)
     new_array
   end
 ```
+
+## Recursion and Memoization (or 'dynamic programming)
+* The typical Fibonacci Sequence function is recursive (because it has to go back and calculate all previous fibonacci numbers in the sequence):
+```fib(5) = fib(n-1) + fib(n-2)```
+* So if you want to check the value of the 5th Fibonacci number, the program will need to check the value of the fib(4) which itself has to check fib(3) and fib(2) which have to themselves check fib(2) and fib(1) and also fib(1) and fib(0) - and this is done again for fib(3). 
+* To avoid this you should save the values to memory as you go along
+* In pseudo code this might look like this:
+```
+Fib(n) {
+  if n <= 1
+    return n
+  else if Fn is in memory
+    return Fn
+  else
+    Fn = Rib(n-1) + Fib(n-2)
+    return Fn
+}
+```
+
