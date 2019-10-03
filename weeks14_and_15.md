@@ -120,3 +120,42 @@ Fib(n) {
 }
 ```
 
+## Job hunting tips from Ruben's YouTube video
+https://www.youtube.com/watch?v=6ux00q3BHXo&feature=youtu.be
+* Googling for jobs doesn't work!
+* Don't be a cow be a purple cow (i.e. stand out from the crowd)
+* Cover letter and a CV not enough
+* Find a company you want to work for:
+- Go on their website
+- Read everything on there - are you actually interested in working there?
+- Go on jobs section
+- Read their blogs
+- Look on their twitter
+- If a good place to work:
+-- Go to LinkedIn
+-- Look at the people working there
+-- search employees for 'software' or 'CTO'
+-- Use email hunter 'chrome extension'
+
+* Find company's code on github. If they have any open source. 
+- Find the CTO's code
+- Look at the code - do they use TDD?
+- Contribute to their code - write clean well tested code and do a pull request
+
+* Once you have made a connection - perhaps ask them to go for a coffee for a chat
+
+* Go to meetups
+
+#### Tips for covering letter
+
+* Talk about the company more than about yourself. 
+* Tell them what a great company they would be to work for
+* Why do you want to be part of their journey/purpose/mission?
+* Then they get proud and shows you have done your research. 
+- start with something like: 'You are great because... I really want to be a part of the tech community and it is .... can we meet for a coffee to discuss further?'
+* Keep it really short
+
+
+
+
+
