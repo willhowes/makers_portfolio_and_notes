@@ -36,4 +36,5 @@ you can decrypt
 ```1,1,1 => 'startswith1'```
 you have lost information, but still have some information. Because information is lost it cannot be decrypted
 
-
+### Compression
+* png file uses lossless compresses by just recording which pixels are blue, which are red, etc. Rather than storing what color each pixel is.
