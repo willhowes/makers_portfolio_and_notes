@@ -38,3 +38,7 @@ you have lost information, but still have some information. Because information 
 
 ### Compression
 * png file uses lossless compresses by just recording which pixels are blue, which are red, etc. Rather than storing what color each pixel is.
+
+## Jasmine testing
+
+Handing article about a better way to use beforeEach blocks: https://gist.github.com/traviskaufman/11131303
